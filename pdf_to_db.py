@@ -1,0 +1,98 @@
+from dotenv import load_dotenv
+from qdrant_client import QdrantClient
+from qdrant_client.http.models import VectorParams, Distance
+from qdrant_client.http.models import PointStruct
+from langchain_community.document_loaders import PyPDFLoader
+from langchain_core.documents import Document
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_nvidia_ai_endpoints import NVIDIAEmbeddings
+import os
+
+collection_name = "prawo_wodne"
+
+"""
+This file is responsible for loading a pdf file from hugginface, transforming it to embeded version and inserting as new collection to qdrant database
+"""
+
+#[m for m in NVIDIAEmbeddings.get_available_models() if "embed" in m.id]
+"""
+This function returns list of langchain documents.
+Loading whole file as one document in order to split it with chunk overlap.
+"""
+def ReadPdf(path_to_pdf: str) -> list[Document]:
+
+  try:
+    loader = PyPDFLoader(
+      file_path = path_to_pdf,
+      mode="single"
+    )
+    print("Loading pdf file...")
+    document = loader.load()
+    return document
+  
+  except ValueError as e:
+
+    print("\033[91mValueError in ReadPdf: Provided path does not lead to a file: \033[0m", e)
+    return []
+  
+
+
+def EmbedDocument(file_path: str) -> tuple[list[list[float]], list[Document]]:
+  
+  splitter = RecursiveCharacterTextSplitter(
+    chunk_size=300,
+    chunk_overlap=60,
+    length_function=len,
+    is_separator_regex=False
+  )
+
+  doc = ReadPdf(file_path)
+  doc_splitted = splitter.split_documents(documents=doc)
+  doc_splitted_txt = [doc.page_content for doc in doc_splitted]
+
+  print("Embedding...")
+  embedder = NVIDIAEmbeddings(model = os.environ["EMBEDDER"], NVIDIA_API_KEY = os.environ["NVIDIA_API_KEY"])
+  embeddings = embedder.embed_documents(doc_splitted_txt)
+
+  return embeddings, doc_splitted
+
+
+
+def InsertToVectorDb(embeddings: list[list[float]], doc_splitted: list[Document]) -> bool:
+
+  client = QdrantClient(url="http://localhost:6333")
+
+  if client.collection_exists(collection_name):
+   print("Deleteing old collection...")
+   client.delete_collection(collection_name=collection_name)
+
+  print("Creating collection...")
+  client.create_collection(
+    collection_name=collection_name,
+    vectors_config=VectorParams(size=len(embeddings[0]), distance=Distance.COSINE),
+    timeout=30 
+  )
+
+  print("Starting adding new vectors")
+  for index, chunk in enumerate(doc_splitted):
+    if index %100 == 0:
+      print(f"Runnig {round(index/len(doc_splitted),10)*100}%")
+    try:
+        point = PointStruct(
+            id=index,
+            vector=embeddings[index], 
+            payload={"content": chunk}
+        )
+    except:
+        print(index)
+
+    client.upsert(
+        collection_name=collection_name,
+        points=[point]
+    )
+
+load_dotenv()
+embeddings, doc_splitted = EmbedDocument('./files/prawod_wodne.pdf')
+InsertToVectorDb(embeddings, doc_splitted)
+
+

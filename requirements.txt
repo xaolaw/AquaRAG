@@ -1,0 +1,10 @@
+qdrant-client
+langchain_community
+gradio
+langchain-nvidia-ai-endpoints
+ipykernel
+huggingface_hub[cli]
+datasets
+pypdf
+fastapi[standard]
+uvicorn
