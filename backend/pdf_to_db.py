@@ -6,6 +6,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_nvidia_ai_endpoints import NVIDIAEmbeddings
+from typing import List
 import os
 
 collection_name = "prawo_wodne"
@@ -19,7 +20,7 @@ This file is responsible for loading a pdf file from hugginface, transforming it
 This function returns list of langchain documents.
 Loading whole file as one document in order to split it with chunk overlap.
 """
-def ReadPdf(path_to_pdf: str) -> list[Document]:
+def ReadPdf(path_to_pdf: str) -> List[Document]:
 
   try:
     loader = PyPDFLoader(
@@ -40,8 +41,8 @@ def ReadPdf(path_to_pdf: str) -> list[Document]:
 def EmbedDocument(file_path: str) -> tuple[list[list[float]], list[Document]]:
   
   splitter = RecursiveCharacterTextSplitter(
-    chunk_size=300,
-    chunk_overlap=60,
+    chunk_size=600,
+    chunk_overlap=90,
     length_function=len,
     is_separator_regex=False
   )
@@ -51,7 +52,7 @@ def EmbedDocument(file_path: str) -> tuple[list[list[float]], list[Document]]:
   doc_splitted_txt = [doc.page_content for doc in doc_splitted]
 
   print("Embedding...")
-  embedder = NVIDIAEmbeddings(model = os.environ["EMBEDDER"], NVIDIA_API_KEY = os.environ["NVIDIA_API_KEY"])
+  embedder = NVIDIAEmbeddings(model = os.environ["EMBEDDER"])
   embeddings = embedder.embed_documents(doc_splitted_txt)
 
   return embeddings, doc_splitted
@@ -60,11 +61,11 @@ def EmbedDocument(file_path: str) -> tuple[list[list[float]], list[Document]]:
 
 def InsertToVectorDb(embeddings: list[list[float]], doc_splitted: list[Document]) -> bool:
 
-  client = QdrantClient(url="http://localhost:6333")
+  client = QdrantClient(url=os.getenv('QDRANT_ADDRESS'))
 
   if client.collection_exists(collection_name):
-   print("Deleteing old collection...")
-   client.delete_collection(collection_name=collection_name)
+    print("Deleteing old collection...")
+    client.delete_collection(collection_name=collection_name)
 
   print("Creating collection...")
   client.create_collection(
@@ -76,7 +77,7 @@ def InsertToVectorDb(embeddings: list[list[float]], doc_splitted: list[Document]
   print("Starting adding new vectors")
   for index, chunk in enumerate(doc_splitted):
     if index %100 == 0:
-      print(f"Runnig {round(index/len(doc_splitted),10)*100}%")
+      print(f"Runnig {round(index/len(doc_splitted),4)*100}%")
     try:
         point = PointStruct(
             id=index,
@@ -90,9 +91,10 @@ def InsertToVectorDb(embeddings: list[list[float]], doc_splitted: list[Document]
         collection_name=collection_name,
         points=[point]
     )
+  client.close()
 
 load_dotenv()
-embeddings, doc_splitted = EmbedDocument('./files/prawod_wodne.pdf')
+embeddings, doc_splitted = EmbedDocument('./data/prawod_wodne.pdf')
 InsertToVectorDb(embeddings, doc_splitted)
 
 

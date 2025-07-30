@@ -8,3 +8,8 @@ datasets
 pypdf
 fastapi[standard]
 uvicorn
+langgraph
+langchain
+ipython
+dotenv
+typing
