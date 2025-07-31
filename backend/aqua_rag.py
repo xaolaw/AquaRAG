@@ -6,7 +6,6 @@ import tools as tools_
 from dotenv import load_dotenv
 from langchain_core.messages import BaseMessage, SystemMessage, ToolMessage
 from langchain_core.prompts import ChatPromptTemplate, PromptTemplate
-from langchain_core.tools import tool
 from langchain_openai import ChatOpenAI
 from langgraph.graph import END, START, StateGraph
 from langgraph.graph.message import add_messages
@@ -17,6 +16,8 @@ logging.basicConfig(level=logging.INFO)
 
 
 class RagState(TypedDict):
+    """Basic State of Rag application cosists of array of recent messages and stored memory"""
+
     messages: Annotated[Sequence[BaseMessage], add_messages]
 
 
@@ -26,7 +27,9 @@ tools = [tools_.retrive_data_from_db]
 
 def generate_query_context(state: RagState) -> RagState:
     """Based on questions decides if it should use a retrival tool or answer normally"""
-    """system_message = SystemMessage(
+    """
+    TODO: better guardrail
+    system_message = SystemMessage(
         "Zdecyduj czy pytanie odnosi się do inżynieri wodnej, jeśli nie, powiedz: udzielam odpowiedzi tylko dotyczących prawa wodnego"
     )"""
     response = model.bind_tools(tools).invoke(state["messages"])
@@ -58,10 +61,8 @@ graph.add_node(generate_user_answer)
 graph.add_edge(START, "generate_query_context")
 graph.add_conditional_edges(
     "generate_query_context",
-    # Assess LLM decision (call `retriever_tool` tool or respond to the user)
     tools_condition,
     {
-        # Translate the condition outputs to nodes in our graph
         "tools": "retrieve",
         END: END,
     },
@@ -72,7 +73,7 @@ graph.add_edge("generate_user_answer", END)
 agent = graph.compile()
 
 input = {
-    "messages": "Co się stanie jeśli właściciel urządzenia wodnego nie wystąpił z wnioskiem, októrym mowa  wust. 1?"
+    "messages": "Co się stanie jeśli właściciel urządzenia wodnego nie wystąpił z wnioskiem, o którym mowa w ust. 1?"
 }
 for chunk in agent.stream(input):
     for node, update in chunk.items():

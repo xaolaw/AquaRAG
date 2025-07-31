@@ -1,5 +1,5 @@
 import os
-from typing import List
+from typing import List, Tuple
 
 from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFLoader
@@ -37,7 +37,12 @@ def ReadPdf(path_to_pdf: str) -> List[Document]:
         return []
 
 
-def EmbedDocument(file_path: str) -> tuple[list[list[float]], list[Document]]:
+def EmbedDocument(file_path: str) -> Tuple[List[List[float]], List[Document]]:
+    """
+    Using RecursiveCharacterTextSplitter we split loaded pdf by chunks where we pay attention and try to split them all by articles.
+    After split we embed all of the chunks using NvidiaEmbedder
+    """
+
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=400,
         chunk_overlap=50,
@@ -58,7 +63,7 @@ def EmbedDocument(file_path: str) -> tuple[list[list[float]], list[Document]]:
 
 
 def InsertToVectorDb(
-    embeddings: list[list[float]], doc_splitted: list[Document]
+    embeddings: List[List[float]], doc_splitted: List[Document]
 ) -> bool:
     client = QdrantClient(url=os.getenv("QDRANT_ADDRESS"))
 

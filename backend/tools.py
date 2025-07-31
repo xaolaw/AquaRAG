@@ -57,6 +57,7 @@ def retrive_data_from_db(user_query: str) -> str:
 
 def multi_query(user_query: str, number_of_queries: int) -> str:
     """Using user query creates a multiple versions of query for better document gather"""
+
     MULTI_QUERY_PROMPT = (
         "Jesteś asystentem AI. Twoim zadaniem jest wygenerowanie {number_of_queries} różnych wersji podanego pytania w celu późniejszego pobrania danych z bazy danych."
         "Poprzez wygenerowanie {number_of_queries} różnych wersji jego pytania, masz pomóc użytkownik na przezwyciężenie różnych trudności w wyszukaniu danych jakie mogą wynikać z jego pytania."
