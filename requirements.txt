@@ -14,3 +14,4 @@ langchain_openai
 ipython
 dotenv
 typing
+sentence-transformers
