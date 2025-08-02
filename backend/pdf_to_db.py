@@ -45,11 +45,11 @@ def EmbedDocument(file_path: str) -> Tuple[List[List[float]], List[Document]]:
     """
 
     splitter = RecursiveCharacterTextSplitter(
-        chunk_size=400,
-        chunk_overlap=50,
+        chunk_size=600,
+        chunk_overlap=60,
         length_function=len,
         is_separator_regex=True,
-        separators=["\n\n", "Art.[0-9]*", "\n"],
+        separators=["Art.[0-9]*", "\d+\.", "\n\n", ".", "\n"],
     )
 
     doc = ReadPdf(file_path)
@@ -99,5 +99,16 @@ def InsertToVectorDb(
 
 
 load_dotenv()
+document = ReadPdf("./data/prawod_wodne.pdf")
+with open("embdeings.txt", mode="a+") as f:
+    for i in document:
+        print(i)
+        f.write(i)
+"""
 embeddings, doc_splitted = EmbedDocument("./data/prawod_wodne.pdf")
 InsertToVectorDb(embeddings, doc_splitted)
+with open("embdeings.csv", mode="a+") as f:
+    f.write(embeddings)
+with open("doc_splitted.csv", mode="a+") as f:
+    f.write(doc_splitted)
+"""

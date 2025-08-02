@@ -28,3 +28,20 @@ model_init_prompt = ChatPromptTemplate.from_messages(
         ("placeholder", "{messages}"),
     ]
 )
+
+model_multi_query = ChatPromptTemplate.from_messages(
+    [
+        (
+            "system",
+            "Jesteś asystentem AI. Twoim zadaniem jest wygenerowanie {number_of_queries} różnych wersji podanego pytania w celu późniejszego pobrania danych z bazy danych."
+            "Poprzez wygenerowanie {number_of_queries} różnych wersji jego pytania, masz pomóc użytkownik na przezwyciężenie różnych trudności w wyszukaniu danych jakie mogą wynikać z jego pytania."
+            "Podaj tylko i wyłącznie nowe pytania odseparowanie poprzez nowe linie, podaj to w taki sposób"
+            "Oto {number_of_queries} nowe pytania"
+            "Pytanie1: treść pytania"
+            "Pytanie2: treść pytania"
+            "Pytanie3: treść pytania"
+            "itp."
+            "Oryginalne pytanie {user_query}",
+        )
+    ]
+)

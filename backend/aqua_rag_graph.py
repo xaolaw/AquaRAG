@@ -44,6 +44,7 @@ with open("rag.png", "wb") as f:
     f.write(png_bytes)
 
 config = {"configurable": {"user_id": "1", "thread_id": "1"}}
+
 while True:
     user_input = input("Ty (senpai): ")
 
