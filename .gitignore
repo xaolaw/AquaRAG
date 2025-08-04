@@ -5,6 +5,8 @@ __pycache__
 *.png
 # C extensions
 *.so
+parent_docstore
+test*
 
 # Distribution / packaging
 .Python

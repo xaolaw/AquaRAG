@@ -49,7 +49,7 @@ def EmbedDocument(file_path: str) -> Tuple[List[List[float]], List[Document]]:
         chunk_overlap=60,
         length_function=len,
         is_separator_regex=True,
-        separators=["Art.[0-9]*", "\d+\.", "\n\n", ".", "\n"],
+        separators=["Art.[0-9]*", "\n\n", ".", "\n"],
     )
 
     doc = ReadPdf(file_path)
@@ -66,7 +66,7 @@ def EmbedDocument(file_path: str) -> Tuple[List[List[float]], List[Document]]:
 def InsertToVectorDb(
     embeddings: List[List[float]], doc_splitted: List[Document]
 ) -> bool:
-    client = QdrantClient(url=os.getenv("QDRANT_ADDRESS"))
+    client = QdrantClient()
 
     if client.collection_exists(collection_name):
         print("Deleteing old collection...")
@@ -99,16 +99,6 @@ def InsertToVectorDb(
 
 
 load_dotenv()
-document = ReadPdf("./data/prawod_wodne.pdf")
-with open("embdeings.txt", mode="a+") as f:
-    for i in document:
-        print(i)
-        f.write(i)
-"""
-embeddings, doc_splitted = EmbedDocument("./data/prawod_wodne.pdf")
-InsertToVectorDb(embeddings, doc_splitted)
-with open("embdeings.csv", mode="a+") as f:
-    f.write(embeddings)
-with open("doc_splitted.csv", mode="a+") as f:
-    f.write(doc_splitted)
-"""
+if __name__ == "__main__":
+    embeddings, doc_splitted = EmbedDocument("./data/prawod_wodne.pdf")
+    InsertToVectorDb(embeddings, doc_splitted)

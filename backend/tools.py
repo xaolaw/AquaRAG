@@ -1,28 +1,46 @@
+import json
 import logging
 import os
 from typing import List
 
 import prompts as my_prompts
 from dotenv import load_dotenv
+from langchain.schema import Document
+from langchain.storage import LocalFileStore
 from langchain_core.runnables import RunnableConfig
 from langchain_core.tools import tool
 from langchain_nvidia_ai_endpoints import NVIDIAEmbeddings
 from langchain_openai import ChatOpenAI
 from qdrant_client import QdrantClient
 from qdrant_client.models import FieldCondition, Filter, MatchValue
-from sentence_transformers.cross_encoder import CrossEncoder
+from reranker import PolishCrossEncoder
+from vector_db.parent_embedd import create_parent_retriever
 
 load_dotenv()
 collection_name = os.environ["COLLECTION_NAME"]
 collection_name_memories = os.environ["COLLECTION_MEMORIES"]
 model = ChatOpenAI(model=os.environ["LLM"], temperature=0)
-cross_encoder_model = CrossEncoder(os.environ["CROSS_ENCODER_MODEL"])
+retriver = create_parent_retriever()
+reranker = PolishCrossEncoder(os.environ["CROSS_ENCODER_MODEL"])
 
 
 def vectorize_user_query(query: str) -> List[float]:
     """Embeds user_query vector"""
     embedder = NVIDIAEmbeddings(model=os.environ["EMBEDDER"])
     return embedder.embed_query(query)
+
+
+def get_parent_elements(keys_list: List[str], fs: LocalFileStore) -> List[Document]:
+    doc_list = []
+    for key in keys_list:
+        value = fs.mget([key])[0]
+        decoded = value.decode("utf-8")
+        data = json.loads(decoded)
+        kwargs = data.get("kwargs")
+        doc = Document(**kwargs)
+        doc_list.append(doc)
+
+    return doc_list
 
 
 def multi_query(user_query: str, number_of_queries: int) -> str:
@@ -35,8 +53,9 @@ def multi_query(user_query: str, number_of_queries: int) -> str:
     model_response = model.invoke(prompt).content
 
     logging.info("multi_query model response")
-    logging.info(model_response)
-    return model_response.split("\n\n")[-number_of_queries:]
+    logging.info(model_response.split("\n")[-number_of_queries:])
+
+    return model_response.split("\n")[-number_of_queries:]
 
 
 def get_user_id(config: RunnableConfig) -> str:
@@ -49,67 +68,52 @@ def get_user_id(config: RunnableConfig) -> str:
 
 @tool
 def retrive_data_from_db(user_query: str) -> str:
-    """Using user query input returns data from vector database as a string of anserws from document"""
+    """Na podstawie zapytania danego użytkownika pobieramy odpowiednie fragmenty dokumentów z bazy danych"""
 
     logging.info("retrive_data_from_db")
     logging.info("performing multi query....")
-    multi_query_list = multi_query(user_query, 3)
+    multi_query_list = multi_query(user_query, 5)
 
-    client = QdrantClient(url=os.getenv("QDRANT_ADDRESS"))
     response = []
     for index, query in enumerate(multi_query_list):
         clean_query = query.replace(f"Pytanie{index + 1}: ", "")
         logging.info(clean_query)
 
-        points = client.query_points(
-            collection_name=collection_name,
-            query=vectorize_user_query(query=clean_query),
-            limit=5,
-            with_payload=True,
-        ).points
+        points = retriver.vectorstore.similarity_search(clean_query)
 
-        logging.info("retrive tool bet answers: ", points)
-        response.extend([(clean_query, point) for point in points])
-
-    client.close()
+        response.extend(
+            [(clean_query, point) for point in points]
+        )  # Tuple(str, langchain document)
 
     if len(response) == 0:
         return "Nie znalazłem dokumentów odpowiednich do zadanego pytania"
-    response = sorted(response, key=lambda p: p[1].score, reverse=True)
-    seen_id = set()
-    filtered_list = []
 
-    logging.info("response list:")
-    logging.info(str(response))
-
-    for question, point in response:
-        if point.id not in seen_id:
-            seen_id.add(point.id)
-            filtered_list.append((question, point.payload["content"]["page_content"]))
-
-    logging.info("filtered_list:")
-    logging.info(str(filtered_list))
-
-    results = sorted(
-        {
-            idx: r for idx, r in enumerate(cross_encoder_model.predict(filtered_list))
-        }.items(),
-        key=lambda x: x[1],
-        reverse=True,
-    )
+    cross_encoder_score = reranker.score(response)
 
     logging.info("results from reranking:")
-    logging.info(str(results))
+    logging.info(str(cross_encoder_score))
 
-    return "\n\n".join(filtered_list[index][1] for index, _ in results[:5])
+    seen = set()
+    parent_doc_ids = []
+
+    for i, _ in cross_encoder_score:
+        doc_id = response[i][1].metadata["doc_id"]
+        if doc_id not in seen:
+            seen.add(doc_id)
+            parent_doc_ids.append(doc_id)
+
+    return "\n\n".join(
+        doc.page_content
+        for doc in get_parent_elements(parent_doc_ids[:3], retriver.docstore.store)
+    )
 
 
 @tool
 def recall_memory(memory: str, config: RunnableConfig) -> str:
     """Searches db for chat history for answering user request"""
 
-    client = QdrantClient(url=os.getenv("QDRANT_ADDRESS"))
     user_id = get_user_id(config=config)
+    client = QdrantClient()
 
     memory_response = client.query_points(
         collection_name=collection_name_memories,

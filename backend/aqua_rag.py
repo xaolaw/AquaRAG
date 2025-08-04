@@ -77,7 +77,7 @@ def save_memory(state: RagState, config: RunnableConfig) -> RagState:
         if isinstance(item, (AIMessage, HumanMessage)) and item.content
     )
 
-    client = QdrantClient(url=os.getenv("QDRANT_ADDRESS"))
+    client = QdrantClient()
     user_id = my_tools.get_user_id(config=config)
 
     memory_vector = my_tools.vectorize_user_query(memory_to_save)

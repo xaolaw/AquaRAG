@@ -2,7 +2,7 @@ import logging
 
 import aqua_rag as aqua
 from langgraph.graph import END, START, StateGraph
-from langgraph.prebuilt import ToolNode, tools_condition
+from langgraph.prebuilt import ToolNode
 
 logging.basicConfig(level=logging.INFO)
 

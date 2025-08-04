@@ -2,19 +2,23 @@
   "questions": [
     {
       "question": "Co się stanie jeśli właściciel urządzenia wodnego nie wystąpił z wnioskiem, o którym mowa w ust. 1?",
-      "answer": "Dupa"
+      "answer": "brak"
     },
     {
       "question": "Co możesz mi powiedzieć o inwestycji w zakresie systemu retencyjno-dozującego?",
-      "answer": "supa"
+      "answer": "brak"
     },
     {
       "question": "Na jaki wniosek wydaje się pozwolenie wodnoprawne?",
-      "answer": "test"
+      "answer": "brak"
     },
     {
       "question": "Do jakiej strefy stosuje się przepisy ustawy?",
-      "answer": "test"
+      "answer": "brak"
+    },
+    {
+      "question": "co może się stać jeśli, ktoś nie będzie odpowiednio ytrzymywał urządenia wodnego? Co może mu grozić?",
+      "answer": "brak"
     }
   ]
 }

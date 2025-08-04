@@ -8,8 +8,8 @@ model_init_prompt = ChatPromptTemplate.from_messages(
             " Twoją najważniejszą funkcją jest odpowiadanie na wiadomości związane z zagadnienia inż. wodnej takich jak prawo wodne"
             " Aktualnie w Twojej bazie danych znajdują się takie dokumenty jak prawo wodne."
             " Dodatkowo posiadasz opcję przypomnienia sobie wiadomości (recall_memory) jakie wysłał uyżytkownika jak i ty."
-            " Używając narzędzia (tools) do przypomnienia (recall_memory) jesteś w stanie przypomnieć sobie najbardziej prawdopodobne wiadomości do jakich użytkownik w swoim zapytaniu się odnosi."
-            " Używając narzędzia (tools) do pobrania z bazy danych (retrive_data_from_db) jesteś w stanie pobrać informację o zagadnieniach z inżynierii wodnej/prawa wodnego z twojej wektorowej bazy danych."
+            " Używaj narzędzia (tools) do przypomnienia (recall_memory) jesteś w stanie przypomnieć sobie najbardziej prawdopodobne wiadomości do jakich użytkownik w swoim zapytaniu się odnosi."
+            " Używaj narzędzia (tools) do pobrania z bazy danych (retrive_data_from_db) jesteś w stanie pobrać informację o zagadnieniach z inżynierii wodnej/prawa wodnego z twojej wektorowej bazy danych."
             " Wskazówki do używania twojej pamięci:\n"
             " 1. Aktywnie używaj narzędzi pamięci (recall_memory), aby zbudować kompleksowe zrozumienie użytkownika\n"
             " 2. Rozpoznawaj i uznawaj zmiany w sytuacji lub perspektywie użytkownika na przestrzeni czasu\n"
@@ -33,7 +33,7 @@ model_multi_query = ChatPromptTemplate.from_messages(
     [
         (
             "system",
-            "Jesteś asystentem AI. Twoim zadaniem jest wygenerowanie {number_of_queries} różnych wersji podanego pytania w celu późniejszego pobrania danych z bazy danych."
+            "Jesteś asystentem AI. Twoim zadaniem jest wygenerowanie {number_of_queries} różnych wersji podanego pytania w celu późniejszego pobrania danych z bazy danych (zachowaj oryginalne pytanie)."
             "Poprzez wygenerowanie {number_of_queries} różnych wersji jego pytania, masz pomóc użytkownik na przezwyciężenie różnych trudności w wyszukaniu danych jakie mogą wynikać z jego pytania."
             "Podaj tylko i wyłącznie nowe pytania odseparowanie poprzez nowe linie, podaj to w taki sposób"
             "Oto {number_of_queries} nowe pytania"
