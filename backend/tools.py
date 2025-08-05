@@ -1,6 +1,7 @@
 import json
 import logging
 import os
+import re
 from typing import List
 
 import prompts as my_prompts
@@ -11,7 +12,7 @@ from langchain_core.runnables import RunnableConfig
 from langchain_core.tools import tool
 from langchain_nvidia_ai_endpoints import NVIDIAEmbeddings
 from langchain_openai import ChatOpenAI
-from qdrant_client import QdrantClient
+from qdrant_client import QdrantClient, models
 from qdrant_client.models import FieldCondition, Filter, MatchValue
 from reranker import PolishCrossEncoder
 from vector_db.parent_embedd import create_parent_retriever
@@ -20,7 +21,7 @@ load_dotenv()
 collection_name = os.environ["COLLECTION_NAME"]
 collection_name_memories = os.environ["COLLECTION_MEMORIES"]
 model = ChatOpenAI(model=os.environ["LLM"], temperature=0)
-retriver = create_parent_retriever()
+retriever = create_parent_retriever()
 reranker = PolishCrossEncoder(os.environ["CROSS_ENCODER_MODEL"])
 
 
@@ -79,7 +80,7 @@ def retrive_data_from_db(user_query: str) -> str:
         clean_query = query.replace(f"Pytanie{index + 1}: ", "")
         logging.info(clean_query)
 
-        points = retriver.vectorstore.similarity_search(clean_query)
+        points = retriever.vectorstore.similarity_search(clean_query)
 
         response.extend(
             [(clean_query, point) for point in points]
@@ -104,7 +105,7 @@ def retrive_data_from_db(user_query: str) -> str:
 
     return "\n\n".join(
         doc.page_content
-        for doc in get_parent_elements(parent_doc_ids[:3], retriver.docstore.store)
+        for doc in get_parent_elements(parent_doc_ids[:3], retriever.docstore.store)
     )
 
 
@@ -131,3 +132,51 @@ def recall_memory(memory: str, config: RunnableConfig) -> str:
     client.close()
 
     return "\n".join([i.payload["memory"] for i in memory_response])
+
+
+@tool
+def retrive_article(article_number: int, config: RunnableConfig) -> str:
+    """Searches db for specific article when user gives article number"""
+
+    response, _ = retriever.vectorstore.client.scroll(
+        collection_name=os.environ["CHILD_COLLECTION_NAME"],
+        scroll_filter=models.Filter(
+            should=[
+                models.FieldCondition(
+                    key="metadata.article_number[]",
+                    match=models.MatchValue(value=str(article_number)),
+                ),
+            ],
+        ),
+        with_payload=True,
+    )
+
+    parent_ids = []
+    for i in response:
+        parent_element = (
+            i.payload["metadata"]["doc_id"],
+            i.payload["metadata"]["order"],
+        )
+        if parent_element not in parent_ids:
+            parent_ids.append(parent_element)
+
+    parent_ids = [x[0] for x in sorted(parent_ids, key=lambda x: x[1], reverse=False)]
+
+    article_str = "\n\n".join(
+        doc.page_content
+        for doc in get_parent_elements(parent_ids, retriever.docstore.store)
+    )
+
+    matches = re.finditer(r"Art.\s*[0-9]*", article_str)
+
+    start = -1
+    end = -1
+
+    for m in matches:
+        if start == -1 and m.group(0) == f"Art. {str(article_number)}":
+            start = m.start()
+        elif m.group(0) == f"Art. {str(article_number + 1)}":
+            end = m.start()
+            break
+
+    return article_str[start:end]

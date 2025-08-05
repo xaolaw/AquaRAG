@@ -36,7 +36,7 @@ def ReadPdf(path_to_pdf: str) -> List[Document]:
         raw_docs = loader.load()
         documents = []
         previous_match = []
-        for doc in raw_docs:
+        for index, doc in enumerate(raw_docs):
             text = doc.page_content
             # Match something like "Art. 123"
             match = re.findall(r"\bArt\.\s*(\d+)", text)
@@ -50,9 +50,13 @@ def ReadPdf(path_to_pdf: str) -> List[Document]:
 
             previous_match = article_number
 
-            documents.append(
-                Document(page_content=text, metadata={"article_number": article_number})
-            )
+            new_metadata = {
+                **doc.metadata,  # ← this keeps the original metadata! ✨
+                "article_number": article_number,
+                "order": index,
+            }
+
+            documents.append(Document(page_content=text, metadata=new_metadata))
 
         return documents
     except ValueError as e:
@@ -107,7 +111,7 @@ def create_parent_retriever() -> ParentDocumentRetriever:
         chunk_size=600 * 5,
         length_function=len,
         is_separator_regex=True,
-        separators=["Art.[0-9]*"],
+        separators=["Art.\s[0-9]*"],
     )
 
     vectorstore = QdrantVectorStore(

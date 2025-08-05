@@ -1,3 +1,4 @@
+import logging
 import os
 import uuid
 from typing import Annotated, Sequence, TypedDict
@@ -5,7 +6,7 @@ from typing import Annotated, Sequence, TypedDict
 import prompts as my_prompts
 import tools as my_tools
 from dotenv import load_dotenv
-from langchain_core.messages import AIMessage, BaseMessage, HumanMessage
+from langchain_core.messages import AIMessage, BaseMessage, HumanMessage, ToolMessage
 from langchain_core.runnables import RunnableConfig
 from langchain_openai import ChatOpenAI
 from langgraph.graph import END
@@ -31,6 +32,7 @@ class RagState(TypedDict):
 retrive_tools = [
     my_tools.recall_memory,
     my_tools.retrive_data_from_db,
+    my_tools.retrive_article,
 ]
 model = ChatOpenAI(model=os.environ["LLM"], temperature=0).bind_tools(retrive_tools)
 model_chain = my_prompts.model_init_prompt | model
@@ -54,11 +56,22 @@ def generate_user_answer(state: RagState) -> RagState:
     """
 
     GENERATE_PROMPT = (
-        "Jesteś botem odpowiadającym na zapytania użytkownika na podstawie dokumentu prawa wodnego. Udało Ci się uzyskać następujące dokumenty z bazy danych: "
-        "Document z bazy:\n{context}\n\n "
-        "Z ich pomocą odpowiedz na następujące pytanie {question}\n"
-        "Pamiętaj że masz teraz odpowiedzieć na pytanie nie używaj żadnych narzędzi (tools), ponieważ wcześniej już ich użyłeś\n"
+        "Jesteś botem odpowiadającym na zapytania użytkownika na podstawie dokumentu prawa wodnego. Udało Ci się uzyskać następujące dokumenty z bazy danych: \n"
+        " Document z bazy:\n{context}\n\n "
+        " Z ich pomocą odpowiedz na następujące pytanie {question}\n"
+        " Pamiętaj że masz teraz odpowiedzieć na pytanie nie używaj żadnych narzędzi (tools), ponieważ wcześniej już ich użyłeś\n"
     )
+    msg = state["messages"][-1]
+    if isinstance(msg, ToolMessage) and state["messages"][-1].name == "retrive_article":
+        GENERATE_PROMPT = (
+            "Jesteś botem odpowiadającym na zapytania użytkownika na podstawie dokumentu prawa wodnego. "
+            " Użytkownik oczekuje że przytoczysz mu informacje o danym artykule, pamiętaj o tym aby przy przytaczaniu artykułu przytoczyć wszystkie pobrane informacje."
+            " Artykuły mogą mieć informacje w taki sposób Art. 192 (tekst akrtykułu) Art. 192a (dalsza część artykułu) Art. 192.1 (dalsza część artykułu) masz uwzględnić wszystkie takie części"
+            " Udało Ci się uzyskać następujące dokumenty z bazy danych na temat artykułu: \n"
+            " Document z bazy:\n{context}\n\n "
+            " Z ich pomocą odpowiedz na następujące pytanie {question}\n"
+            " Pamiętaj że masz teraz odpowiedzieć na pytanie nie używaj żadnych narzędzi (tools), ponieważ wcześniej już ich użyłeś\n"
+        )
     prompt = GENERATE_PROMPT.format(
         question=state["messages"][0], context=state["messages"][-1]
     )
