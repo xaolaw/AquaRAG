@@ -17,3 +17,6 @@ typing
 sentence-transformers
 sacremoses
 langchain-qdrant>=0.2
+ragas
+rapidfuzz
+sacrebleu

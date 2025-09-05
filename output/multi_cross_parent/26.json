@@ -1,0 +1,21 @@
+{
+    "question": "Do kogo należy własność wysp, przymulisk i odsypów żwirowych powstałych naturalnie na gruntach pokrytych wodami powierzchniowymi?",
+    "system_answer": "Własność wysp, przymulisk i odsypów żwirowych powstałych naturalnie na gruntach pokrytych wodami powierzchniowymi należy do Skarbu Państwa. Wody powierzchniowe, takie jak śródlądowe wody płynące oraz wody podziemne, stanowią własność Skarbu Państwa, a prawa właścicielskie w stosunku do tych wód wykonują odpowiednie organy, takie jak Wody Polskie.",
+    "parent_ids": [
+        "1b6dc790-f0eb-47ec-8a82-7401ea2c523b",
+        "95d3e653-5818-4380-9c08-9aa7cfb3a001",
+        "1b6b454a-7b2f-4e9b-a092-1365dcc409fc"
+    ],
+    "child_ids": [
+        "47a7b4d2-5649-4584-83f6-dc982a58401f",
+        "16a9b736-3190-4a8a-aad5-55781fce8882",
+        "afd20dfc-2aae-421a-84b5-ebd5a1dba6e7",
+        "70f132aa-84c0-4e00-9324-9fcebd1ddf03",
+        "8fad8f6a-bbd9-4a45-8609-bb827adafdbc",
+        "4cfe5538-7975-41d9-95f9-27d3e692314d",
+        "1c90f0bc-808b-4a08-b5de-46049bcf61ef"
+    ],
+    "retrival_tool": "db",
+    "id": 26,
+    "reference": "Wyspy, przymuliska oraz odsypy żwirowe, powstałe wsposób naturalny na gruntach pokrytych wodami powierzchniowymi, stanowią własność właściciela tych gruntó"
+}

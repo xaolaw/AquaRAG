@@ -1,0 +1,27 @@
+{
+    "question": "Jaki jest cel środowiskowy dla obszarów chronionych?",
+    "system_answer": "Celem środowiskowym dla obszarów chronionych jest osiągnięcie norm i celów wynikających z przepisów, na podstawie których te obszary chronione zostały utworzone, przepisów ustanawiających te obszary lub dotyczących tych obszarów, o ile nie zawierają one w tym zakresie odmiennych uregulowań. Cel ten realizuje się w szczególności przez podejmowanie działań zawartych w planie gospodarowania wodami na obszarze dorzecza.",
+    "parent_ids": [
+        "e3f937ea-b942-4918-b266-2dfb9e9dd831",
+        "d8f7a569-72d1-4e74-931b-817fe07fab2f",
+        "0f0fb2cd-11dd-4e0e-b0aa-65ea1e26ad1a"
+    ],
+    "child_ids": [
+        "dc1b096d-e73e-4493-9e25-1a3670ad256e",
+        "b8a20849-df2e-451b-8968-8acccc90549a",
+        "217dfd24-480d-43fe-a73e-13cfefcef550",
+        "ef381d3b-6fab-41f5-a3a2-2ca1b49d6f5a",
+        "ea3584ba-33b9-4437-9fe9-377581f7539b",
+        "14ff11a2-5ff2-43cd-9ca9-54938cfd4880",
+        "74c3469f-006e-4621-8ae3-3c87b35140d4",
+        "d70087fa-dda9-4dea-82e7-5c0ecd953ce9",
+        "6663e51a-6f61-434f-85cc-106a044947b6",
+        "05fe9ad2-ea95-4f30-b314-9c7180c447d9",
+        "2a43c608-b9be-4fe4-80ea-24557d85a6c5",
+        "4783d662-9a50-4494-8e6b-f6d22a3f77df"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 11,
+    "reference": "Osiągnięcie norm i celów wynikających z przepisów, na podstawie których obszary chronione zostały utworzone, ustanowione lub regulowane, o ile przepisy te nie przewidują odmiennych uregulowań."
+}

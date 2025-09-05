@@ -1,0 +1,24 @@
+{
+    "question": "Kto jest właścicielem wód w Polsce i jakie wody uznaje się za publiczne?",
+    "system_answer": "Właścicielem wód w Polsce mogą być Skarb Państwa, inne osoby prawne lub osoby fizyczne. Wody morza terytorialnego, morskie wody wewnętrzne, śródlądowe wody płynące oraz wody podziemne stanowią własność Skarbu Państwa. Wody stanowiące własność Skarbu Państwa lub jednostek samorządu terytorialnego są uznawane za wody publiczne. Śródlądowe wody płynące będące wodami publicznymi nie podlegają obrotowi cywilnoprawnemu, z wyjątkiem przypadków określonych w ustawie.",
+    "parent_ids": [
+        "f5964032-faf8-47f5-9c63-321a36c648e4",
+        "1b6b454a-7b2f-4e9b-a092-1365dcc409fc",
+        "066e8c00-3509-460e-9bfd-d290629cc478",
+        "b437856c-1200-4910-9ec0-ca917d3e500e",
+        "c006bb53-30e5-44aa-8669-6465effaed4a",
+        "bdaf3ac3-eeee-4097-a831-1a92161569a3",
+        "92a64456-de87-47bd-b02f-e5e859338579",
+        "fd788a79-640d-4a49-93da-1dda8c62412a",
+        "5f9b7d0d-58c8-47a8-977b-3462b97e4b18",
+        "67e0e33f-2a87-4de2-9e3b-5487bcfbe2a4",
+        "b7e02926-0a0d-441e-ad4e-eea67d314f13",
+        "4a4e9f25-5ba5-419f-bb48-fd4c428910cd",
+        "2498fe50-18a9-4f45-9ff5-0a28a5fb1673"
+    ],
+    "child_ids": [],
+    "retrival_tool": "db",
+    "mode": "multi_cross_parent_llama",
+    "id": 25,
+    "reference": "Wody w Polsce stanowią własność Skarbu Państwa, innych osób prawnych albo osób fizycznych. Wody morza terytorialnego, morskie wody wewnętrzne, śródlądowe wody płynące oraz wody podziemne należą do Skarbu Państwa. Wody będące własnością Skarbu Państwa lub jednostek samorządu terytorialnego są uznawane za wody publiczne. Śródlądowe wody płynące, które są wodami publicznymi, nie podlegają obrotowi cywilnoprawnemu, z wyjątkiem sytuacji wyraźnie określonych w ustawie"
+}

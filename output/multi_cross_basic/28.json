@@ -1,0 +1,20 @@
+{
+    "question": "Kto może obejmować stanowisko Prezesa Wód Polskich?",
+    "system_answer": "Na podstawie dokumentu, Prezesem Wód Polskich jest osoba, która kieruje działalnością Wód Polskich i reprezentuje je na zewnątrz. Prezes Wód Polskich kieruje również pracą Krajowego Zarządu Gospodarki Wodnej. Dokument nie precyzuje jednak, kto konkretnie może obejmować to stanowisko, czyli jakie są wymagania czy kwalifikacje potrzebne do objęcia tej funkcji.",
+    "parent_ids": [],
+    "child_ids": [
+        "b2339267-6d56-45fb-b521-15275d79581b",
+        "4513a169-529a-468b-ab22-ee04f6a308a4",
+        "f70a7ba5-42ee-44fe-ac6f-0304ced8ff36",
+        "ddd0307a-7bc2-4fb7-815d-25a876f2727c",
+        "f22ff4ef-cf63-425d-a2ee-da05b204908e",
+        "89d4af45-307a-43b4-a6b5-cf96bf31317d",
+        "496617da-e194-43cb-93d0-7e21ba2ac8f1",
+        "1c554102-f87f-4d11-928e-02b900970e94",
+        "b093eac7-fe20-41c2-be93-bd03fe7c0d60"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_retriver",
+    "id": 28,
+    "reference": "Może to być osoba, która: posiada wykształcenie wyższe, jest obywatelem polskim, korzysta zpełni praw publicznych, nie była skazana prawomocnym wyrokiem za umyślne przestępstwo lub umyślne przestępstwo skarbowe, posiada co najmniej 6-letni staż pracy, wtym co najmniej 3-letni staż pracy na stanowisku kierowniczym w jednostkach sektora finansów publicznych, posiada wykształcenie iwiedzę zzakresu spraw należących do właściwości Wód Polskich"
+}

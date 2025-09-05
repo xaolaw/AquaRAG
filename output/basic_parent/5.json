@@ -1,0 +1,29 @@
+{
+    "question": "Na jakie wody dzielą się wody",
+    "system_answer": "Na podstawie dokumentu prawa wodnego, wody dzielą się na:\n\n1. Wody śródlądowe\n2. Morskie wody wewnętrzne\n3. Wody morza terytorialnego\n4. Wody w wyłącznej strefie ekonomicznej Rzeczypospolitej Polskiej\n\nDodatkowo, w kontekście zarządzania i ochrony, uwzględniane są również wody podziemne, solanki, wody lecznicze oraz termalne.",
+    "parent_ids": [
+        "1b6dc790-f0eb-47ec-8a82-7401ea2c523b",
+        "67e0e33f-2a87-4de2-9e3b-5487bcfbe2a4",
+        "2868b7a4-565f-47c6-9eff-f3d20fe6d830"
+    ],
+    "child_ids": [
+        "47a7b4d2-5649-4584-83f6-dc982a58401f",
+        "61fa7192-7e7c-47ef-957f-991d83332672",
+        "07649454-d073-4ef0-bf36-6ea97aaf011f",
+        "2f5e1c06-8020-4aeb-9ece-a57201f88d8b",
+        "190d8511-3082-4e9a-8a46-3a0207e80993",
+        "8e80776d-f391-4ff1-9c49-b1adadb1346c",
+        "f5fde807-f3ba-4c50-9420-ec6d0cd5dff7",
+        "36fbc489-7c95-45b2-9ba4-bede273824f4",
+        "135f3857-31a5-402c-92d1-3f41de017c30",
+        "64d9d4a0-b11a-4806-a025-735ec851868c",
+        "bbb1356b-2be2-4608-b9d2-56b19aaaab13",
+        "bca217f9-9797-4d54-a821-6be11a88ed58",
+        "bb380f72-7c26-4a24-a990-fc450a913b54",
+        "39758cc9-1a8e-44ce-94f6-35978bb25fbd"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_parent",
+    "id": 5,
+    "reference": "Wody dzielą się na wody powierzchniowe i wody podziemne"
+}

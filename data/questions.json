@@ -1,28 +1,154 @@
 {
   "questions": [
     {
-      "question": "Co się stanie jeśli właściciel urządzenia wodnego nie wystąpił z wnioskiem, o którym mowa w ust. 1?",
-      "answer": "brak"
+      "id": 1,
+      "question": "Na czym polegają melioracje wodne z artykułu 195?",
+      "answer": "Melioracje wodne polegają na regulacji stosunków wodnych wcelu polepszenia zdolności produkcyjnej gleby i ułatwienia jej uprawy"
     },
     {
-      "question": "Co możesz mi powiedzieć o inwestycji w zakresie systemu retencyjno-dozującego?",
-      "answer": "brak"
+      "id": 2,
+      "question": "Jakie są urządzenia melioracji wodnych? Ile ich jest?",
+      "answer": "Urządzeniami melioracji wodnych są: rowy wraz z budowlami związanymi z nimi funkcjonalnie, drenowania, rurociągi, stacje pomp służące wyłącznie do celów rolniczych, ziemne stawy rybne, groble na obszarach nawadnianych, systemy nawodnień grawitacyjnych, systemy nawodnień ciśnieniowych. Takich urządzeń jest 8"
     },
     {
-      "question": "Na jaki wniosek wydaje się pozwolenie wodnoprawne?",
-      "answer": "brak"
+      "id": 3,
+      "question": "Na jaki % ustala się opłatę melioracyjną, o której mowa w art.199 ust.2?",
+      "answer": "Opłatę melioracyjną, októrej mowa w art. 199 ust. 2, ustala się wwysokości 20% całkowitych kosztów wykonania urządzeń melioracji wodnych.2.Opłatę melioracyjnąpobiera się w15równych ratach rocznych wterminie do dnia 30października każdego roku, przy czym opłata melioracyjna mniejsza od 1000zł jest pobierana w3równych ratachrocznych.3.Pierwszą ratę opłaty melioracyjnej pobiera się po upływie 2lat  od  dnia przekazania  urządzeń melioracji   wodnych do   eksploatacji,   a wprzypadku zagospodarowania pomelioracyjnego łąk ipastwisk –po upływie roku"
     },
     {
-      "question": "Do jakiej strefy stosuje się przepisy ustawy?",
-      "answer": "brak"
+      "id": 4,
+      "question": "Jakie są organy właściwe w sprawach gospodarowania wodami?",
+      "answer": "Organami właściwymi wsprawach gospodarowania wodami są: minister właściwy do spraw gospodarki wodnej; minister właściwy do spraw żeglugi śródlądowej; Prezes Wód Polskich; dyrektor regionalnego zarządu gospodarki wodnej Wód Polskich; dyrektor zarządu zlewni Wód Polskich; kierownik nadzoru wodnego Wód Polskich; dyrektor urzędu morskiego; wojewoda; starosta; wójt, burmistrz lub prezydent miasta."
     },
     {
-      "question": "co może się stać jeśli, ktoś nie będzie odpowiednio ytrzymywał urządenia wodnego? Co może mu grozić?",
-      "answer": "brak"
+      "id": 5,
+      "question": "Na jakie wody dzielą się wody",
+      "answer": "Wody dzielą się na wody powierzchniowe i wody podziemne"
     },
     {
-      "question": "powiedz mi coś wiecej o wodach śródlądowych mogących służyć potrzebom śródlądowego transportu wodnego i żeglugowemu wykorzystaniu przez statki",
-      "answer": "brak"
+      "id": 6,
+      "question": "Na jakich wodach Rada Ministrów określi granice?",
+      "answer": "Rada Ministrów określi, granice między śródlądowymi wodami powierzchniowymi a morskimi wodami wewnętrznymi i wodami morza terytorialnego."
+    },
+    {
+      "id": 7,
+      "question": "Czemu służy powszechne korzystanie z wód?",
+      "answer": "Powszechne korzystanie z wód służy do zaspokajania potrzeb osobistych, gospodarstwa domowego lub rolnego, bez stosowania specjalnych urządzeń technicznych, a także do wypoczynku, uprawiania turystyki, sportów wodnych oraz, na zasadach określonych w przepisach odrębnych, amatorskiego połowu ryb."
+    },
+    {
+      "id": 8,
+      "question": "Na ile dni przed rozpoczęciem funkcjonowania miejsca czasami wykorzystanego do kąpieli musi wykonać właściciel?",
+      "answer": "Wykonuje badanie jakości wody nie wcześniej niż 10 dni przed otwarciem"
+    },
+    {
+      "id": 9,
+      "question": "Kiedy właściciele kąpielisk mogą łączyć kąpieliska?",
+      "answer": "Mogą w przypadku gdy: kąpieliska sąsiadujące ze sobą nie dzieli żadna fizyczna odległość; kąpieliska uzyskały zbliżoną klasyfikacjęoceny jakości wody w 4 poprzednichsezonach kąpielowych; profile wody wkąpieliskach wskazują na wspólne czynniki ryzyka lub ich brak"
+    },
+    {
+      "id": 10,
+      "question": "Jaki minimalny poziom jakości powinny osiągnąć wody powierzchniowe zgodnie z celem środowiskowym?",
+      "answer": "Co najmniej dobry stan ekologiczny i dobry stan chemiczny."
+    },
+    {
+      "id": 11,
+      "question": "Jaki jest cel środowiskowy dla obszarów chronionych?",
+      "answer": "Osiągnięcie norm i celów wynikających z przepisów, na podstawie których obszary chronione zostały utworzone, ustanowione lub regulowane, o ile przepisy te nie przewidują odmiennych uregulowań."
+    },
+    {
+      "id": 12,
+      "question": "Kto określa wymagania wobec wód powierzchniowych przeznaczonych do spożycia przez ludzi?",
+      "answer": "Minister właściwy do spraw gospodarki wodnej w porozumieniu z ministrem właściwym do spraw zdrowia."
+    },
+    {
+      "id": 13,
+      "question": "Czego nie powinny zawierać ścieki wprowadzane do wód lub do ziem?",
+      "answer": "Nie powinny zawierać: odpadów w rozumieniu art. 3 ust.1 pkt 6 ustawy z dnia 14 grudnia 2012r. o odpadach oraz zanieczyszczeń pływających, substancji priorytetowych określonych w przepisach wydanych na podstawie art. 114, chorobotwórczych drobnoustrojów pochodzących z obiektów, w których leczeni są chorzy na choroby zakaźne."
+    },
+    {
+      "id": 14,
+      "question": "Jaka jest maksymalna waga azotu w nawozach rolnych możliwych do wykorzystania",
+      "answer": "Waga nie może przekraczać 170 kg azotu w czystym składniku na 1ha użytków rolnych"
+    },
+    {
+      "id": 15,
+      "question": "Kto określa, w drodze rozporządzenia, wykaz substancji priorytetowych w dziedzinie polityki wodnej?",
+      "answer": "Wykaz substancji priorytetowych określa minister właściwy do spraw gospodarki wodnej w porozumieniu z ministrem właściwym do spraw klimatu oraz ministrem właściwym do spraw środowiska, kierując się przepisami prawa Unii Europejskiej."
+    },
+    {
+      "id": 16,
+      "question": "Jak oznacza się granice terenu ochrony pośredniej?",
+      "answer": "Granice terenu ochrony pośredniej oznacza się przez umieszczenie, wpunktach przecięcia się granic ze szlakami komunikacyjnymi oraz winnych charakterystycznych punktach terenu, tablic zawierających informacje o ustanowieniu strefy ochronnej."
+    },
+    {
+      "id": 17,
+      "question": "Jak realizuje się ochronę przed powodzią",
+      "answer": "Ochronę przed powodzią realizuje się poprzez kształtowanie zagospodarowania przestrzennego dolin rzecznych i terenów zalewowych, racjonalne retencjonowanie wód i użytkowanie budowli przeciwpowodziowych, sterowanie przepływami, funkcjonowanie systemu wczesnego ostrzegania i prognozowanie powodzi, zachowanie, tworzenie i odtwarzanie systemów retencji, budowę, przebudowę i utrzymywanie budowli przeciwpowodziowych, prowadzenie akcji lodołamania oraz polityki informacyjnej w zakresie ochrony przed powodzią i ograniczania jej skutków."
+    },
+    {
+      "id": 18,
+      "question": "Kto sporządza projekty map zagrożenia powodziowego i map ryzyka powodziowego oraz jak wygląda procedura w odniesieniu do morskich wód wewnętrznych?",
+      "answer": "Projekty map zagrożenia powodziowego i map ryzyka powodziowego sporządzają Wody Polskie w uzgodnieniu z właściwymi wojewodami. Projekty map od strony morza, w tym morskich wód wewnętrznych, przygotowują dyrektorzy urzędów morskich i przekazują je Wodom Polskim co najmniej 6 miesięcy przed terminem przygotowania map zagrożenia powodziowego i map ryzyka powodziowego. Mapy od strony morza stanowią integralny element projektów map zagrożenia powodziowego i map ryzyka powodziowego."
+    },
+    {
+      "id": 19,
+      "question": "Kto ponosi koszty wykonania oraz kto odpowiada za utrzymanie dróg, urządzeń do przepędzania zwierząt i przejazdów przez wały przeciwpowodziowe?",
+      "answer": "Koszty wykonania ponosi inwestor budujący wał, natomiast utrzymanie drogi, urządzeń lub przejazdu spoczywa na podmiocie, na którym ciąży obowiązek ich utrzymania."
+    },
+    {
+      "id": 20,
+      "question": "Co powinien zawierać plan przeciwdziałania skutkom suszy?",
+      "answer": "Plan przeciwdziałania skutkom suszy powinien zawierać analizę możliwości powiększenia dyspozycyjnych zasobów wodnych, propozycje budowy lub przebudowy urządzeń wodnych, propozycje niezbędnych zmian w korzystaniu z zasobów wodnych oraz zmian naturalnej i sztucznej retencji, a także działania służące przeciwdziałaniu skutkom suszy"
+    },
+    {
+      "id": 21,
+      "question": "Jakie zasady należy uwzględniać przy projektowaniu, wykonywaniu i utrzymywaniu urządzeń wodnych oraz co powinny umożliwiać budowle piętrzące?",
+      "answer": "Przy projektowaniu, wykonywaniu i utrzymywaniu urządzeń wodnych należy kierować się zasadą zrównoważonego rozwoju, dbać o dobry stan wód i ich biocenoz, realizować cele środowiskowe, zachować istniejącą rzeźbę terenu oraz biologiczne stosunki w środowisku wodnym i ekosystemach lądowych zależnych od wód, a budowle piętrzące powinny umożliwiać migrację ryb."
+    },
+    {
+      "id": 22,
+      "question": "Co dzieje się, gdy nie można określić funkcji urządzenia wodnego",
+      "answer": "Jeżeli nie jest możliwe jednoznaczne określenie funkcji urządzenia wodnego, organ właściwy może na nowo ustalić funkcję tego urządzenia i w drodze decyzji nakazać jego odbudowę lub likwidację. W tym postępowaniu również bierze pod uwagę zasady ochrony wód, zapobiegania pogorszeniu stanu ekosystemów, ograniczania marnotrawstwa wody i energii oraz minimalizowania szkód."
+    },
+    {
+      "id": 23,
+      "question": "Kto jest stroną postępowania w sprawie wydania decyzji dotyczącej urządzenia wodnego?",
+      "answer": "Stronami postępowania są wnioskodawca, właściciel urządzenia wodnego oraz właściciel wód. Oznacza to, że wszystkie te podmioty mają prawo uczestniczyć w postępowaniu administracyjnym, składać wyjaśnienia i wnioski, a organ bierze pod uwagę ich stanowisko przy wydawaniu decyzji dotyczącej przywrócenia funkcji urządzenia, jego odbudowy lub likwidacji."
+    },
+    {
+      "id": 24,
+      "question": "Jakie urządzenia zalicza się do melioracji wodnych?",
+      "answer": "Urządzeniami melioracji wodnych są: rowy wraz z budowlami funkcjonalnie z nimi związanymi, drenaże, rurociągi, stacje pomp służące wyłącznie do celów rolniczych, ziemne stawy rybne, groble na obszarach nawadnianych, systemy nawodnień grawitacyjnych oraz systemy nawodnień ciśnieniowych. Wszystkie te urządzenia mają na celu regulację stosunków wodnych w gospodarce rolnej, poprawę użytkowania gruntów oraz wsparcie produkcji rolniczej poprzez efektywne zarządzanie wodą."
+    },
+    {
+      "id": 25,
+      "question": "Kto jest właścicielem wód w Polsce i jakie wody uznaje się za publiczne?",
+      "answer": "Wody w Polsce stanowią własność Skarbu Państwa, innych osób prawnych albo osób fizycznych. Wody morza terytorialnego, morskie wody wewnętrzne, śródlądowe wody płynące oraz wody podziemne należą do Skarbu Państwa. Wody będące własnością Skarbu Państwa lub jednostek samorządu terytorialnego są uznawane za wody publiczne. Śródlądowe wody płynące, które są wodami publicznymi, nie podlegają obrotowi cywilnoprawnemu, z wyjątkiem sytuacji wyraźnie określonych w ustawie"
+    },
+    {
+      "id": 26,
+      "question": "Do kogo należy własność wysp, przymulisk i odsypów żwirowych powstałych naturalnie na gruntach pokrytych wodami powierzchniowymi?",
+      "answer": "Wyspy, przymuliska oraz odsypy żwirowe, powstałe wsposób naturalny na gruntach pokrytych wodami powierzchniowymi, stanowią własność właściciela tych gruntó"
+    },
+    {
+      "id": 27,
+      "question": "Na czym polega utzrzymywanie brzegu morskiego?",
+      "answer": "Utrzymywanie brzegu morskiego polega na budowie, utrzymywaniu i ochronie umocnień brzegowych oraz utrzymywaniu wydm i zalesień ochronnych w obrębie pasa technicznego"
+    },
+    {
+      "id": 28,
+      "question": "Kto może obejmować stanowisko Prezesa Wód Polskich?",
+      "answer": "Może to być osoba, która: posiada wykształcenie wyższe, jest obywatelem polskim, korzysta zpełni praw publicznych, nie była skazana prawomocnym wyrokiem za umyślne przestępstwo lub umyślne przestępstwo skarbowe, posiada co najmniej 6-letni staż pracy, wtym co najmniej 3-letni staż pracy na stanowisku kierowniczym w jednostkach sektora finansów publicznych, posiada wykształcenie iwiedzę zzakresu spraw należących do właściwości Wód Polskich"
+    },
+    {
+      "id": 29,
+      "question": "Jakie są stawki opłat zmiennych za pobór wód do celów wydobywania węgla kamiennego i brunatnego?",
+      "answer": "Za pobór wód w formie opłaty zmiennej, uzależnionej od ilości pobieranej wody w ramach pozwolenia wodnoprawnego lub pozwolenia zintegrowanego, obowiązują następujące stawki dla celów wydobywania węgla kamiennego i brunatnego (lignitu): 0,70 zł za każdy 1 m³ pobranych wód podziemnych oraz 0,35 zł za każdy 1 m³ pobranych wód powierzchniowych"
+    },
+    {
+      "id": 30,
+      "question": "Jak ustala się i ogłasza wysokość stawek opłaty podwyższonej za korzystanie z wód o których mowa w art. 291?",
+      "answer": "Stawki opłaty podwyższonej, o których mowa w art. 291 oraz w przepisach wydanych na podstawie art. 292 ust. 1, ustalone w roku poprzednim, podlegają corocznej zmianie odpowiadającej średniorocznemu wskaźnikowi cen towarów i usług konsumpcyjnych ogółem za rok poprzedni, ogłaszanemu przez Prezesa Głównego Urzędu Statystycznego w formie komunikatu w „Monitorze Polskim”. Ponadto minister właściwy do spraw gospodarki wodnej, nie później niż do 31 października każdego roku, ogłasza w drodze obwieszczenia w „Monitorze Polskim” wysokość tych stawek, które obowiązują od 1 stycznia roku następnego. Procedura ta zapewnia aktualizację stawek zgodnie ze zmianami cen i umożliwia planowanie korzystania z wód w kolejnych latach."
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+    "question": "Na czym polega utzrzymywanie brzegu morskiego?",
+    "system_answer": "Utrzymywanie brzegu morskiego polega na zachowaniu stanu dna lub brzegów oraz na remoncie lub konserwacji istniejących budowli regulacyjnych. Celem tych działań jest zapewnienie ochrony przed powodzią, usuwanie skutków powodzi, spływu lodu oraz przeciwdziałanie powstawaniu niekorzystnych zjawisk lodowych.",
+    "parent_ids": [
+        "d8470adc-ccd8-4240-b642-886c57697b37",
+        "89c20c59-ed2c-40f8-8c98-ae03b0e8267f",
+        "4bd7aad1-a0bc-4c35-b013-bdbdb9a34985"
+    ],
+    "child_ids": [
+        "31d4b0bb-2b70-45c4-94c9-c57d2dd298b3",
+        "10603f44-12ba-4992-b862-bc4611bd12e6",
+        "b0b30024-e58e-4ab2-a7b2-8c0e90865e95",
+        "dbdc3999-cc71-496d-83f8-98c0d33068e6",
+        "03ce6963-a9ab-49d3-b1e2-a6bc9e7176f7",
+        "1c90f0bc-808b-4a08-b5de-46049bcf61ef",
+        "c55ec853-220d-4472-bf13-d64fcf8ce2bf",
+        "b0e483f0-1f57-4e8d-80cb-4311661dc44d",
+        "46fcf0de-7bc3-4ab0-b635-cecf5bcb2449"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_parent",
+    "id": 27,
+    "reference": "Utrzymywanie brzegu morskiego polega na budowie, utrzymywaniu i ochronie umocnień brzegowych oraz utrzymywaniu wydm i zalesień ochronnych w obrębie pasa technicznego"
+}

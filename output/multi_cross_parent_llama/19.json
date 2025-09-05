@@ -1,0 +1,21 @@
+{
+    "question": "Kto ponosi koszty wykonania oraz kto odpowiada za utrzymanie dróg, urządzeń do przepędzania zwierząt i przejazdów przez wały przeciwpowodziowe?",
+    "system_answer": "Na podstawie dostępnych dokumentów, jednostki samorządu terytorialnego mogą ponosić koszty inwestycji prowadzonych na wodach stanowiących własność Skarbu Państwa, a także koszty inwestycji w zakresie urządzeń wodnych oraz koszty utrzymania tych wód lub urządzeń wodnych. Wysokość tych kosztów określa się w porozumieniu między właściwymi jednostkami samorządu terytorialnego a Wodami Polskimi. \n\nNie ma bezpośredniej wzmianki o kosztach wykonania i utrzymania dróg, urządzeń do przepędzania zwierząt i przejazdów przez wały przeciwpowodziowe w dostarczonych dokumentach. Jednakże, jeśli te elementy są częścią inwestycji wodnych, mogą być objęte podobnymi zasadami finansowania i utrzymania.",
+    "parent_ids": [
+        "8788949c-3f31-4228-b17a-694d53985b6c",
+        "f052f767-93df-4a37-9d1a-06e11d200615",
+        "73e4d424-d035-42fd-a3ae-389d94bb9fb8",
+        "ac134a05-7794-4350-94a7-3b215e541f2a",
+        "ddd35e02-fcd1-4437-b4f5-b8ef663eea7a",
+        "21893eb7-146b-4d7f-95cf-e35ad940a322",
+        "147026c6-53a3-490b-999e-74c3a79b749b",
+        "fd02302a-c6cb-4272-8985-dd93619bb545",
+        "564b9fe1-5732-43be-846f-f62ef44ff2dc",
+        "89c20c59-ed2c-40f8-8c98-ae03b0e8267f"
+    ],
+    "child_ids": [],
+    "retrival_tool": "db",
+    "mode": "multi_cross_parent_llama",
+    "id": 19,
+    "reference": "Koszty wykonania ponosi inwestor budujący wał, natomiast utrzymanie drogi, urządzeń lub przejazdu spoczywa na podmiocie, na którym ciąży obowiązek ich utrzymania."
+}

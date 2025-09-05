@@ -1,0 +1,24 @@
+{
+    "question": "Jakie zasady należy uwzględniać przy projektowaniu, wykonywaniu i utrzymywaniu urządzeń wodnych oraz co powinny umożliwiać budowle piętrzące?",
+    "system_answer": "Przy projektowaniu, wykonywaniu i utrzymywaniu urządzeń wodnych należy uwzględniać warunki umożliwiające korzystanie z wód, w tym utrzymywanie zwierciadła wody na poziomie umożliwiającym funkcjonowanie urządzeń wodnych, obiektów mostowych, rurociągów, linii energetycznych, linii telekomunikacyjnych oraz innych urządzeń. Dodatkowo, należy zapewnić odpowiedni stan techniczny i funkcjonalny tych urządzeń, co nie powinno uniemożliwić osiągnięcia celów środowiskowych określonych w odpowiednich artykułach ustawy.\n\nBudowle piętrzące powinny umożliwiać stałe lub okresowe piętrzenie wód powierzchniowych ponad przyległy teren lub naturalny poziom zwierciadła wód. Właściciel budowli piętrzącej o piętrzeniu powyżej 0,5 m jest zobowiązany do zapewnienia prowadzenia badań i pomiarów umożliwiających ocenę stanu technicznego oraz stanu bezpieczeństwa budowli, w tym stanu wód podziemnych, ich filtracji, wytrzymałości budowli oraz stanu urządzeń upustowych i umożliwiających migrację ryb.",
+    "parent_ids": [
+        "a1d88b12-41d5-4c75-b0df-76b360741806",
+        "58d2b484-932d-43f5-93d3-306a0ba028d5",
+        "7c33387d-d7d6-4a24-9f08-6b395761366f",
+        "202da66e-1594-4103-9add-ecd2dd1f26a5",
+        "98c13d6e-1968-4c77-baec-420bee98f257",
+        "0c5eed45-9412-4a33-a54d-744b103bc1e4",
+        "90fd68be-37cb-40a6-b940-1bad286b34c7",
+        "66eeac51-9b8d-4a03-859f-4c62411b2140",
+        "7cb06315-e0c1-4300-8c0c-baac30c53b70",
+        "5aef9e5e-3788-4f84-83b0-9162638e1b11",
+        "2066b657-bc4d-4d4d-8ddf-ec2b0a682d72",
+        "04368ebf-1fab-4acc-85f7-16a6f2e703f8",
+        "126f63bb-362d-487d-8fb6-2a2d036f410a"
+    ],
+    "child_ids": [],
+    "retrival_tool": "db",
+    "mode": "multi_cross_parent_llama",
+    "id": 21,
+    "reference": "Przy projektowaniu, wykonywaniu i utrzymywaniu urządzeń wodnych należy kierować się zasadą zrównoważonego rozwoju, dbać o dobry stan wód i ich biocenoz, realizować cele środowiskowe, zachować istniejącą rzeźbę terenu oraz biologiczne stosunki w środowisku wodnym i ekosystemach lądowych zależnych od wód, a budowle piętrzące powinny umożliwiać migrację ryb."
+}

@@ -1,0 +1,30 @@
+{
+    "question": "Na jakie wody dzielą się wody",
+    "system_answer": "Wody dzielą się na różne regiony wodne w zależności od obszaru dorzecza. Na przykład, na obszarze dorzecza Wisły wyróżnia się regiony wodne takie jak Mała Wisła, Górna-Zachodnia Wisła, Górna-Wschodnia Wisła, Narew, Bug, Środkowa Wisła i Dolna Wisła. Podobnie, na obszarze dorzecza Odry wyróżnia się regiony wodne Górnej Odry, Środkowej Odry, Dolnej Odry i Przymorza Zachodniego, Warty i Noteci. Inne dorzecza, takie jak Dniestr, Dunaj, Banówka, Łaba, Niemen, Pregoła i Świeża, również mają swoje odpowiednie regiony wodne. W ramach tych regionów wodnych wyodrębnia się zlewnie.",
+    "parent_ids": [
+        "e965ae28-a564-4c71-a80f-74041f1ba543",
+        "6edcac3a-143b-4d84-8051-f71e44904f5e",
+        "5aef9e5e-3788-4f84-83b0-9162638e1b11"
+    ],
+    "child_ids": [
+        "372d0eeb-6d5c-4140-8bea-d0352b3a803a",
+        "c4724e70-cc81-4227-98ae-b71b1e0cef99",
+        "bbb1356b-2be2-4608-b9d2-56b19aaaab13",
+        "135f3857-31a5-402c-92d1-3f41de017c30",
+        "36fbc489-7c95-45b2-9ba4-bede273824f4",
+        "87c690d0-70fe-49cb-924a-c166ed73d2b5",
+        "96726e83-e7cf-4535-8455-ee2030b370f2",
+        "bca217f9-9797-4d54-a821-6be11a88ed58",
+        "ae13ebac-23d4-4117-ae7b-1c2ef20e726d",
+        "bb380f72-7c26-4a24-a990-fc450a913b54",
+        "39758cc9-1a8e-44ce-94f6-35978bb25fbd",
+        "124f1e3c-1417-44ba-8665-c5e5a82ab399",
+        "6acfc477-dee4-43eb-ab08-37e57da13a0b",
+        "6b673a1d-9c51-4404-9552-ee6399d79930",
+        "f83563fe-3388-41f4-bfec-5540df35a1d9"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 5,
+    "reference": "Wody dzielą się na wody powierzchniowe i wody podziemne"
+}

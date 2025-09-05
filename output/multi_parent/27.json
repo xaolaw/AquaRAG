@@ -1,0 +1,26 @@
+{
+    "question": "Na czym polega utzrzymywanie brzegu morskiego?",
+    "system_answer": "Utrzymywanie brzegu morskiego polega na ustaleniu linii brzegu, co jest realizowane na wniosek podmiotu mającego interes prawny lub faktyczny. Właściwy terenowy organ administracji morskiej ustala linię brzegu dla morskich wód wewnętrznych oraz wód morza terytorialnego. Proces ten obejmuje dostarczenie projektu rozgraniczenia gruntów pokrytych wodami od gruntów przyległych, który zawiera opis, mapy oraz inne materiały niezbędne do ustalenia projektowanej linii brzegu. Decyzja w sprawie ustalenia linii brzegu jest doręczana wnioskodawcy oraz właścicielom gruntów przyległych ujawnionym w ewidencji gruntów i budynków. W przypadku nieznanych właścicieli lub braku ich danych, decyzja jest ogłaszana publicznie.",
+    "parent_ids": [
+        "7c33387d-d7d6-4a24-9f08-6b395761366f",
+        "ec026162-009a-49f4-b8d1-cce7259661ca",
+        "5c161d6a-227d-4af5-b64e-b4358927c301"
+    ],
+    "child_ids": [
+        "c55ec853-220d-4472-bf13-d64fcf8ce2bf",
+        "46fcf0de-7bc3-4ab0-b635-cecf5bcb2449",
+        "b0e483f0-1f57-4e8d-80cb-4311661dc44d",
+        "b0b30024-e58e-4ab2-a7b2-8c0e90865e95",
+        "11a68f27-4a46-4a8f-b3e0-b2060689f8af",
+        "03ce6963-a9ab-49d3-b1e2-a6bc9e7176f7",
+        "2de6db92-633f-4c68-a72e-809b059725d0",
+        "f826fe90-7299-497a-a8f5-f857e733c95e",
+        "1b973519-edad-4f4e-b6da-3deeda0e5920",
+        "dbdc3999-cc71-496d-83f8-98c0d33068e6",
+        "fa255ebe-4059-4f70-93f8-dfe36e1ac17b"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 27,
+    "reference": "Utrzymywanie brzegu morskiego polega na budowie, utrzymywaniu i ochronie umocnień brzegowych oraz utrzymywaniu wydm i zalesień ochronnych w obrębie pasa technicznego"
+}

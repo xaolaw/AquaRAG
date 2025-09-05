@@ -1,0 +1,26 @@
+{
+    "question": "Czego nie powinny zawierać ścieki wprowadzane do wód lub do ziem?",
+    "system_answer": "Ścieki wprowadzane do wód lub do ziemi nie powinny przekraczać najwyższych dopuszczalnych wartości wskaźników zanieczyszczeń albo powinny spełniać minimalny procent redukcji substancji zanieczyszczających określone dla równoważnej liczby mieszkańców aglomeracji.",
+    "parent_ids": [
+        "1ef06c9c-8f0c-4574-afc0-4c9e272e3773",
+        "66a3e4fc-bd78-4385-a07a-f8eb6c16487b",
+        "309d98c2-509e-4980-9674-06a9e983981c"
+    ],
+    "child_ids": [
+        "f7efb1e7-de01-45d5-ad3b-3adda09b124d",
+        "9a92efef-23ff-4a25-a27b-eff5792158c9",
+        "2199ad91-9b50-4a1d-b909-2fd1e6a8c3fb",
+        "49eee9bd-6b87-4e5a-871a-c9bc3a736c23",
+        "77df0f18-f8cd-4440-a04c-a0afd4d05384",
+        "a1944aa8-23a5-42a8-b2f1-b82d093f9849",
+        "94cef9b6-99d6-4381-9ca8-76473b05557e",
+        "eb65e735-7952-4d57-9fae-e7d0c7096944",
+        "bbffa74e-c4cc-4817-8b14-a6dc2b7b58ca",
+        "361f0cac-3ff2-4262-a6bd-8d5c916c8f39",
+        "7671b210-5b15-4b32-a0dc-4e3e3ce0fddd"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 13,
+    "reference": "Nie powinny zawierać: odpadów w rozumieniu art. 3 ust.1 pkt 6 ustawy z dnia 14 grudnia 2012r. o odpadach oraz zanieczyszczeń pływających, substancji priorytetowych określonych w przepisach wydanych na podstawie art. 114, chorobotwórczych drobnoustrojów pochodzących z obiektów, w których leczeni są chorzy na choroby zakaźne."
+}

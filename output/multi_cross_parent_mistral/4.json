@@ -1,0 +1,22 @@
+{
+    "question": "Jakie są organy właściwe w sprawach gospodarowania wodami?",
+    "system_answer": "Organy właściwe w sprawach gospodarowania wodami to:\n\n1. **Wody Polskie** - w zakresie określonym w art. 334 pkt 1–7 oraz 9–13.\n2. **Inspekcja Wodna w imieniu Wód Polskich** - w zakresie określonym w art. 334 pkt 1–7 oraz 9–13.\n3. **Dyrektorzy urzędów morskich** - w zakresie określonym w art. 334 pkt 6 w odniesieniu do pasa technicznego.\n4. **Minister właściwy do spraw gospodarki wodnej** - wykonuje kontrolę gospodarowania wodami w zakresie określonym w art. 334 pkt 1–7 oraz 9–13 w stosunku do Wód Polskich.\n\nDodatkowo, w strukturze Wód Polskich funkcje organów wyższego stopnia pełnią:\n- Prezes Wód Polskich,\n- Dyrektor regionalnego zarządu gospodarki wodnej Wód Polskich,\n- Dyrektor zarządu zlewni Wód Polskich,\n- Kierownik nadzoru wodnego Wód Polskich.\n\nKażdy z tych organów ma określone kompetencje i zakres działania w ramach zarządzania zasobami wodnymi.",
+    "parent_ids": [
+        "59e836b3-5a02-4e81-b92d-52932919d895",
+        "2066b657-bc4d-4d4d-8ddf-ec2b0a682d72",
+        "3922ef25-66ae-4678-82d5-6523754f3a10",
+        "9cd0c6e6-2d14-4fcf-b6e5-1b9f8421e692",
+        "62b5f8c0-f57b-44c3-ae1c-7b614bae43e2",
+        "6edcac3a-143b-4d84-8051-f71e44904f5e",
+        "46b14466-5936-48f2-895b-92f68b872b1e",
+        "67e0e33f-2a87-4de2-9e3b-5487bcfbe2a4",
+        "a6106aca-5f87-465a-a4b7-dddd06a1b7b8",
+        "8c85239e-c6bb-48a9-8b1b-bcf4fb25f817",
+        "68aa304b-a85b-4a91-8640-56dc53c57518"
+    ],
+    "child_ids": [],
+    "retrival_tool": "db",
+    "mode": "multi_cross_parent_mistral",
+    "id": 4,
+    "reference": "Organami właściwymi wsprawach gospodarowania wodami są: minister właściwy do spraw gospodarki wodnej; minister właściwy do spraw żeglugi śródlądowej; Prezes Wód Polskich; dyrektor regionalnego zarządu gospodarki wodnej Wód Polskich; dyrektor zarządu zlewni Wód Polskich; kierownik nadzoru wodnego Wód Polskich; dyrektor urzędu morskiego; wojewoda; starosta; wójt, burmistrz lub prezydent miasta."
+}

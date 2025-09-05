@@ -1,0 +1,26 @@
+{
+    "question": "Co powinien zawierać plan przeciwdziałania skutkom suszy?",
+    "system_answer": "Plan przeciwdziałania skutkom suszy powinien zawierać:\n\n1. Projekt planu przeciwdziałania skutkom suszy oraz jego aktualizacje.\n2. Działania służące zrównoważonemu gospodarowaniu wodami, w tym osiągnięciu celów środowiskowych.\n3. Nadzór nad planowaniem i realizacją zadań związanych z utrzymaniem wód i mienia Skarbu Państwa związanego z gospodarką wodną.\n4. Nadzór nad planowaniem i realizacją przedsięwzięć związanych z odbudową ekosystemów zdegradowanych przez eksploatację zasobów wodnych.\n5. Wsparcie finansowe i rzeczowe dla jednostek samorządu terytorialnego w zakresie zapewnienia możliwości korzystania z zasobów wodnych.\n\nPlan ten powinien być częścią szerszego systemu zarządzania wodami, uwzględniającym również ochronę przed powodzią i inne aspekty gospodarki wodnej.",
+    "parent_ids": [
+        "338573e4-48af-463d-8fa6-0f681726024c",
+        "21893eb7-146b-4d7f-95cf-e35ad940a322",
+        "6aaab510-740c-487c-a0db-6f15cff43328"
+    ],
+    "child_ids": [
+        "d3d77997-729e-45ce-8677-b9f83d476b43",
+        "30a9d8fc-948c-41d9-a427-86df34cd1a4d",
+        "5ab54e5c-2e47-4c31-8e15-ade53ed2f209",
+        "cb858d39-14f4-4985-b254-457b0388954e",
+        "5f7bd090-24a1-47a5-b6ea-20ad27b319dd",
+        "3278cc59-1466-49e5-af2d-968e98f89343",
+        "41604303-9252-4d1e-bdac-8573b3270dfe",
+        "92bd1c94-a1c5-434a-82d6-c811e58d0294",
+        "9da9b11b-86e6-486f-bb4a-4998005b5e5b",
+        "3e11325f-a8ad-475e-8ddf-a176ed43e399",
+        "d9764aee-1304-42ce-83db-a2b8427400a9"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_parent",
+    "id": 20,
+    "reference": "Plan przeciwdziałania skutkom suszy powinien zawierać analizę możliwości powiększenia dyspozycyjnych zasobów wodnych, propozycje budowy lub przebudowy urządzeń wodnych, propozycje niezbędnych zmian w korzystaniu z zasobów wodnych oraz zmian naturalnej i sztucznej retencji, a także działania służące przeciwdziałaniu skutkom suszy"
+}

@@ -1,0 +1,28 @@
+{
+    "question": "Czemu służy powszechne korzystanie z wód?",
+    "system_answer": "Powszechne korzystanie z wód służy umożliwieniu dostępu do wód w sposób, który pozwala na ich ogólne użytkowanie przez społeczeństwo. Oznacza to, że wody są dostępne dla wszystkich w celach rekreacyjnych, gospodarczych czy innych, zgodnie z przepisami prawa wodnego. W kontekście dokumentu, powszechne korzystanie z wód jest związane z zapewnieniem dostępu do wód w sposób umożliwiający ich użytkowanie przez ogół społeczeństwa, co jest regulowane przez odpowiednie przepisy prawne.",
+    "parent_ids": [],
+    "child_ids": [
+        "7344aad2-8664-499e-adba-412a51794c27",
+        "0d02613e-13dd-414b-b4ec-eed26a0683fd",
+        "a674335b-d468-49a5-9a96-04a8b88227c0",
+        "37bd211f-4210-41b6-8b26-00fd1e3d7374",
+        "e3d9b1b0-07bb-48ae-9cf0-8bfbda60e258",
+        "4ff9df7b-66bb-4fef-8578-40524089749d",
+        "79a7f7ab-751e-48f3-821d-f2397dfbd557",
+        "d58598d0-5717-48d4-92c1-5cf251433f38",
+        "56f2b6c1-8380-4e8a-8045-6ce92abea3a4",
+        "e779430f-ae90-4491-848e-05dfacabb858",
+        "4edc2c83-255a-473f-8640-d2b7fc54c67e",
+        "c38c81bc-ff62-4706-8eac-dab828f5c2e8",
+        "d4d2ef24-505b-47ce-8d27-c8c88bb02e11",
+        "c80d2c95-1444-440e-a5e1-5a7b8ee49526",
+        "c8c06536-8ca4-4960-b5e9-1ace03dd3aff",
+        "26c08a44-7bb2-4228-9859-13f3c56739b3",
+        "f922df88-0b5d-421d-a66a-cd467702a125"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_retriver",
+    "id": 7,
+    "reference": "Powszechne korzystanie z wód służy do zaspokajania potrzeb osobistych, gospodarstwa domowego lub rolnego, bez stosowania specjalnych urządzeń technicznych, a także do wypoczynku, uprawiania turystyki, sportów wodnych oraz, na zasadach określonych w przepisach odrębnych, amatorskiego połowu ryb."
+}

@@ -1,0 +1,28 @@
+{
+    "question": "Kto ponosi koszty wykonania oraz kto odpowiada za utrzymanie dróg, urządzeń do przepędzania zwierząt i przejazdów przez wały przeciwpowodziowe?",
+    "system_answer": "Na podstawie dostępnych dokumentów, koszty wykonania oraz utrzymania dróg, urządzeń do przepędzania zwierząt i przejazdów przez wały przeciwpowodziowe nie są bezpośrednio wymienione. Jednakże, ogólnie za koszty inwestycji i utrzymania urządzeń wodnych mogą odpowiadać jednostki samorządu terytorialnego, które mogą ponosić koszty inwestycji prowadzonych na wodach stanowiących własność Skarbu Państwa oraz koszty utrzymania tych wód lub urządzeń wodnych. Wysokość tych kosztów określa się w porozumieniu z Wodami Polskimi. \n\nDodatkowo, właściciel lub zarządca wału przeciwpowodziowego jest odpowiedzialny za wprowadzenie czasowego zakazu poruszania się po wałach w przypadku zagrożeń oraz za oznaczenie wału informacjami o zakazie. \n\nNie ma jednak bezpośredniej wzmianki o odpowiedzialności za drogi, urządzenia do przepędzania zwierząt i przejazdy przez wały przeciwpowodziowe w kontekście kosztów wykonania i utrzymania.",
+    "parent_ids": [
+        "6aa9327e-b63a-4287-a94e-f11bcbf6177b",
+        "f052f767-93df-4a37-9d1a-06e11d200615",
+        "c2e18c87-5a09-4f20-a306-22865f21d117"
+    ],
+    "child_ids": [
+        "0b9cc3b3-025c-4266-bf88-e57228ca433c",
+        "df014a37-af9f-4cdc-acf9-834b34b3d3e3",
+        "1aca7d3d-f32d-49ba-bcf9-5b14648b6e11",
+        "59fe6f9e-78d6-4b1d-95ca-3efbd9021af5",
+        "449015d3-652d-4a08-944f-b21edbf7ce95",
+        "b83ae657-4772-4dd8-8986-433f4af087bf",
+        "abfeab4e-2d25-4add-8212-1fbbd34f1973",
+        "fa255ebe-4059-4f70-93f8-dfe36e1ac17b",
+        "53260981-bb4a-45d0-a063-c53ffd210e75",
+        "6fa84cc6-ab27-4019-a939-64a0aa7f3d52",
+        "64a959b0-dbf9-4a5a-a756-44b9060a1a76",
+        "33245c7c-2dbf-46fb-a636-657432bfdf2b",
+        "b18d7859-207d-4e96-ab1a-408ea72ce01f"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_parent",
+    "id": 19,
+    "reference": "Koszty wykonania ponosi inwestor budujący wał, natomiast utrzymanie drogi, urządzeń lub przejazdu spoczywa na podmiocie, na którym ciąży obowiązek ich utrzymania."
+}

@@ -1,0 +1,21 @@
+{
+    "question": "Jakie są organy właściwe w sprawach gospodarowania wodami?",
+    "system_answer": "Organy właściwe w sprawach gospodarowania wodami to:\n\n1. Wody Polskie - odpowiedzialne za opracowywanie planów gospodarowania wodami na obszarze dorzecza oraz uzgadnianie ich z ministrem właściwym do spraw żeglugi śródlądowej i gospodarki wodnej.\n2. Inspekcja Ochrony Środowiska oraz państwowy monitoring środowiska - w zakresie części wód powierzchniowych.\n3. Spółki wodne oraz właściwi starostowie - w zakresie spółek wodnych.\n4. Związki spółek wodnych oraz właściwi wojewodowie - w zakresie związków spółek wodnych.\n5. Państwowa Inspekcja Sanitarna - wykonuje kontrolę gospodarowania wodami w określonym zakresie.\n6. Minister właściwy do spraw gospodarki wodnej - nadzoruje Wody Polskie i tworzy warunki dla wykorzystania wód w różnych celach, takich jak energetyczne, transportowe, rybackie, turystyczne, sportowe oraz rekreacyjne.",
+    "parent_ids": [],
+    "child_ids": [
+        "b462e4aa-3ace-4f8f-b041-e42e2ba75431",
+        "d2ea023d-87a6-4ce5-920a-bc586e88ec93",
+        "273e7447-37ba-4869-833a-deec48fe45c9",
+        "8ba81f34-9f36-4283-8633-500476d1cb87",
+        "c2b9ed2e-0b90-4e02-a552-53825d49024f",
+        "8cca1e9f-f4c4-4606-b542-cea445bdc0c8",
+        "191c9aad-c7c3-462d-abbd-58a496d6a198",
+        "b093eac7-fe20-41c2-be93-bd03fe7c0d60",
+        "e2fc4810-e2ff-44c2-bd2a-30ce1b8c871c",
+        "baec882c-6ef7-416f-a7bc-a5190b8319e3"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_retriver",
+    "id": 4,
+    "reference": "Organami właściwymi wsprawach gospodarowania wodami są: minister właściwy do spraw gospodarki wodnej; minister właściwy do spraw żeglugi śródlądowej; Prezes Wód Polskich; dyrektor regionalnego zarządu gospodarki wodnej Wód Polskich; dyrektor zarządu zlewni Wód Polskich; kierownik nadzoru wodnego Wód Polskich; dyrektor urzędu morskiego; wojewoda; starosta; wójt, burmistrz lub prezydent miasta."
+}

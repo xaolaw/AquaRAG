@@ -1,0 +1,24 @@
+{
+    "question": "Czego nie powinny zawierać ścieki wprowadzane do wód lub do ziem?",
+    "system_answer": "Ścieki wprowadzane do wód lub do ziemi nie powinny zawierać substancji szczególnie szkodliwych dla środowiska wodnego, które są toksyczne, trwałe oraz zdolne do bioakumulacji. Dodatkowo, nie powinny zawierać substancji, które mogą być niezgodne z warunkami określonymi w przepisach dotyczących ochrony przyrody, stref ochrony zwierząt łownych, ostoi, stref ochronnych ujęć wody oraz obszarów ochronnych zbiorników wód śródlądowych. Ścieki nie powinny również zawierać substancji, które mogłyby zanieczyścić wody podziemne, ani być wprowadzane w odległości mniejszej niż 1 kilometr od granic kąpielisk, miejsc okazjonalnie wykorzystywanych do kąpieli oraz plaż publicznych nad wodami.",
+    "parent_ids": [
+        "6b0bfd9b-f788-44fa-9417-6b5994d7b487",
+        "19395ccd-3aee-42bc-a76e-c9abde84c413",
+        "de263d10-7ccf-408d-9688-731134fa25a1",
+        "22826b23-18df-49bc-8218-b8d5fd044471",
+        "b7e02926-0a0d-441e-ad4e-eea67d314f13",
+        "fa82a265-c083-4fce-bbe1-776a8050a926",
+        "98c13d6e-1968-4c77-baec-420bee98f257",
+        "996a86cd-f1de-4dc8-938b-86bd19d5e486",
+        "590f64fd-a9f2-476f-996a-f382a99c494e",
+        "23cd37dc-c20c-465f-a060-c2a3ea5eeabb",
+        "1072c8a8-67b0-4f53-a501-f84ef42c6a15",
+        "f8808fbe-2d05-412c-9b8b-63454af74487",
+        "08441e10-a6b7-41c9-ab82-ddd940dcff6a"
+    ],
+    "child_ids": [],
+    "retrival_tool": "db",
+    "mode": "multi_cross_parent_mistral",
+    "id": 13,
+    "reference": "Nie powinny zawierać: odpadów w rozumieniu art. 3 ust.1 pkt 6 ustawy z dnia 14 grudnia 2012r. o odpadach oraz zanieczyszczeń pływających, substancji priorytetowych określonych w przepisach wydanych na podstawie art. 114, chorobotwórczych drobnoustrojów pochodzących z obiektów, w których leczeni są chorzy na choroby zakaźne."
+}

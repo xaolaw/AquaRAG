@@ -1,0 +1,17 @@
+{
+    "question": "Jaki jest cel środowiskowy dla obszarów chronionych?",
+    "system_answer": "Celem środowiskowym dla obszarów chronionych jest utrzymanie lub poprawa stanu wód, co jest ważnym czynnikiem w ochronie siedlisk lub gatunków. Obszary te obejmują jednolite części wód przeznaczone do poboru wody na potrzeby zaopatrzenia ludności, wody przeznaczone do celów rekreacyjnych, obszary wrażliwe na eutrofizację oraz obszary przeznaczone do ochrony siedlisk lub gatunków.",
+    "parent_ids": [
+        "74265819-f3eb-49ce-a49d-4fdb6f27b24e",
+        "d397355e-07b1-4fb9-92f6-264065b4c799",
+        "76b5f57f-aa06-4a79-88af-f0f82067eb1f",
+        "ac7dcaee-39ad-4e3e-8d76-76f56af068d0",
+        "6b0bfd9b-f788-44fa-9417-6b5994d7b487",
+        "9ebe8482-cabf-4aa6-b332-7ca290b6cf84"
+    ],
+    "child_ids": [],
+    "retrival_tool": "db",
+    "mode": "multi_cross_parent_mistral",
+    "id": 11,
+    "reference": "Osiągnięcie norm i celów wynikających z przepisów, na podstawie których obszary chronione zostały utworzone, ustanowione lub regulowane, o ile przepisy te nie przewidują odmiennych uregulowań."
+}

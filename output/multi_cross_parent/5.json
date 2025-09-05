@@ -1,0 +1,26 @@
+{
+    "question": "Na jakie wody dzielą się wody",
+    "system_answer": "Wody dzielą się na wody podziemne oraz wody opadowe lub roztopowe. Wody podziemne to wszystkie wody znajdujące się pod powierzchnią ziemi w strefie nasycenia, w tym wody gruntowe pozostające w bezpośredniej styczności z gruntem lub podglebiem. Wody opadowe lub roztopowe to wody będące skutkiem opadów atmosferycznych.",
+    "parent_ids": [
+        "62b5f8c0-f57b-44c3-ae1c-7b614bae43e2",
+        "5fea6e93-9c6e-44f5-a96a-a879f2fcd253",
+        "31be10e8-fdec-43f5-9909-9391581a58eb"
+    ],
+    "child_ids": [
+        "36fbc489-7c95-45b2-9ba4-bede273824f4",
+        "39758cc9-1a8e-44ce-94f6-35978bb25fbd",
+        "124f1e3c-1417-44ba-8665-c5e5a82ab399",
+        "bb380f72-7c26-4a24-a990-fc450a913b54",
+        "6b673a1d-9c51-4404-9552-ee6399d79930",
+        "ae13ebac-23d4-4117-ae7b-1c2ef20e726d",
+        "f83563fe-3388-41f4-bfec-5540df35a1d9",
+        "96726e83-e7cf-4535-8455-ee2030b370f2",
+        "190d8511-3082-4e9a-8a46-3a0207e80993",
+        "bca217f9-9797-4d54-a821-6be11a88ed58",
+        "98e90414-90b2-4e61-9dcc-64d56b89a054",
+        "422e88a2-e526-45ab-998a-4918bdd9fdfc"
+    ],
+    "retrival_tool": "db",
+    "id": 5,
+    "reference": "Wody dzielą się na wody powierzchniowe i wody podziemne"
+}

@@ -1,0 +1,22 @@
+{
+    "question": "Jak realizuje się ochronę przed powodzią",
+    "system_answer": "Ochrona przed powodzią realizuje się w szczególności przez:\n\n1. Kształtowanie zagospodarowania przestrzennego dolin rzecznych lub terenów zalewowych, zwłaszcza obszarów szczególnego zagrożenia powodzią.\n2. Racjonalne retencjonowanie wód oraz użytkowanie budowli przeciwpowodziowych, a także sterowanie przepływami wód.\n3. Zapewnienie funkcjonowania systemu wczesnego ostrzegania przed niebezpiecznymi zjawiskami zachodzącymi w atmosferze i hydrosferze oraz prognozowanie powodzi.\n4. Zachowanie, tworzenie i odtwarzanie systemów retencji wód.\n5. Budowę, przebudowę i utrzymywanie budowli przeciwpowodziowych.\n6. Prowadzenie akcji lodołamania.\n7. Prowadzenie polityki informacyjnej w zakresie ochrony przed powodzią oraz ograniczania jej skutków.\n\nDodatkowo, wojewodowie są odpowiedzialni za wyposażanie i utrzymywanie wojewódzkich magazynów przeciwpowodziowych.",
+    "parent_ids": [
+        "15f561f6-95a7-4535-bb32-acc861aa59a4",
+        "2f971ff0-89da-4d8d-8d46-4691ca1f9cfe",
+        "a1d88b12-41d5-4c75-b0df-76b360741806"
+    ],
+    "child_ids": [
+        "c5c56ae6-6fd7-499f-aaa0-12fc95ba3ac3",
+        "74c3469f-006e-4621-8ae3-3c87b35140d4",
+        "fa5d683d-14db-488e-8181-3aa096069217",
+        "f9924761-2c81-490c-a8d5-a579d7fa0fb6",
+        "64a959b0-dbf9-4a5a-a756-44b9060a1a76",
+        "00d8ac6b-6d00-44c2-b77a-7b5a2f576e06",
+        "54fff455-b716-4532-aa32-ed9eabdd598c"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 17,
+    "reference": "Ochronę przed powodzią realizuje się poprzez kształtowanie zagospodarowania przestrzennego dolin rzecznych i terenów zalewowych, racjonalne retencjonowanie wód i użytkowanie budowli przeciwpowodziowych, sterowanie przepływami, funkcjonowanie systemu wczesnego ostrzegania i prognozowanie powodzi, zachowanie, tworzenie i odtwarzanie systemów retencji, budowę, przebudowę i utrzymywanie budowli przeciwpowodziowych, prowadzenie akcji lodołamania oraz polityki informacyjnej w zakresie ochrony przed powodzią i ograniczania jej skutków."
+}

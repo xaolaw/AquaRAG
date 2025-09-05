@@ -1,0 +1,23 @@
+{
+    "question": "Jak realizuje się ochronę przed powodzią",
+    "system_answer": "Ochronę przed powodzią realizuje się poprzez:\n\n1. Kształtowanie zagospodarowania przestrzennego dolin rzecznych lub terenów zalewowych, szczególnie obszarów szczególnego zagrożenia powodzią.\n2. Racjonalne retencjonowanie wód oraz użytkowanie budowli przeciwpowodziowych, a także sterowanie przepływami wód.\n3. Zapewnienie funkcjonowania systemu wczesnego ostrzegania przed niebezpiecznymi zjawiskami atmosferycznymi i hydrosferycznymi oraz prognozowanie powodzi.\n4. Zachowanie, tworzenie i odtwarzanie systemów retencji wód.\n5. Uwzględnianie wszystkich elementów zarządzania ryzykiem powodziowym, w tym zapobieganie, ochronę, stan należytego przygotowania i reagowanie w przypadku wystąpienia powodzi, usuwanie skutków powodzi, odbudowę i wyciąganie wniosków w celu ograniczania potencjalnych negatywnych skutków powodzi dla zdrowia ludzi, środowiska, dziedzictwa kulturowego oraz działalności gospodarczej.",
+    "parent_ids": [],
+    "child_ids": [
+        "e21b3e9d-8a1f-4a64-a3a3-055030428068",
+        "5c4efa70-d585-4ec7-8c63-37af7c5f28f4",
+        "8a8dbcb4-b2a7-4811-838a-aa2027c0ced8",
+        "920cff05-d784-4aad-956e-3c182b037fc3",
+        "f701b229-c8dc-488d-ae1a-665bcdb324d3",
+        "442d5fc3-8810-47a8-b24b-874d147a959c",
+        "95a9cc26-6611-4da6-98e8-dcf4afb1016a",
+        "0193c32e-19f6-45ec-9456-f43685497509",
+        "c948c6c1-3b40-4d63-be99-da8cd1aea522",
+        "efa4573a-59e3-484d-a6b3-5e5a0c7b9223",
+        "021ad4f1-2086-439d-97c0-1bf12fd157dc",
+        "bfa817d8-7e6b-405d-8c19-3f2bccfe5e6f"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_retriver",
+    "id": 17,
+    "reference": "Ochronę przed powodzią realizuje się poprzez kształtowanie zagospodarowania przestrzennego dolin rzecznych i terenów zalewowych, racjonalne retencjonowanie wód i użytkowanie budowli przeciwpowodziowych, sterowanie przepływami, funkcjonowanie systemu wczesnego ostrzegania i prognozowanie powodzi, zachowanie, tworzenie i odtwarzanie systemów retencji, budowę, przebudowę i utrzymywanie budowli przeciwpowodziowych, prowadzenie akcji lodołamania oraz polityki informacyjnej w zakresie ochrony przed powodzią i ograniczania jej skutków."
+}

@@ -1,0 +1,16 @@
+{
+    "question": "Kto sporządza projekty map zagrożenia powodziowego i map ryzyka powodziowego oraz jak wygląda procedura w odniesieniu do morskich wód wewnętrznych?",
+    "system_answer": "Projekty map zagrożenia powodziowego oraz map ryzyka powodziowego sporządzają Wody Polskie w uzgodnieniu z właściwymi wojewodami. W odniesieniu do morskich wód wewnętrznych, projekty te przygotowują dyrektorzy urzędów morskich i przekazują je Wodom Polskim nie później niż na 6 miesięcy przed terminem przygotowania map zagrożenia powodziowego oraz map ryzyka powodziowego.",
+    "parent_ids": [
+        "bbff79cb-7730-40a4-a8da-c53a04033a18",
+        "2aa4e228-c004-43a8-9c37-9bd9ad32bc79",
+        "ce59c66f-f2f6-4ea7-87be-24819289dea9",
+        "30c50142-672a-4b8a-8d17-6fac4f71fe73",
+        "d4ed33d9-da19-424d-baa6-66d5ced95430"
+    ],
+    "child_ids": [],
+    "retrival_tool": "db",
+    "mode": "multi_cross_parent_llama",
+    "id": 18,
+    "reference": "Projekty map zagrożenia powodziowego i map ryzyka powodziowego sporządzają Wody Polskie w uzgodnieniu z właściwymi wojewodami. Projekty map od strony morza, w tym morskich wód wewnętrznych, przygotowują dyrektorzy urzędów morskich i przekazują je Wodom Polskim co najmniej 6 miesięcy przed terminem przygotowania map zagrożenia powodziowego i map ryzyka powodziowego. Mapy od strony morza stanowią integralny element projektów map zagrożenia powodziowego i map ryzyka powodziowego."
+}

@@ -1,0 +1,21 @@
+{
+    "question": "Czego nie powinny zawierać ścieki wprowadzane do wód lub do ziem?",
+    "system_answer": "Ścieki wprowadzane do wód lub do ziemi nie powinny zawierać substancji w ilościach przekraczających wartości ustalone w warunkach wprowadzania ścieków do wód określonych w pozwoleniu wodnoprawnym. W szczególności, nie powinny zawierać substancji szczególnie szkodliwych dla środowiska wodnego, które powodują zanieczyszczenie wód i powinny być eliminowane lub ograniczane. Ponadto, zakazuje się rozcieńczania ścieków w celu uzyskania ich stanu zgodnego z przepisami.",
+    "parent_ids": [],
+    "child_ids": [
+        "e109b142-766a-4471-9f71-db01bb273f91",
+        "65336f23-edbb-4a10-bdf6-f897a699f7de",
+        "97d8799e-c7f8-488d-a4be-c704d306b3c8",
+        "d712ce11-d1d6-4a01-863f-82bcedbd9c03",
+        "e7cb477c-d324-4f51-84bc-2de07fe391e2",
+        "8038bbba-bea8-4262-a37d-5684a9c4fca2",
+        "202d10ae-0499-4e59-a4c5-4aba625adf18",
+        "1d0328a0-71b3-45cc-a3f4-3cda0f77adfb",
+        "dedade5e-c859-48d0-91d6-9ddf7503a9ae",
+        "8ff71091-156f-4f43-8d2b-f56f446c8b66"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_retriver",
+    "id": 13,
+    "reference": "Nie powinny zawierać: odpadów w rozumieniu art. 3 ust.1 pkt 6 ustawy z dnia 14 grudnia 2012r. o odpadach oraz zanieczyszczeń pływających, substancji priorytetowych określonych w przepisach wydanych na podstawie art. 114, chorobotwórczych drobnoustrojów pochodzących z obiektów, w których leczeni są chorzy na choroby zakaźne."
+}

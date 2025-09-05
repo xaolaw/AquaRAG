@@ -1,0 +1,22 @@
+{
+    "question": "Jakie zasady należy uwzględniać przy projektowaniu, wykonywaniu i utrzymywaniu urządzeń wodnych oraz co powinny umożliwiać budowle piętrzące?",
+    "system_answer": "Przy projektowaniu, wykonywaniu oraz utrzymywaniu urządzeń wodnych należy kierować się zasadą zrównoważonego rozwoju, koniecznością osiągnięcia dobrego stanu wód i charakterystycznych dla nich biocenoz, koniecznością osiągnięcia celów środowiskowych oraz potrzebą zachowania istniejącej rzeźby terenu oraz biologicznych stosunków w środowisku wodnym i ekosystemach lądowych.\n\nBudowle piętrzące powinny umożliwiać stałe lub okresowe piętrzenie wód powierzchniowych ponad przyległy teren lub naturalny poziom zwierciadła wód.",
+    "parent_ids": [],
+    "child_ids": [
+        "5c4efa70-d585-4ec7-8c63-37af7c5f28f4",
+        "9d32b3c7-6cd0-46cc-8997-50883ad420ae",
+        "a5c55435-8b94-4e4c-8065-11cf71f3ab4f",
+        "6cfa3f0f-3b2b-41b5-ad16-7bd49456a975",
+        "8db0dabf-ec3a-4762-acc3-681a4fd5dd4b",
+        "e4d264b3-cc87-4fc8-bbfc-502c38bc65cf",
+        "127719be-ed39-47f2-96e7-47fef6330b61",
+        "419d5524-7a6d-4165-9a43-6a67553a3163",
+        "3a2fa8ef-a124-499b-92bf-e860c9aa9069",
+        "6d8b992e-30c0-4d0e-9d0d-c746a9558407",
+        "fbafd04e-a4e7-4864-a0fc-3daf348de86f"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_retriver",
+    "id": 21,
+    "reference": "Przy projektowaniu, wykonywaniu i utrzymywaniu urządzeń wodnych należy kierować się zasadą zrównoważonego rozwoju, dbać o dobry stan wód i ich biocenoz, realizować cele środowiskowe, zachować istniejącą rzeźbę terenu oraz biologiczne stosunki w środowisku wodnym i ekosystemach lądowych zależnych od wód, a budowle piętrzące powinny umożliwiać migrację ryb."
+}

@@ -1,0 +1,24 @@
+{
+    "question": "Na jakie wody dzielą się wody",
+    "system_answer": "Wody dzielą się na różne kategorie, w tym:\n\n1. **Wody powierzchniowe** - obejmują wody płynące, takie jak rzeki i strumienie, oraz wody stojące, takie jak jeziora i stawy.\n2. **Wody podziemne** - znajdują się pod powierzchnią ziemi w warstwach wodonośnych.\n3. **Wody graniczne** - to wody, którymi przebiega granica państwa lub które są przecięte granicą państwa.\n\nDodatkowo, w kontekście prawa wodnego, wody mogą być klasyfikowane na podstawie ich stanu ekologicznego, ilościowego i chemicznego.",
+    "parent_ids": [
+        "5aef9e5e-3788-4f84-83b0-9162638e1b11",
+        "288135e8-16a9-431b-aa36-71a73559353a",
+        "62b5f8c0-f57b-44c3-ae1c-7b614bae43e2"
+    ],
+    "child_ids": [
+        "bbb1356b-2be2-4608-b9d2-56b19aaaab13",
+        "135f3857-31a5-402c-92d1-3f41de017c30",
+        "36fbc489-7c95-45b2-9ba4-bede273824f4",
+        "8e80776d-f391-4ff1-9c49-b1adadb1346c",
+        "bb380f72-7c26-4a24-a990-fc450a913b54",
+        "39758cc9-1a8e-44ce-94f6-35978bb25fbd",
+        "64d9d4a0-b11a-4806-a025-735ec851868c",
+        "f5fde807-f3ba-4c50-9420-ec6d0cd5dff7",
+        "bca217f9-9797-4d54-a821-6be11a88ed58"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 5,
+    "reference": "Wody dzielą się na wody powierzchniowe i wody podziemne"
+}

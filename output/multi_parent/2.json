@@ -1,0 +1,23 @@
+{
+    "question": "Jakie są urządzenia melioracji wodnych? Ile ich jest?",
+    "system_answer": "Urządzenia melioracji wodnych to infrastruktura służąca do regulacji stosunków wodnych na gruntach, co ma na celu poprawę ich wartości użytkowej. Dokument, który posiadasz, nie precyzuje dokładnie, ile jest takich urządzeń ani jakie są ich konkretne rodzaje. Zazwyczaj jednak urządzenia melioracyjne obejmują rowy melioracyjne, drenaże, kanały, przepusty, stawy retencyjne i inne konstrukcje służące do odprowadzania nadmiaru wody lub nawadniania terenów. Aby uzyskać dokładną listę i liczbę urządzeń melioracyjnych, należałoby sięgnąć do bardziej szczegółowych przepisów lub dokumentacji technicznej dotyczącej melioracji wodnych.",
+    "parent_ids": [
+        "9e19d3ca-39aa-421b-ac99-bf6e0bba4d87",
+        "66eeac51-9b8d-4a03-859f-4c62411b2140",
+        "fb61eef2-431f-48e2-ae43-7aa6d4416a40"
+    ],
+    "child_ids": [
+        "da8faba5-cb02-488d-a152-e8e39bc6e9c1",
+        "c21bad5c-8d4d-4ae0-a6a3-95a23a7984ed",
+        "a9182347-2d4f-43ed-a2c7-f3fb5051eaf8",
+        "c70b79c8-32d2-4fdf-9c79-f1eee2327ecd",
+        "6297c383-d8c4-4e4a-b856-cff8e0cf6e0e",
+        "84774166-2ced-4937-af61-e5641da82606",
+        "63824e6a-5b8c-4c45-bb94-67f7cc2e76d5",
+        "7a04dd9b-4501-40bb-95b7-c6a1266ef21a"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 2,
+    "reference": "Urządzeniami melioracji wodnych są: rowy wraz z budowlami związanymi z nimi funkcjonalnie, drenowania, rurociągi, stacje pomp służące wyłącznie do celów rolniczych, ziemne stawy rybne, groble na obszarach nawadnianych, systemy nawodnień grawitacyjnych, systemy nawodnień ciśnieniowych. Takich urządzeń jest 8"
+}

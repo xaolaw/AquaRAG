@@ -1,0 +1,24 @@
+{
+    "question": "Jaki minimalny poziom jakości powinny osiągnąć wody powierzchniowe zgodnie z celem środowiskowym?",
+    "system_answer": "Minimalny poziom jakości, jaki powinny osiągnąć wody powierzchniowe zgodnie z celem środowiskowym, nie jest bezpośrednio określony w podanych fragmentach dokumentu. Jednakże, celem środowiskowym jest ochrona wód powierzchniowych przed zanieczyszczeniem, co obejmuje ograniczanie emisji zanieczyszczeń do wód oraz zapewnienie, że wprowadzanie ścieków nie koliduje z celami środowiskowymi dla wód lub wymaganiami jakościowymi dla wód. W praktyce oznacza to, że wody powierzchniowe powinny osiągnąć taki poziom jakości, który nie zagraża życiu lub zdrowiu ludzi ani nie powoduje poważnych szkód w środowisku.",
+    "parent_ids": [
+        "c6e6f1e0-8820-4c05-b081-ec3c3b623fd5",
+        "eefba7e7-99cb-405b-8bca-42d320e7f2c7",
+        "fa82a265-c083-4fce-bbe1-776a8050a926"
+    ],
+    "child_ids": [
+        "6acfc477-dee4-43eb-ab08-37e57da13a0b",
+        "29541045-18de-4753-a840-dc3e5dfa41d9",
+        "c970a27a-6697-4047-9068-a3035b6daa44",
+        "b8975cfa-0630-4b63-b22b-3c577cf9dbc7",
+        "0a488f10-50c1-42bb-bcb8-3eaa089867a6",
+        "49bef88e-e3d9-4d4b-b57e-7f9db36bd910",
+        "52e02e2e-b24b-4615-851e-98fc34b671bb",
+        "ea3584ba-33b9-4437-9fe9-377581f7539b",
+        "de77bed9-39bd-4d63-acec-a21e6aa54fd5"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_parent",
+    "id": 10,
+    "reference": "Co najmniej dobry stan ekologiczny i dobry stan chemiczny."
+}

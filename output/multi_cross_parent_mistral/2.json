@@ -1,0 +1,19 @@
+{
+    "question": "Jakie są urządzenia melioracji wodnych? Ile ich jest?",
+    "system_answer": "Urządzeniami melioracji wodnych są:\n\n1. Rowy wraz z budowlami związanymi z nimi funkcjonalnie,\n2. Drenowania,\n3. Rurociągi,\n4. Stacje pomp służące wyłącznie do celów rolniczych,\n5. Ziemne stawy rybne,\n6. Groble na obszarach nawadnianych,\n7. Systemy nawodnień grawitacyjnych,\n8. Systemy nawodnień ciśnieniowych.\n\nŁącznie jest osiem rodzajów urządzeń melioracji wodnych.",
+    "parent_ids": [
+        "67de5f09-fac4-4ef6-a4a7-b9f1654e7d65",
+        "66eeac51-9b8d-4a03-859f-4c62411b2140",
+        "ec9e52e6-30ab-4ba9-8deb-0d67c30d03b9",
+        "126f63bb-362d-487d-8fb6-2a2d036f410a",
+        "fb61eef2-431f-48e2-ae43-7aa6d4416a40",
+        "89c20c59-ed2c-40f8-8c98-ae03b0e8267f",
+        "8f011abc-61a5-4092-96cc-13ce25ea79ca",
+        "77f379c2-262b-4f25-84e2-183556d7cf23"
+    ],
+    "child_ids": [],
+    "retrival_tool": "db",
+    "mode": "multi_cross_parent_mistral",
+    "id": 2,
+    "reference": "Urządzeniami melioracji wodnych są: rowy wraz z budowlami związanymi z nimi funkcjonalnie, drenowania, rurociągi, stacje pomp służące wyłącznie do celów rolniczych, ziemne stawy rybne, groble na obszarach nawadnianych, systemy nawodnień grawitacyjnych, systemy nawodnień ciśnieniowych. Takich urządzeń jest 8"
+}

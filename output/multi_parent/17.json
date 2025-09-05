@@ -1,0 +1,26 @@
+{
+    "question": "Jak realizuje się ochronę przed powodzią",
+    "system_answer": "Ochrona przed powodzią realizowana jest poprzez szereg działań, które obejmują:\n\n1. Kształtowanie zagospodarowania przestrzennego dolin rzecznych lub terenów zalewowych, szczególnie obszarów szczególnego zagrożenia powodzią.\n2. Racjonalne retencjonowanie wód oraz użytkowanie budowli przeciwpowodziowych, a także sterowanie przepływami wód.\n3. Zapewnienie funkcjonowania systemu wczesnego ostrzegania przed niebezpiecznymi zjawiskami atmosferycznymi i hydrosferycznymi oraz prognozowanie powodzi.\n4. Zachowanie, tworzenie i odtwarzanie systemów retencji wód.\n5. Budowę, przebudowę i utrzymywanie budowli przeciwpowodziowych.\n6. Prowadzenie akcji lodołamania.\n7. Prowadzenie polityki informacyjnej w zakresie ochrony przed powodzią oraz ograniczania jej skutków.\n\nDodatkowo, ochrona przed powodzią jest zadaniem Wód Polskich oraz organów administracji rządowej i samorządowej, które współpracują w tym zakresie. Ochrona ta prowadzona jest z uwzględnieniem map zagrożenia powodziowego, map ryzyka powodziowego oraz planów zarządzania ryzykiem powodziowym. Koordynacja działań ma na celu osiągnięcie celów środowiskowych oraz ochronę wód.",
+    "parent_ids": [
+        "15f561f6-95a7-4535-bb32-acc861aa59a4",
+        "13ac3e7d-82da-4cb5-9659-2bca06ad6425",
+        "a1d88b12-41d5-4c75-b0df-76b360741806"
+    ],
+    "child_ids": [
+        "a4219739-3425-4ce2-ae80-b124fac0b7fe",
+        "74e88ea0-f42d-4be4-a14b-7a68ebe2a08d",
+        "fa5d683d-14db-488e-8181-3aa096069217",
+        "00d8ac6b-6d00-44c2-b77a-7b5a2f576e06",
+        "2aea88a1-c3e4-45d3-9f67-bc6dd46e1340",
+        "54fff455-b716-4532-aa32-ed9eabdd598c",
+        "2a43c608-b9be-4fe4-80ea-24557d85a6c5",
+        "ee0f977b-1a2f-4e71-92a0-f081bc6096af",
+        "dfee1f0e-cf29-44cb-b275-0f9d96688be7",
+        "c2f6877f-3e4c-4837-9b03-2bad76b44962",
+        "64a959b0-dbf9-4a5a-a756-44b9060a1a76"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 17,
+    "reference": "Ochronę przed powodzią realizuje się poprzez kształtowanie zagospodarowania przestrzennego dolin rzecznych i terenów zalewowych, racjonalne retencjonowanie wód i użytkowanie budowli przeciwpowodziowych, sterowanie przepływami, funkcjonowanie systemu wczesnego ostrzegania i prognozowanie powodzi, zachowanie, tworzenie i odtwarzanie systemów retencji, budowę, przebudowę i utrzymywanie budowli przeciwpowodziowych, prowadzenie akcji lodołamania oraz polityki informacyjnej w zakresie ochrony przed powodzią i ograniczania jej skutków."
+}

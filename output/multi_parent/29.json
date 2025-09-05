@@ -1,0 +1,25 @@
+{
+    "question": "Jakie są stawki opłat zmiennych za pobór wód do celów wydobywania węgla kamiennego i brunatnego?",
+    "system_answer": "Na podstawie uzyskanych dokumentów, stawki opłat zmiennych za pobór wód do celów wydobywania węgla kamiennego i brunatnego nie zostały bezpośrednio wymienione. Dokumenty zawierają szczegółowe stawki dla różnych celów, ale nie ma w nich bezpośredniej wzmianki o wydobywaniu węgla kamiennego i brunatnego. Może być konieczne dalsze przeszukanie dokumentów lub konsultacja z odpowiednimi przepisami prawa wodnego, aby uzyskać dokładne informacje na ten temat.",
+    "parent_ids": [
+        "7bf00280-bdd9-4f3a-b909-21f991f236f2",
+        "307ad934-740d-4c94-b0f2-8cc879a5d5ac",
+        "6d16781d-a3d5-4110-a30c-fc2ddcff52fe"
+    ],
+    "child_ids": [
+        "ddddc2f1-b0f8-42d8-a451-93efb462d7a9",
+        "294d0f0d-7862-48c6-81c6-d83cbef2b3b0",
+        "dbe2fc60-0a8a-4762-8f66-8c194a81686d",
+        "704c7369-cffc-473a-9b3f-a51c05a059c9",
+        "d4ec25de-4d24-42c5-b0b6-a62d42fc7b43",
+        "da860dd1-0356-4728-90b3-aa86edb4f18b",
+        "66ef6b7f-14c0-42c6-8007-b1f44714e702",
+        "80996df2-8e0f-4715-a4a6-ec29486496e4",
+        "5677fae3-3c5e-4ccb-8ee1-44431930da69",
+        "84c859c6-4236-4cdc-8f95-0d9355309d09"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 29,
+    "reference": "Za pobór wód w formie opłaty zmiennej, uzależnionej od ilości pobieranej wody w ramach pozwolenia wodnoprawnego lub pozwolenia zintegrowanego, obowiązują następujące stawki dla celów wydobywania węgla kamiennego i brunatnego (lignitu): 0,70 zł za każdy 1 m³ pobranych wód podziemnych oraz 0,35 zł za każdy 1 m³ pobranych wód powierzchniowych"
+}

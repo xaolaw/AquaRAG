@@ -1,0 +1,12 @@
+{
+    "question": "Jak ustala się i ogłasza wysokość stawek opłaty podwyższonej za korzystanie z wód o których mowa w art. 291?",
+    "system_answer": "Na podstawie artykułu 291, górne jednostkowe stawki opłaty podwyższonej za korzystanie z wód ustala się w następujący sposób:\n\n1. **1300 zł za 1 kg substancji** - w przypadku przekroczenia:\n   - dopuszczalnej ilości i składu ścieków, z wyjątkiem zawiesiny łatwo opadającej,\n   - minimalnej procentowej redukcji stężeń substancji w ściekach,\n   - dopuszczalnej masy substancji w odprowadzanych ściekach przypadającej na jednostkę masy wykorzystanego surowca, materiału, paliwa lub wytworzonego produktu.\n\n2. **14 zł za 1 dm³ zawiesiny łatwo opadającej**.\n\n3. **14 zł za 1 m³ ścieków** - w przypadku przekroczenia dopuszczalnej temperatury, odczynu pH, poziomu sztucznych substancji promieniotwórczych lub dopuszczalnego stopnia rozcieńczenia ścieków eliminującego toksyczne oddziaływanie ścieków na ryby.\n\nTe stawki są określone w artykule 291 i dotyczą sytuacji, w których dochodzi do przekroczenia określonych norm związanych z odprowadzaniem ścieków.",
+    "parent_ids": [
+        "918c788e-68f4-45e5-9730-7e5300383905"
+    ],
+    "child_ids": [],
+    "retrival_tool": "article",
+    "mode": "multi_cross_parent_llama",
+    "id": 30,
+    "reference": "Stawki opłaty podwyższonej, o których mowa w art. 291 oraz w przepisach wydanych na podstawie art. 292 ust. 1, ustalone w roku poprzednim, podlegają corocznej zmianie odpowiadającej średniorocznemu wskaźnikowi cen towarów i usług konsumpcyjnych ogółem za rok poprzedni, ogłaszanemu przez Prezesa Głównego Urzędu Statystycznego w formie komunikatu w „Monitorze Polskim”. Ponadto minister właściwy do spraw gospodarki wodnej, nie później niż do 31 października każdego roku, ogłasza w drodze obwieszczenia w „Monitorze Polskim” wysokość tych stawek, które obowiązują od 1 stycznia roku następnego. Procedura ta zapewnia aktualizację stawek zgodnie ze zmianami cen i umożliwia planowanie korzystania z wód w kolejnych latach."
+}

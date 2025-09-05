@@ -1,0 +1,16 @@
+{
+    "question": "Jakie urządzenia zalicza się do melioracji wodnych?",
+    "system_answer": "Do urządzeń melioracji wodnych zalicza się:\n\n1. Rowy wraz z budowlami związanymi z nimi funkcjonalnie,\n2. Drenowania,\n3. Rurociągi,\n4. Stacje pomp służące wyłącznie do celów rolniczych,\n5. Ziemne stawy rybne,\n6. Groble na obszarach nawadnianych,\n7. Systemy nawodnień grawitacyjnych,\n8. Systemy nawodnień ciśnieniowych.\n\nTe urządzenia służą celom, o których mowa w art. 195, czyli regulacji stosunków wodnych w celu polepszenia zdolności produkcyjnej gleby i ułatwienia jej uprawy.",
+    "parent_ids": [
+        "67de5f09-fac4-4ef6-a4a7-b9f1654e7d65",
+        "66eeac51-9b8d-4a03-859f-4c62411b2140",
+        "652ac8c0-6fb8-48c8-9c45-30981f145465",
+        "fb61eef2-431f-48e2-ae43-7aa6d4416a40",
+        "8f011abc-61a5-4092-96cc-13ce25ea79ca"
+    ],
+    "child_ids": [],
+    "retrival_tool": "db",
+    "mode": "multi_cross_parent_mistral",
+    "id": 24,
+    "reference": "Urządzeniami melioracji wodnych są: rowy wraz z budowlami funkcjonalnie z nimi związanymi, drenaże, rurociągi, stacje pomp służące wyłącznie do celów rolniczych, ziemne stawy rybne, groble na obszarach nawadnianych, systemy nawodnień grawitacyjnych oraz systemy nawodnień ciśnieniowych. Wszystkie te urządzenia mają na celu regulację stosunków wodnych w gospodarce rolnej, poprawę użytkowania gruntów oraz wsparcie produkcji rolniczej poprzez efektywne zarządzanie wodą."
+}

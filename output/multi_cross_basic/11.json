@@ -1,0 +1,23 @@
+{
+    "question": "Jaki jest cel środowiskowy dla obszarów chronionych?",
+    "system_answer": "Celem ochrony wód dla obszarów chronionych jest osiągnięcie celów środowiskowych dla jednolitych części wód powierzchniowych, jednolitych części wód podziemnych oraz obszarów chronionych, a także poprawa jakości wód oraz biologicznych stosunków w środowisku wodnym i na terenach podmokłych.",
+    "parent_ids": [],
+    "child_ids": [
+        "2b284fee-537c-45f3-84c7-fe56b6509fc1",
+        "26b54e41-fccd-43e7-9c30-edaf3ea618d7",
+        "72225fb1-c577-43f4-8a80-74f6773c4224",
+        "13569675-e127-4331-bb48-5707234d56c1",
+        "37bd211f-4210-41b6-8b26-00fd1e3d7374",
+        "df23e84b-20fc-43d0-893f-2390a0e4ae3a",
+        "8d3da059-a058-4bc8-bd59-cc4b01468159",
+        "b74fd2a8-9add-4958-a66d-ce33f15e0b6a",
+        "91cd5d7d-4530-4c33-80bf-624a1b52c0df",
+        "3afc0bda-e70b-4d61-a838-290c24ff1f76",
+        "cc7f63fa-7d99-48fc-99c5-2c70b2bed5ab",
+        "7ada17b2-70f8-466c-a86d-bd93a37e324d"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_retriver",
+    "id": 11,
+    "reference": "Osiągnięcie norm i celów wynikających z przepisów, na podstawie których obszary chronione zostały utworzone, ustanowione lub regulowane, o ile przepisy te nie przewidują odmiennych uregulowań."
+}

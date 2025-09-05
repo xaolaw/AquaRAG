@@ -1,0 +1,16 @@
+{
+    "question": "Jak ustala się i ogłasza wysokość stawek opłaty podwyższonej za korzystanie z wód o których mowa w art. 291?",
+    "system_answer": "Wysokość stawek opłaty podwyższonej za korzystanie z wód, o których mowa w art. 291, ustala się na podstawie przepisów wydanych na podstawie art. 292 ust. 1. Stawki te podlegają corocznej zmianie zgodnie ze średniorocznym wskaźnikiem cen towarów i usług konsumpcyjnych ogółem za rok poprzedni, ogłaszanym przez Prezesa Głównego Urzędu Statystycznego w formie komunikatu w Dzienniku Urzędowym Rzeczypospolitej Polskiej „Monitor Polski”. Minister właściwy do spraw gospodarki wodnej ogłasza aktualną wysokość górnej jednostkowej stawki opłaty podwyższonej w drodze obwieszczenia w „Monitorze Polskim”.",
+    "parent_ids": [],
+    "child_ids": [
+        "d4429dc0-9e03-4a88-bf65-835441b445c5",
+        "d8b2fe90-4bc8-400d-869a-44a46502b672",
+        "d5beb43a-9970-4380-bb45-1bb1423c6fed",
+        "5f49dcbc-c074-43cf-9b36-302e8b2708e4",
+        "cde3e6be-5083-4c6f-a1c0-1500f857dbb2"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_retriver",
+    "id": 30,
+    "reference": "Stawki opłaty podwyższonej, o których mowa w art. 291 oraz w przepisach wydanych na podstawie art. 292 ust. 1, ustalone w roku poprzednim, podlegają corocznej zmianie odpowiadającej średniorocznemu wskaźnikowi cen towarów i usług konsumpcyjnych ogółem za rok poprzedni, ogłaszanemu przez Prezesa Głównego Urzędu Statystycznego w formie komunikatu w „Monitorze Polskim”. Ponadto minister właściwy do spraw gospodarki wodnej, nie później niż do 31 października każdego roku, ogłasza w drodze obwieszczenia w „Monitorze Polskim” wysokość tych stawek, które obowiązują od 1 stycznia roku następnego. Procedura ta zapewnia aktualizację stawek zgodnie ze zmianami cen i umożliwia planowanie korzystania z wód w kolejnych latach."
+}

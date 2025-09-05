@@ -1,0 +1,16 @@
+{
+    "question": "Na jakich wodach Rada Ministrów określi granice?",
+    "system_answer": "Rada Ministrów określi granice na śródlądowych wodach powierzchniowych, morskich wodach wewnętrznych oraz wodach morza terytorialnego.",
+    "parent_ids": [],
+    "child_ids": [
+        "c3c0aa87-4013-42dd-a527-8526e60ed683",
+        "dfd85865-304b-4e6f-b1e8-963c3672c0ef",
+        "5cc7c056-3741-471e-af4c-5ac60a6582f9",
+        "d14a3e85-45db-482e-897f-dad1b02bd11b",
+        "058d6149-ec59-4d7d-a3ac-0484bab68632"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_retriver",
+    "id": 6,
+    "reference": "Rada Ministrów określi, granice między śródlądowymi wodami powierzchniowymi a morskimi wodami wewnętrznymi i wodami morza terytorialnego."
+}

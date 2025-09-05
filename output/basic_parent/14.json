@@ -1,0 +1,24 @@
+{
+    "question": "Jaka jest maksymalna waga azotu w nawozach rolnych możliwych do wykorzystania",
+    "system_answer": "Na podstawie dostępnych dokumentów, maksymalna waga azotu w nawozach rolnych możliwych do wykorzystania nie została bezpośrednio określona. Dokumenty mówią o konieczności stosowania nawozów w dawkach nieprzekraczających dawek określonych w planie nawożenia azotem, który musi uzyskać pozytywną opinię okręgowej stacji chemiczno-rolniczej. Oznacza to, że maksymalna ilość azotu zależy od indywidualnego planu nawożenia, który uwzględnia potrzeby pokarmowe roślin w warunkach danego siedliska.",
+    "parent_ids": [
+        "205b88d3-3251-42c7-a479-5ea3ac839aa8",
+        "74265819-f3eb-49ce-a49d-4fdb6f27b24e",
+        "dce6cd8a-cc3e-4581-83f3-fb2a0901ad53"
+    ],
+    "child_ids": [
+        "28959405-93b7-4884-aaf1-fb77048a10de",
+        "acd96693-2e2b-461d-b1c7-9762e594f896",
+        "6abd1052-8e36-4e22-9d40-fd03a91935ae",
+        "a3ea32a9-75fc-4679-a5b9-214803618907",
+        "66749b53-c081-4436-bc3a-50acb80871d5",
+        "9daa1552-21f1-49e9-bc2a-49206287b41d",
+        "ed67968f-bbfc-49e5-b7e3-183de03fadc4",
+        "1b84eda5-78c3-4171-956f-b804dab81f64",
+        "004d6765-2c36-49c2-93d0-e179bdd337a7"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_parent",
+    "id": 14,
+    "reference": "Waga nie może przekraczać 170 kg azotu w czystym składniku na 1ha użytków rolnych"
+}

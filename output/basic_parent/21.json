@@ -1,0 +1,27 @@
+{
+    "question": "Jakie zasady należy uwzględniać przy projektowaniu, wykonywaniu i utrzymywaniu urządzeń wodnych oraz co powinny umożliwiać budowle piętrzące?",
+    "system_answer": "Przy projektowaniu, wykonywaniu i utrzymywaniu urządzeń wodnych należy uwzględniać przepisy dotyczące właścicieli, które stosuje się odpowiednio do posiadaczy samoistnych oraz użytkowników wieczystych, a także przepisy dotyczące właścicieli wód, które stosuje się do organów administracji publicznej, jednostek organizacyjnych nieposiadających osobowości prawnej, osób prawnych lub fizycznych wykonujących prawa właścicielskie w stosunku do wód. Urządzenia wodne obejmują również urządzenia melioracji wodnych, obiekty mostowe, rurociągi, linie energetyczne, telekomunikacyjne oraz inne urządzenia prowadzone przez wody powierzchniowe i wały przeciwpowodziowe. Wykonanie urządzeń wodnych obejmuje odbudowę, rozbudowę, nadbudowę, przebudowę, rozbiórkę lub likwidację tych urządzeń, z wyłączeniem robót związanych z utrzymywaniem urządzeń wodnych w celu zachowania ich funkcji.\n\nBudowle piętrzące powinny umożliwiać ochronę przed powodzią, usuwanie skutków powodzi, spływ lodu oraz przeciwdziałanie powstawaniu niekorzystnych zjawisk lodowych. Utrzymywanie publicznych śródlądowych wód powierzchniowych oraz morskich wód wewnętrznych polega także na zachowaniu stanu dna lub brzegów oraz na remoncie lub konserwacji istniejących budowli regulacyjnych.",
+    "parent_ids": [
+        "6612fefc-2e57-4e6c-83b1-3534de612eb5",
+        "89c20c59-ed2c-40f8-8c98-ae03b0e8267f",
+        "9e19d3ca-39aa-421b-ac99-bf6e0bba4d87"
+    ],
+    "child_ids": [
+        "554e39c9-3c1c-49b7-8767-4d6d930ab6a5",
+        "33245c7c-2dbf-46fb-a636-657432bfdf2b",
+        "e92b87f5-8665-41c5-b0e1-87d11b62a6c0",
+        "cb773313-93e0-49d0-a702-a97171eeb6fa",
+        "c70b79c8-32d2-4fdf-9c79-f1eee2327ecd",
+        "a2e25d70-cde5-4a83-8eac-c7038c67e9ee",
+        "17b5281a-ae40-4022-bdb0-7777872cc30b",
+        "ec9d1d27-fc35-4e70-b901-16a18c60ca56",
+        "592ffc97-3a2a-484a-8570-783e344a508e",
+        "fa5d683d-14db-488e-8181-3aa096069217",
+        "5801bd88-95fe-46c9-8b7e-7314e6d165c5",
+        "a816521f-a3fa-40e4-aaeb-e5e01be62a7e"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_parent",
+    "id": 21,
+    "reference": "Przy projektowaniu, wykonywaniu i utrzymywaniu urządzeń wodnych należy kierować się zasadą zrównoważonego rozwoju, dbać o dobry stan wód i ich biocenoz, realizować cele środowiskowe, zachować istniejącą rzeźbę terenu oraz biologiczne stosunki w środowisku wodnym i ekosystemach lądowych zależnych od wód, a budowle piętrzące powinny umożliwiać migrację ryb."
+}

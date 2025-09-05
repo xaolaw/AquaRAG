@@ -1,0 +1,22 @@
+{
+    "question": "Na ile dni przed rozpoczęciem funkcjonowania miejsca czasami wykorzystanego do kąpieli musi wykonać właściciel?",
+    "system_answer": "Na podstawie dokumentu, właściciel miejsca okazjonalnie wykorzystywanego do kąpieli musi wykonać pobranie i analizę próbki wody nie wcześniej niż 10 dni przed otwarciem sezonu kąpielowego.",
+    "parent_ids": [
+        "babb49d1-8565-4a02-9fab-6456489a6458",
+        "0fd269e8-3dbb-4383-8ff9-f46cb0f9ca3d",
+        "c637badd-2e26-46bf-9970-d398f99a1db2"
+    ],
+    "child_ids": [
+        "ab9d002b-a9f2-45f3-9923-eacc9355ad53",
+        "32de7ab8-8137-4d08-acf2-25659d715065",
+        "78910370-e19f-4881-a96c-c0568c4795d8",
+        "5a2eb360-74db-4a2c-936e-1dc09f4055bc",
+        "074db5e6-6d80-40f1-b4f1-e137ebb03946",
+        "ddaf3dc3-a8f5-42b1-b0c9-844afc39e690",
+        "b5fba4da-96bb-4c96-962a-77d7f5e99e77",
+        "4b4d0093-2002-44dc-b6f9-4b2745c61fde"
+    ],
+    "retrival_tool": "db",
+    "id": 8,
+    "reference": "Wykonuje badanie jakości wody nie wcześniej niż 10 dni przed otwarciem"
+}

@@ -1,0 +1,25 @@
+{
+    "question": "Do kogo należy własność wysp, przymulisk i odsypów żwirowych powstałych naturalnie na gruntach pokrytych wodami powierzchniowymi?",
+    "system_answer": "Własność wysp, przymulisk i odsypów żwirowych powstałych naturalnie na gruntach pokrytych wodami powierzchniowymi należy do właściciela gruntu, na którym te formacje się znajdują. Właściciel wód nie nabywa praw do gruntów zalanych przez wodę podczas powodzi, co oznacza, że naturalne formacje powstałe na gruntach pokrytych wodami pozostają własnością właściciela tych gruntów.",
+    "parent_ids": [
+        "0093ce40-c8ee-44c7-96fd-2f9901f4fbbc",
+        "6e0d23a2-5d8f-451f-b22b-4dd92b85295c",
+        "4a4e9f25-5ba5-419f-bb48-fd4c428910cd"
+    ],
+    "child_ids": [
+        "477ba5a1-bb6a-4c79-bc6d-3fd6885e1829",
+        "b293dbcc-dcc2-4470-8ed8-cfa1d26e740a",
+        "967e3e00-1893-4397-989b-fdfbe4d75d8b",
+        "8813d592-05cb-4fbb-93bd-4e2ae7ef3e32",
+        "16a9b736-3190-4a8a-aad5-55781fce8882",
+        "afd20dfc-2aae-421a-84b5-ebd5a1dba6e7",
+        "8fad8f6a-bbd9-4a45-8609-bb827adafdbc",
+        "70f132aa-84c0-4e00-9324-9fcebd1ddf03",
+        "1c90f0bc-808b-4a08-b5de-46049bcf61ef",
+        "47a7b4d2-5649-4584-83f6-dc982a58401f"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 26,
+    "reference": "Wyspy, przymuliska oraz odsypy żwirowe, powstałe wsposób naturalny na gruntach pokrytych wodami powierzchniowymi, stanowią własność właściciela tych gruntó"
+}

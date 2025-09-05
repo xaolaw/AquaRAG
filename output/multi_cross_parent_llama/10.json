@@ -1,0 +1,24 @@
+{
+    "question": "Jaki minimalny poziom jakości powinny osiągnąć wody powierzchniowe zgodnie z celem środowiskowym?",
+    "system_answer": "Minimalny poziom jakości, jaki powinny osiągnąć wody powierzchniowe zgodnie z celem środowiskowym, to co najmniej dobry stan ekologiczny i dobry stan chemiczny.",
+    "parent_ids": [
+        "c238f0b7-3521-4a0b-8e0e-ddb9130ef3af",
+        "d37ebe6a-e67e-4c44-baf3-da64262e5e92",
+        "5a38c3a5-afd7-4f04-a908-ae06c82714df",
+        "5200c45a-7bd7-480d-907f-e0ea13bc3514",
+        "bf344257-4cad-4610-b3c6-84e36cac30d8",
+        "c6e6f1e0-8820-4c05-b081-ec3c3b623fd5",
+        "3c0475dc-6e3f-448a-9a04-770f12aa05f5",
+        "461a09d5-c53b-4d6a-9315-7a5aef16eb22",
+        "fe07fb3c-ac01-46e5-b4b5-cfef4a8f408f",
+        "6b0bfd9b-f788-44fa-9417-6b5994d7b487",
+        "d8f7a569-72d1-4e74-931b-817fe07fab2f",
+        "eefba7e7-99cb-405b-8bca-42d320e7f2c7",
+        "d093189d-b855-466e-b0d4-34e2634b79fa"
+    ],
+    "child_ids": [],
+    "retrival_tool": "db",
+    "mode": "multi_cross_parent_llama",
+    "id": 10,
+    "reference": "Co najmniej dobry stan ekologiczny i dobry stan chemiczny."
+}

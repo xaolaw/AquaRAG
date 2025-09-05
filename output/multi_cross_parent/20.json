@@ -1,0 +1,17 @@
+{
+    "question": "Co powinien zawierać plan przeciwdziałania skutkom suszy?",
+    "system_answer": "Plan przeciwdziałania skutkom suszy powinien zawierać:\n\n1. Analizę możliwości powiększenia dyspozycyjnych zasobów wodnych.\n2. Propozycje budowy lub przebudowy urządzeń wodnych.\n3. Propozycje niezbędnych zmian w zakresie korzystania z zasobów wodnych oraz zmian naturalnej i sztucznej retencji.",
+    "parent_ids": [
+        "1f3967ab-eabe-417f-9e15-b38f7e02987a",
+        "5eff1490-0f3a-4d08-b109-c2c89ab172d6",
+        "ddd35e02-fcd1-4437-b4f5-b8ef663eea7a"
+    ],
+    "child_ids": [
+        "41604303-9252-4d1e-bdac-8573b3270dfe",
+        "7683440b-1f7f-45f9-9465-89e6fc59ee82",
+        "d9764aee-1304-42ce-83db-a2b8427400a9"
+    ],
+    "retrival_tool": "db",
+    "id": 20,
+    "reference": "Plan przeciwdziałania skutkom suszy powinien zawierać analizę możliwości powiększenia dyspozycyjnych zasobów wodnych, propozycje budowy lub przebudowy urządzeń wodnych, propozycje niezbędnych zmian w korzystaniu z zasobów wodnych oraz zmian naturalnej i sztucznej retencji, a także działania służące przeciwdziałaniu skutkom suszy"
+}

@@ -1,0 +1,26 @@
+{
+    "question": "Jakie są organy właściwe w sprawach gospodarowania wodami?",
+    "system_answer": "Organy właściwe w sprawach gospodarowania wodami to:\n\n1. Wody Polskie – w zakresie określonym w art. 334 pkt 1–7 oraz 9–13.\n2. Inspekcja Wodna w imieniu Wód Polskich – w zakresie określonym w art. 334 pkt 1–7 oraz 9–13.\n3. Dyrektorzy urzędów morskich – w zakresie określonym w art. 334 pkt 6 w odniesieniu do pasa technicznego.\n\nDodatkowo, kontrolę gospodarowania wodami w zakresie określonym w art. 334 pkt 1–7 oraz 9–13 w stosunku do Wód Polskich wykonuje minister właściwy do spraw gospodarki wodnej.",
+    "parent_ids": [
+        "2066b657-bc4d-4d4d-8ddf-ec2b0a682d72",
+        "59e836b3-5a02-4e81-b92d-52932919d895",
+        "51d1d062-4683-440e-b8c6-0ea7c29e541b"
+    ],
+    "child_ids": [
+        "16d4e962-eee3-46d3-9f3b-57a67afd76ca",
+        "4c140111-8e38-4f70-b176-4b6963287582",
+        "29309078-93c3-43d6-a8d4-6c1ba3b6aa4c",
+        "77f54998-a3a4-41c6-b18f-52f264f78e81",
+        "1c65ec35-1eb7-40d0-9465-976e3b0dbc91",
+        "df1eb6c1-9bb7-4594-a3c1-3f7a57259aba",
+        "62aa6901-a6b4-4ae5-86ac-eb725dbd4d15",
+        "470352ed-824a-4ab0-8ebe-76aab102157c",
+        "f2caa889-d138-46f2-aeef-6c768c49ee60",
+        "ed2d3012-744f-4484-b68f-4f9fbc301a1c",
+        "61fa7192-7e7c-47ef-957f-991d83332672",
+        "7c158fbe-684c-4992-89e6-0dbb14b69cb7"
+    ],
+    "retrival_tool": "db",
+    "id": 4,
+    "reference": "Organami właściwymi wsprawach gospodarowania wodami są: minister właściwy do spraw gospodarki wodnej; minister właściwy do spraw żeglugi śródlądowej; Prezes Wód Polskich; dyrektor regionalnego zarządu gospodarki wodnej Wód Polskich; dyrektor zarządu zlewni Wód Polskich; kierownik nadzoru wodnego Wód Polskich; dyrektor urzędu morskiego; wojewoda; starosta; wójt, burmistrz lub prezydent miasta."
+}

@@ -1,0 +1,22 @@
+{
+    "question": "Jaka jest maksymalna waga azotu w nawozach rolnych możliwych do wykorzystania",
+    "system_answer": "Maksymalna waga azotu w nawozach rolnych możliwych do wykorzystania wynosi 170 kg azotu w czystym składniku na 1 ha użytków rolnych.",
+    "parent_ids": [
+        "e60b74fe-c72f-4849-bd89-9a17da12ccb4",
+        "205b88d3-3251-42c7-a479-5ea3ac839aa8",
+        "1411360f-39c7-4fcf-b1f2-c665fd65fb1c"
+    ],
+    "child_ids": [
+        "8b0bae95-fae7-4932-a550-00c8872c7284",
+        "6932b0ab-67a9-4991-88fa-41295a054013",
+        "ed67968f-bbfc-49e5-b7e3-183de03fadc4",
+        "71a5ce51-bfc5-4edf-a152-83ae6755618c",
+        "753543e2-07ae-4800-9c93-3b1f21b616e9",
+        "9daa1552-21f1-49e9-bc2a-49206287b41d",
+        "004d6765-2c36-49c2-93d0-e179bdd337a7"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 14,
+    "reference": "Waga nie może przekraczać 170 kg azotu w czystym składniku na 1ha użytków rolnych"
+}

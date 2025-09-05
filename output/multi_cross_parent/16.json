@@ -1,0 +1,18 @@
+{
+    "question": "Jak oznacza się granice terenu ochrony pośredniej?",
+    "system_answer": "Granice terenu ochrony pośredniej ujęcia wód podziemnych wyznacza się na podstawie ustaleń zawartych w dokumentacji hydrogeologicznej tego ujęcia. Jeśli czas przepływu wód od granicy obszaru zasilania do ujęcia jest dłuższy niż 25 lat, teren ochrony pośredniej wyznacza się z uwzględnieniem obszaru wyznaczonego 25-letnim czasem wymiany wód w warstwie wodonośnej.",
+    "parent_ids": [
+        "8d63f541-912c-4746-8ab6-d6d8f936e469",
+        "9eb94e2f-e8e5-4214-a068-5268d5934952",
+        "24f4d841-9e1e-48ce-9766-b3248306b613"
+    ],
+    "child_ids": [
+        "17d3bb32-a646-46ca-b1fe-69bad6c457b7",
+        "92c14559-b346-4c2f-b515-39f6d371c8dc",
+        "2be3dff0-c937-4f52-aea0-d8011be9ddb7",
+        "46cf52b7-fdc1-4e31-be3a-860316082aa7"
+    ],
+    "retrival_tool": "db",
+    "id": 16,
+    "reference": "Granice terenu ochrony pośredniej oznacza się przez umieszczenie, wpunktach przecięcia się granic ze szlakami komunikacyjnymi oraz winnych charakterystycznych punktach terenu, tablic zawierających informacje o ustanowieniu strefy ochronnej."
+}

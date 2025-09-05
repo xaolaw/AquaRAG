@@ -1,0 +1,25 @@
+{
+    "question": "Jakie są organy właściwe w sprawach gospodarowania wodami?",
+    "system_answer": "Organy właściwe w sprawach gospodarowania wodami to:\n\n1. Właściwe organy Wód Polskich - są odpowiedzialne za zgody wodnoprawne.\n2. Minister właściwy do spraw gospodarki wodnej - jest organem właściwym w sprawie zgód wodnoprawnych, jeżeli wnioskodawcą są Wody Polskie.\n3. Dyrektor regionalnego zarządu gospodarki wodnej Wód Polskich - w sprawach pozwoleń wodnoprawnych związanych z przedsięwzięciami lub instalacjami, budowlami przeciwpowodziowymi, przerzutami wody, wprowadzaniem substancji do wód, rekultywacją wód, wydobywaniem materiałów z wód oraz wycinaniem roślin z wód lub brzegu.\n4. Państwowa służba do spraw bezpieczeństwa budowli piętrzących - nadzoruje bezpieczeństwo budowli piętrzących.\n5. Państwowa Rada Gospodarki Wodnej - organ opiniodawczo-doradczy ministra właściwego do spraw gospodarki wodnej, zajmujący się opracowywaniem opinii, propozycji i wniosków w sprawach gospodarowania wodami, ochrony przed powodzią i skutkami suszy.",
+    "parent_ids": [
+        "59e836b3-5a02-4e81-b92d-52932919d895",
+        "8bfe5d56-7c86-4be6-bafb-40468b77d494",
+        "1f3967ab-eabe-417f-9e15-b38f7e02987a"
+    ],
+    "child_ids": [
+        "4c140111-8e38-4f70-b176-4b6963287582",
+        "77f54998-a3a4-41c6-b18f-52f264f78e81",
+        "64ffd7d7-d7a7-49fd-89f8-bb7a24ff10ed",
+        "70ac52ee-9b39-480a-a6cb-6170245ee162",
+        "470352ed-824a-4ab0-8ebe-76aab102157c",
+        "df1eb6c1-9bb7-4594-a3c1-3f7a57259aba",
+        "a5c0dc0a-1f2b-4a6c-bf7d-9c457bd2cb8c",
+        "4d8e3bf4-f974-4d32-866e-23f430c670ca",
+        "f7f67e80-310e-4fc4-9f72-9ada03e7c536",
+        "62aa6901-a6b4-4ae5-86ac-eb725dbd4d15"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 4,
+    "reference": "Organami właściwymi wsprawach gospodarowania wodami są: minister właściwy do spraw gospodarki wodnej; minister właściwy do spraw żeglugi śródlądowej; Prezes Wód Polskich; dyrektor regionalnego zarządu gospodarki wodnej Wód Polskich; dyrektor zarządu zlewni Wód Polskich; kierownik nadzoru wodnego Wód Polskich; dyrektor urzędu morskiego; wojewoda; starosta; wójt, burmistrz lub prezydent miasta."
+}

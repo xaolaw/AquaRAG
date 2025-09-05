@@ -1,0 +1,27 @@
+{
+    "question": "Czego nie powinny zawierać ścieki wprowadzane do wód lub do ziem?",
+    "system_answer": "Ścieki wprowadzane do wód lub do ziemi nie powinny zawierać substancji szczególnie szkodliwych dla środowiska wodnego, które powodują zanieczyszczenie wód i powinny być eliminowane. Dokumenty wskazują na konieczność spełnienia rygorystycznych wymagań dotyczących warunków wprowadzania ścieków, w tym najwyższych dopuszczalnych wartości substancji zanieczyszczających.",
+    "parent_ids": [
+        "bbf01929-1524-4c3d-a0b0-b146c34fb827",
+        "1ef06c9c-8f0c-4574-afc0-4c9e272e3773",
+        "309d98c2-509e-4980-9674-06a9e983981c"
+    ],
+    "child_ids": [
+        "ee9083bb-ce32-4d03-a0f8-3226f84d37a0",
+        "6691e12e-2714-420d-aeae-f102fddbb1c9",
+        "c646be1d-a490-454e-886b-0d98d8d4ebb3",
+        "5b7ffc80-fc79-4b98-bf26-0eb48bc8e8bc",
+        "bbffa74e-c4cc-4817-8b14-a6dc2b7b58ca",
+        "49eee9bd-6b87-4e5a-871a-c9bc3a736c23",
+        "e2c070f1-f5e9-484a-b023-88bdfa669382",
+        "94cef9b6-99d6-4381-9ca8-76473b05557e",
+        "e4c2bde3-70ad-40b1-b687-c60556465e15",
+        "e3c3e9fb-04c1-4812-a200-6f7420b717e4",
+        "77df0f18-f8cd-4440-a04c-a0afd4d05384",
+        "9a92efef-23ff-4a25-a27b-eff5792158c9"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_parent",
+    "id": 13,
+    "reference": "Nie powinny zawierać: odpadów w rozumieniu art. 3 ust.1 pkt 6 ustawy z dnia 14 grudnia 2012r. o odpadach oraz zanieczyszczeń pływających, substancji priorytetowych określonych w przepisach wydanych na podstawie art. 114, chorobotwórczych drobnoustrojów pochodzących z obiektów, w których leczeni są chorzy na choroby zakaźne."
+}

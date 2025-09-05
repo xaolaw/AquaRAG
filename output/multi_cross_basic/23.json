@@ -1,0 +1,19 @@
+{
+    "question": "Kto jest stroną postępowania w sprawie wydania decyzji dotyczącej urządzenia wodnego?",
+    "system_answer": "Stroną postępowania w sprawie wydania decyzji dotyczącej urządzenia wodnego jest wnioskodawca, właściciel urządzenia wodnego oraz właściciel wód.",
+    "parent_ids": [],
+    "child_ids": [
+        "089bb832-f914-41f6-b985-e67503036b34",
+        "26c9bed2-3969-454d-9866-8de635870243",
+        "3a2fa8ef-a124-499b-92bf-e860c9aa9069",
+        "20c68a8c-5878-4aa2-8126-851e9dee6ed0",
+        "713c5a5d-e808-4703-ac11-18787aa14b2e",
+        "3439fafb-0b5b-45ac-b5b2-bda678c1bc83",
+        "fbafd04e-a4e7-4864-a0fc-3daf348de86f",
+        "0be27bcc-38ab-499d-b5c1-6e95b79407e8"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_retriver",
+    "id": 23,
+    "reference": "Stronami postępowania są wnioskodawca, właściciel urządzenia wodnego oraz właściciel wód. Oznacza to, że wszystkie te podmioty mają prawo uczestniczyć w postępowaniu administracyjnym, składać wyjaśnienia i wnioski, a organ bierze pod uwagę ich stanowisko przy wydawaniu decyzji dotyczącej przywrócenia funkcji urządzenia, jego odbudowy lub likwidacji."
+}

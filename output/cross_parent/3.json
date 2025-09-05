@@ -1,0 +1,13 @@
+{
+    "question": "Na jaki % ustala się opłatę melioracyjną, o której mowa w art.199 ust.2?",
+    "system_answer": "Na podstawie artykułu 199 ust. 2, opłata melioracyjna jest zwrotem części kosztów przez właścicieli gruntów, na które urządzenia melioracji wodnych wywierają korzystny wpływ. Jednak w dostarczonym fragmencie artykułu nie jest określony konkretny procent tej opłaty.",
+    "parent_ids": [
+        "fb61eef2-431f-48e2-ae43-7aa6d4416a40",
+        "7ff94a8f-351f-45e9-be1d-4ba07f01558e"
+    ],
+    "child_ids": [],
+    "retrival_tool": "article",
+    "mode": "cross_parent",
+    "id": 3,
+    "reference": "Opłatę melioracyjną, októrej mowa w art. 199 ust. 2, ustala się wwysokości 20% całkowitych kosztów wykonania urządzeń melioracji wodnych.2.Opłatę melioracyjnąpobiera się w15równych ratach rocznych wterminie do dnia 30października każdego roku, przy czym opłata melioracyjna mniejsza od 1000zł jest pobierana w3równych ratachrocznych.3.Pierwszą ratę opłaty melioracyjnej pobiera się po upływie 2lat  od  dnia przekazania  urządzeń melioracji   wodnych do   eksploatacji,   a wprzypadku zagospodarowania pomelioracyjnego łąk ipastwisk –po upływie roku"
+}

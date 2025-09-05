@@ -1,0 +1,21 @@
+{
+    "question": "Na ile dni przed rozpoczęciem funkcjonowania miejsca czasami wykorzystanego do kąpieli musi wykonać właściciel?",
+    "system_answer": "Właściciel miejsca okazjonalnie wykorzystywanego do kąpieli musi wykonać badanie jakości wody nie wcześniej niż 10 dni przed dniem rozpoczęcia funkcjonowania tego miejsca.",
+    "parent_ids": [
+        "0fd269e8-3dbb-4383-8ff9-f46cb0f9ca3d",
+        "c637badd-2e26-46bf-9970-d398f99a1db2",
+        "c0b04635-b4b5-4713-838b-75b8a9494c29"
+    ],
+    "child_ids": [
+        "32de7ab8-8137-4d08-acf2-25659d715065",
+        "ca9d14ab-8d85-4f83-801a-d3a56135705a",
+        "4050882d-fc4a-4c98-a043-2c1a71f3b098",
+        "d5683ba7-4ddc-4d32-95eb-eb965755f05d",
+        "ea384026-d89b-447f-a520-c7ada8af73ea",
+        "609a917a-9ff3-4885-b776-56a3aa61b268"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 8,
+    "reference": "Wykonuje badanie jakości wody nie wcześniej niż 10 dni przed otwarciem"
+}

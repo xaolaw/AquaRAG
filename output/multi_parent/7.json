@@ -1,0 +1,29 @@
+{
+    "question": "Czemu służy powszechne korzystanie z wód?",
+    "system_answer": "Powszechne korzystanie z wód służy zaspokajaniu potrzeb ludności i gospodarki oraz ochronie wód i środowiska związanego z tymi zasobami. W szczególności obejmuje to zapewnienie odpowiedniej ilości i jakości wody dla ludności, ochronę przed powodzią oraz suszą, ochronę zasobów wodnych przed zanieczyszczeniem oraz niewłaściwą lub nadmierną eksploatacją, utrzymywanie lub poprawę stanu ekosystemów wodnych i zależnych od wód, a także zapewnienie wody na potrzeby rolnictwa oraz przemysłu.",
+    "parent_ids": [
+        "2498fe50-18a9-4f45-9ff5-0a28a5fb1673",
+        "4fc8ca5b-a652-4f9b-8677-6bf4d12825e6",
+        "bdaf3ac3-eeee-4097-a831-1a92161569a3"
+    ],
+    "child_ids": [
+        "422e88a2-e526-45ab-998a-4918bdd9fdfc",
+        "ab55ab18-b4bc-476b-8631-b286dee88b08",
+        "1f2db778-862c-4f13-a464-3a442e48118a",
+        "4783d662-9a50-4494-8e6b-f6d22a3f77df",
+        "afd20dfc-2aae-421a-84b5-ebd5a1dba6e7",
+        "0cf0d357-7676-4e7f-aaca-b45640fd80e2",
+        "ba672a5e-7e63-46b1-a388-ae7ad0917893",
+        "967e3e00-1893-4397-989b-fdfbe4d75d8b",
+        "53a4d5a9-018a-474e-b671-337f49f6c829",
+        "87c690d0-70fe-49cb-924a-c166ed73d2b5",
+        "185b8f6c-740f-403e-b5ac-3473367a1f3e",
+        "8813d592-05cb-4fbb-93bd-4e2ae7ef3e32",
+        "47a7b4d2-5649-4584-83f6-dc982a58401f",
+        "f1410e12-ad76-4278-b53a-f29d24dd3af9"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 7,
+    "reference": "Powszechne korzystanie z wód służy do zaspokajania potrzeb osobistych, gospodarstwa domowego lub rolnego, bez stosowania specjalnych urządzeń technicznych, a także do wypoczynku, uprawiania turystyki, sportów wodnych oraz, na zasadach określonych w przepisach odrębnych, amatorskiego połowu ryb."
+}

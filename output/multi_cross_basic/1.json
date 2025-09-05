@@ -1,0 +1,16 @@
+{
+    "question": "Na czym polegają melioracje wodne z artykułu 195?",
+    "system_answer": "Melioracje wodne, zgodnie z artykułem 195, polegają na regulacji stosunków wodnych w celu polepszenia zdolności produkcyjnej gleby i ułatwienia jej uprawy.",
+    "parent_ids": [],
+    "child_ids": [
+        "eb08d48a-efbc-499a-83dd-c2dda160f3f5",
+        "78c3203b-34bf-4b0c-bcef-a32a9524683f",
+        "127719be-ed39-47f2-96e7-47fef6330b61",
+        "c5583dae-71e7-4621-b8fe-2d3041f3b19a",
+        "8b547562-4744-4ff9-9c4b-12d8b7b6c6f3"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_retriver",
+    "id": 1,
+    "reference": "Melioracje wodne polegają na regulacji stosunków wodnych wcelu polepszenia zdolności produkcyjnej gleby i ułatwienia jej uprawy"
+}

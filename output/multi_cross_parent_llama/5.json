@@ -1,0 +1,24 @@
+{
+    "question": "Na jakie wody dzielą się wody",
+    "system_answer": "Wody dzielą się na wody powierzchniowe i wody podziemne.",
+    "parent_ids": [
+        "20e4eb7a-8c2f-4f87-ab6e-57abc8c91321",
+        "62b5f8c0-f57b-44c3-ae1c-7b614bae43e2",
+        "68982378-757b-4655-9b46-aaaf32495437",
+        "e3fe04cb-8217-4746-8db4-78674122edba",
+        "6aa9327e-b63a-4287-a94e-f11bcbf6177b",
+        "bf344257-4cad-4610-b3c6-84e36cac30d8",
+        "461ae7a7-28ad-4117-ab1c-5bbd10f8fa34",
+        "5200c45a-7bd7-480d-907f-e0ea13bc3514",
+        "126f63bb-362d-487d-8fb6-2a2d036f410a",
+        "f8808fbe-2d05-412c-9b8b-63454af74487",
+        "2868b7a4-565f-47c6-9eff-f3d20fe6d830",
+        "6b0bfd9b-f788-44fa-9417-6b5994d7b487",
+        "9752ae95-000b-4604-8000-b770e899dee3"
+    ],
+    "child_ids": [],
+    "retrival_tool": "db",
+    "mode": "multi_cross_parent_llama",
+    "id": 5,
+    "reference": "Wody dzielą się na wody powierzchniowe i wody podziemne"
+}

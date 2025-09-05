@@ -1,0 +1,29 @@
+{
+    "question": "Jakie są organy właściwe w sprawach gospodarowania wodami?",
+    "system_answer": "Organy właściwe w sprawach gospodarowania wodami to Wody Polskie, które są państwową osobą prawną. W skład Wód Polskich wchodzą następujące jednostki organizacyjne:\n\n1. Krajowy Zarząd Gospodarki Wodnej z siedzibą w Warszawie.\n2. Regionalne zarządy gospodarki wodnej z siedzibami w Białymstoku, Bydgoszczy, Gdańsku, Gliwicach, Krakowie, Lublinie, Poznaniu, Rzeszowie, Szczecinie, Warszawie i we Wrocławiu.\n3. Zarządy zlewni.\n4. Nadzory wodne.\n5. Inspekcja Wodna (wchodzi w skład Wód Polskich od 1 lipca 2024 roku).\n\nMinister właściwy do spraw gospodarki wodnej nadaje Wodom Polskim statut określający strukturę i organizację, uwzględniając zakres zadań jednostek organizacyjnych i ich obszar działania.",
+    "parent_ids": [
+        "8a206407-c41b-42ff-87ca-9bc588f01c5b",
+        "8c85239e-c6bb-48a9-8b1b-bcf4fb25f817",
+        "67e0e33f-2a87-4de2-9e3b-5487bcfbe2a4"
+    ],
+    "child_ids": [
+        "05bc91d5-0bdd-4665-a3ad-bac981815c75",
+        "5d223494-ff57-449f-b00b-a822398d32e0",
+        "61fa7192-7e7c-47ef-957f-991d83332672",
+        "bd6c5697-1638-4be0-ae35-dc9e7e5c51ba",
+        "16d4e962-eee3-46d3-9f3b-57a67afd76ca",
+        "df1eb6c1-9bb7-4594-a3c1-3f7a57259aba",
+        "4c140111-8e38-4f70-b176-4b6963287582",
+        "a5c0dc0a-1f2b-4a6c-bf7d-9c457bd2cb8c",
+        "62aa6901-a6b4-4ae5-86ac-eb725dbd4d15",
+        "70ac52ee-9b39-480a-a6cb-6170245ee162",
+        "64ffd7d7-d7a7-49fd-89f8-bb7a24ff10ed",
+        "f7f67e80-310e-4fc4-9f72-9ada03e7c536",
+        "77f54998-a3a4-41c6-b18f-52f264f78e81",
+        "470352ed-824a-4ab0-8ebe-76aab102157c"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_parent",
+    "id": 4,
+    "reference": "Organami właściwymi wsprawach gospodarowania wodami są: minister właściwy do spraw gospodarki wodnej; minister właściwy do spraw żeglugi śródlądowej; Prezes Wód Polskich; dyrektor regionalnego zarządu gospodarki wodnej Wód Polskich; dyrektor zarządu zlewni Wód Polskich; kierownik nadzoru wodnego Wód Polskich; dyrektor urzędu morskiego; wojewoda; starosta; wójt, burmistrz lub prezydent miasta."
+}

@@ -1,0 +1,22 @@
+{
+    "question": "Na czym polega utzrzymywanie brzegu morskiego?",
+    "system_answer": "Utrzymywanie brzegu morskiego polega na podejmowaniu działań mających na celu ochronę środowiska wód morskich. W ramach strategii morskiej opracowuje się i wdraża programy ochrony wód morskich, które obejmują m.in. opracowanie wstępnej oceny stanu środowiska wód morskich, zestawów właściwości typowych dla dobrego stanu środowiska wód morskich, celów środowiskowych oraz programów monitoringu i ochrony wód morskich. Działania te mają na celu zapewnienie, że wody morskie są czyste, zdrowe i urodzajne, a ich wykorzystanie odbywa się na poziomie zrównoważonym, gwarantującym zachowanie możliwości użytkowania i prowadzenia działalności przez człowieka.",
+    "parent_ids": [
+        "7c33387d-d7d6-4a24-9f08-6b395761366f",
+        "76b5f57f-aa06-4a79-88af-f0f82067eb1f",
+        "9ea961b3-f81d-4006-bcca-39d33f3e9d5f",
+        "ec026162-009a-49f4-b8d1-cce7259661ca",
+        "20e4eb7a-8c2f-4f87-ab6e-57abc8c91321",
+        "ea40ecbb-853a-4e99-baa5-d4320c0dd369",
+        "4fc8ca5b-a652-4f9b-8677-6bf4d12825e6",
+        "89c20c59-ed2c-40f8-8c98-ae03b0e8267f",
+        "08441e10-a6b7-41c9-ab82-ddd940dcff6a",
+        "ebba0c15-4378-44d1-ba87-b1d9e146496a",
+        "57a54353-8d81-4db8-861d-5e612a9b8544"
+    ],
+    "child_ids": [],
+    "retrival_tool": "db",
+    "mode": "multi_cross_parent_llama",
+    "id": 27,
+    "reference": "Utrzymywanie brzegu morskiego polega na budowie, utrzymywaniu i ochronie umocnień brzegowych oraz utrzymywaniu wydm i zalesień ochronnych w obrębie pasa technicznego"
+}

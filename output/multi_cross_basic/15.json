@@ -1,0 +1,16 @@
+{
+    "question": "Kto określa, w drodze rozporządzenia, wykaz substancji priorytetowych w dziedzinie polityki wodnej?",
+    "system_answer": "Minister właściwy do spraw gospodarki wodnej, w porozumieniu z ministrem właściwym do spraw klimatu oraz ministrem właściwym do spraw środowiska, określa, w drodze rozporządzenia, wykaz substancji priorytetowych w dziedzinie polityki wodnej.",
+    "parent_ids": [],
+    "child_ids": [
+        "2b284fee-537c-45f3-84c7-fe56b6509fc1",
+        "72225fb1-c577-43f4-8a80-74f6773c4224",
+        "7fdf5461-80a4-4e97-a763-0cf0b319616c",
+        "574975ce-975c-461d-b174-4a360cee7e03",
+        "c3212c05-06f2-44f3-af36-482cf03db010"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_retriver",
+    "id": 15,
+    "reference": "Wykaz substancji priorytetowych określa minister właściwy do spraw gospodarki wodnej w porozumieniu z ministrem właściwym do spraw klimatu oraz ministrem właściwym do spraw środowiska, kierując się przepisami prawa Unii Europejskiej."
+}

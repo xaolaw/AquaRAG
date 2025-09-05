@@ -120,7 +120,7 @@ def create_parent_retriever() -> ParentDocumentRetriever:
         embedding=NVIDIAEmbeddings(model=os.environ["EMBEDDER"]),
     )
 
-    fs = LocalFileStore("./parent_docstore")
+    fs = LocalFileStore("D:\Studia\AquaRAG\parent_docstore")
     docstore = create_kv_docstore(fs)
 
     print("🔍 Creating ParentDocumentRetriever...")

@@ -1,0 +1,20 @@
+{
+    "question": "Co powinien zawierać plan przeciwdziałania skutkom suszy?",
+    "system_answer": "Plan przeciwdziałania skutkom suszy powinien być przygotowany przez Wody Polskie w uzgodnieniu z odpowiednimi ministrami i wojewodami, uwzględniając podział kraju na obszary dorzeczy. Minister właściwy do spraw gospodarki wodnej zapewnia aktywny udział wszystkich zainteresowanych w przygotowywaniu oraz aktualizacji planu, podając do publicznej wiadomości harmonogram i program prac związanych z przygotowaniem projektu planu oraz sam projekt planu co najmniej na rok przed rozpoczęciem okresu, którego dotyczy ten plan. Zainteresowani mogą składać uwagi do ustaleń zawartych w dokumentach w terminie 6 miesięcy od ich podania do publicznej wiadomości. Plan powinien być aktualizowany nie rzadziej niż co 6 lat.",
+    "parent_ids": [
+        "90fd68be-37cb-40a6-b940-1bad286b34c7",
+        "bafbf16b-2b35-4dfb-8aa3-9fc3258d6c6a",
+        "5eff1490-0f3a-4d08-b109-c2c89ab172d6"
+    ],
+    "child_ids": [
+        "3e11325f-a8ad-475e-8ddf-a176ed43e399",
+        "cb858d39-14f4-4985-b254-457b0388954e",
+        "4f759218-7dee-4d14-a432-cc17ce187554",
+        "41604303-9252-4d1e-bdac-8573b3270dfe",
+        "d9764aee-1304-42ce-83db-a2b8427400a9"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 20,
+    "reference": "Plan przeciwdziałania skutkom suszy powinien zawierać analizę możliwości powiększenia dyspozycyjnych zasobów wodnych, propozycje budowy lub przebudowy urządzeń wodnych, propozycje niezbędnych zmian w korzystaniu z zasobów wodnych oraz zmian naturalnej i sztucznej retencji, a także działania służące przeciwdziałaniu skutkom suszy"
+}

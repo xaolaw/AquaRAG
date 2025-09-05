@@ -1,0 +1,18 @@
+{
+    "question": "Na jakie wody dzielą się wody",
+    "system_answer": "Wody dzielą się na jednolite części wód podziemnych i jednolite części wód powierzchniowych. Jednolite części wód podziemnych to określona objętość wód podziemnych występująca w obrębie warstwy wodonośnej lub zespołu warstw wodonośnych. Natomiast jednolite części wód powierzchniowych to oddzielny i znaczący element wód powierzchniowych, taki jak jezioro, inny naturalny zbiornik wodny, czy sztuczny zbiornik wodny.",
+    "parent_ids": [
+        "461ae7a7-28ad-4117-ab1c-5bbd10f8fa34",
+        "20e4eb7a-8c2f-4f87-ab6e-57abc8c91321",
+        "3c865a07-70c6-45d7-9b9e-ee45331bb5c5",
+        "68982378-757b-4655-9b46-aaaf32495437",
+        "532bf21b-cb1f-4aa5-a9d4-c8ed9bd81478",
+        "a61a46e4-2b10-48d6-b07b-9ed351f895f1",
+        "b8baa685-3919-402a-9d68-eb4b710ba008"
+    ],
+    "child_ids": [],
+    "retrival_tool": "db",
+    "mode": "multi_cross_parent_mistral",
+    "id": 5,
+    "reference": "Wody dzielą się na wody powierzchniowe i wody podziemne"
+}

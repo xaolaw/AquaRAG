@@ -1,0 +1,21 @@
+{
+    "question": "Jaki jest cel środowiskowy dla obszarów chronionych?",
+    "system_answer": "Cel środowiskowy dla obszarów chronionych, zgodnie z dokumentem prawa wodnego, obejmuje ochronę jednolitych części wód przeznaczonych do poboru wody na potrzeby zaopatrzenia ludności w wodę przeznaczoną do spożycia przez ludzi oraz jednolitych części wód przeznaczonych do celów rekreacyjnych, w tym kąpieliskowych. Celem jest zapewnienie, że te obszary są chronione przed zanieczyszczeniami i degradacją, aby mogły spełniać swoje funkcje w zakresie zaopatrzenia w wodę i rekreacji.",
+    "parent_ids": [
+        "74265819-f3eb-49ce-a49d-4fdb6f27b24e",
+        "1072c8a8-67b0-4f53-a501-f84ef42c6a15",
+        "3c0475dc-6e3f-448a-9a04-770f12aa05f5",
+        "0894b6df-b078-4ab6-83a1-96d9de0ec198",
+        "76b5f57f-aa06-4a79-88af-f0f82067eb1f",
+        "d8f7a569-72d1-4e74-931b-817fe07fab2f",
+        "d397355e-07b1-4fb9-92f6-264065b4c799",
+        "d37ebe6a-e67e-4c44-baf3-da64262e5e92",
+        "81f04098-2da0-42df-a5fb-2c7bcb5522ac",
+        "6b0bfd9b-f788-44fa-9417-6b5994d7b487"
+    ],
+    "child_ids": [],
+    "retrival_tool": "db",
+    "mode": "multi_cross_parent_llama",
+    "id": 11,
+    "reference": "Osiągnięcie norm i celów wynikających z przepisów, na podstawie których obszary chronione zostały utworzone, ustanowione lub regulowane, o ile przepisy te nie przewidują odmiennych uregulowań."
+}

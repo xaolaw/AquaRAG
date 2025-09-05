@@ -1,0 +1,24 @@
+{
+    "question": "Na ile dni przed rozpoczęciem funkcjonowania miejsca czasami wykorzystanego do kąpieli musi wykonać właściciel?",
+    "system_answer": "Na podstawie dostępnych dokumentów, właściciel miejsca okazjonalnie wykorzystywanego do kąpieli musi wykonać zgłoszenie i dołączyć wymagane dokumenty, ale nie ma bezpośredniej informacji o liczbie dni przed rozpoczęciem funkcjonowania, w jakim musi to zrobić. Dokumenty wskazują na konieczność uzyskania zgody właściciela wód i gruntu, poświadczenia opłaty za zgłoszenie wodnoprawne oraz innych formalności, które muszą być spełnione przed rozpoczęciem działalności. W przypadku niekompletności zgłoszenia, wójt, burmistrz lub prezydent miasta wzywa do jego uzupełnienia w terminie 7 dni od doręczenia wezwania.",
+    "parent_ids": [
+        "0f184368-0014-46e6-ae13-5600e9362623",
+        "ca0c08ac-ce36-4be5-952a-63b798e3d07b",
+        "c637badd-2e26-46bf-9970-d398f99a1db2"
+    ],
+    "child_ids": [
+        "23962fa1-f4c5-40b2-a160-43ba9e36238b",
+        "5800c5a8-5788-416e-9789-52c606c459f5",
+        "78910370-e19f-4881-a96c-c0568c4795d8",
+        "ea384026-d89b-447f-a520-c7ada8af73ea",
+        "dde88452-0a84-4ec8-9715-9017da22e161",
+        "b5fba4da-96bb-4c96-962a-77d7f5e99e77",
+        "32de7ab8-8137-4d08-acf2-25659d715065",
+        "5a2eb360-74db-4a2c-936e-1dc09f4055bc",
+        "ab9d002b-a9f2-45f3-9923-eacc9355ad53"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 8,
+    "reference": "Wykonuje badanie jakości wody nie wcześniej niż 10 dni przed otwarciem"
+}

@@ -1,0 +1,18 @@
+{
+    "question": "Co dzieje się, gdy nie można określić funkcji urządzenia wodnego",
+    "system_answer": "Gdy nie można określić funkcji urządzenia wodnego, przepisy prawa wodnego przewidują możliwość uniemożliwienia lub ograniczenia korzystania z takiego urządzenia. Organ Wód Polskich właściwy w sprawie wydania pozwolenia wodnoprawnego lub dokonania zgłoszenia wodnoprawnego, lub Inspekcja Wodna mogą zastosować środki lub urządzenia służące do zablokowania odprowadzania ścieków lub wód z tego urządzenia albo utrudniające wejście na dane urządzenie. W przypadku urządzeń wodnych wykonanych bez wymaganego pozwolenia wodnoprawnego lub zgłoszenia wodnoprawnego, można również podjąć działania mające na celu uniemożliwienie lub ograniczenie korzystania z tych urządzeń.",
+    "parent_ids": [
+        "0c5eed45-9412-4a33-a54d-744b103bc1e4",
+        "4dd86a4d-a2b1-47b4-a52a-96222950a5a8",
+        "7cb06315-e0c1-4300-8c0c-baac30c53b70",
+        "1a25d7db-d936-4a5e-9d0c-8ac939ba282a",
+        "564b9fe1-5732-43be-846f-f62ef44ff2dc",
+        "126f63bb-362d-487d-8fb6-2a2d036f410a",
+        "77f379c2-262b-4f25-84e2-183556d7cf23"
+    ],
+    "child_ids": [],
+    "retrival_tool": "db",
+    "mode": "multi_cross_parent_mistral",
+    "id": 22,
+    "reference": "Jeżeli nie jest możliwe jednoznaczne określenie funkcji urządzenia wodnego, organ właściwy może na nowo ustalić funkcję tego urządzenia i w drodze decyzji nakazać jego odbudowę lub likwidację. W tym postępowaniu również bierze pod uwagę zasady ochrony wód, zapobiegania pogorszeniu stanu ekosystemów, ograniczania marnotrawstwa wody i energii oraz minimalizowania szkód."
+}

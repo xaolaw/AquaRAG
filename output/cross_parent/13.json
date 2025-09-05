@@ -1,0 +1,25 @@
+{
+    "question": "Czego nie powinny zawierać ścieki wprowadzane do wód lub do ziem?",
+    "system_answer": "Ścieki wprowadzane do wód lub do ziemi nie powinny przekraczać najwyższych dopuszczalnych wartości wskaźników zanieczyszczeń albo powinny spełniać minimalny procent redukcji substancji zanieczyszczających określone dla równoważnej liczby mieszkańców aglomeracji. Dodatkowo, w przypadku wód chłodniczych, ich temperatura nie powinna przekraczać +26°C, a różnica między temperaturą wód pobranych i wprowadzanych nie powinna być większa niż 11°C. Wody zasolone nie powinny przekraczać wartości sumy chlorków i siarczanów (Cl+SO4) wynoszącej 500 mg/l.",
+    "parent_ids": [
+        "66a3e4fc-bd78-4385-a07a-f8eb6c16487b",
+        "22826b23-18df-49bc-8218-b8d5fd044471",
+        "e37e3083-fdea-4235-8943-630a63474194"
+    ],
+    "child_ids": [
+        "9a92efef-23ff-4a25-a27b-eff5792158c9",
+        "7671b210-5b15-4b32-a0dc-4e3e3ce0fddd",
+        "e2c070f1-f5e9-484a-b023-88bdfa669382",
+        "94cef9b6-99d6-4381-9ca8-76473b05557e",
+        "e3c3e9fb-04c1-4812-a200-6f7420b717e4",
+        "f7efb1e7-de01-45d5-ad3b-3adda09b124d",
+        "2199ad91-9b50-4a1d-b909-2fd1e6a8c3fb",
+        "77df0f18-f8cd-4440-a04c-a0afd4d05384",
+        "bbffa74e-c4cc-4817-8b14-a6dc2b7b58ca",
+        "e4c2bde3-70ad-40b1-b687-c60556465e15"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 13,
+    "reference": "Nie powinny zawierać: odpadów w rozumieniu art. 3 ust.1 pkt 6 ustawy z dnia 14 grudnia 2012r. o odpadach oraz zanieczyszczeń pływających, substancji priorytetowych określonych w przepisach wydanych na podstawie art. 114, chorobotwórczych drobnoustrojów pochodzących z obiektów, w których leczeni są chorzy na choroby zakaźne."
+}

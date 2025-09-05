@@ -1,0 +1,26 @@
+{
+    "question": "Czemu służy powszechne korzystanie z wód?",
+    "system_answer": "Powszechne korzystanie z wód służy zaspokajaniu podstawowych potrzeb ludzkich i gospodarczych, takich jak pobór wód powierzchniowych lub podziemnych w ilości średniorocznie nieprzekraczającej 5 m³ na dobę oraz wprowadzanie ścieków do wód lub do ziemi w ilości nieprzekraczającej łącznie 5 m³ na dobę. Jest to związane z potrzebami zwykłego korzystania z wód, co obejmuje również działania takie jak pobór i odprowadzanie wód w związku z wykonywaniem odwiertów czy prowadzenie rurociągów przez wody powierzchniowe.",
+    "parent_ids": [
+        "fdf95a7a-18da-4627-9b56-b7a07e9a8d44",
+        "fd788a79-640d-4a49-93da-1dda8c62412a",
+        "ba205d6d-c643-49be-8f2b-418dcc8152c4"
+    ],
+    "child_ids": [
+        "c0590ca8-2105-4e1c-adf9-cbecfcf2dc5c",
+        "ba672a5e-7e63-46b1-a388-ae7ad0917893",
+        "1e893fae-5299-4770-ac21-fd7da5d2a88b",
+        "422e88a2-e526-45ab-998a-4918bdd9fdfc",
+        "88bc2a61-6dc0-4634-9d9b-e7702595dda3",
+        "c5c91190-318d-4261-8cef-ee5ce64844e5",
+        "b37e0a2d-db9e-4a93-8e2d-ea12da6af3fc",
+        "997cd601-d727-49e4-9150-354506599ed8",
+        "8476aaa8-c0d3-4808-8021-905bdb494949",
+        "273cb993-03b8-4aac-a697-42c3117839b6",
+        "53a4d5a9-018a-474e-b671-337f49f6c829"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_parent",
+    "id": 7,
+    "reference": "Powszechne korzystanie z wód służy do zaspokajania potrzeb osobistych, gospodarstwa domowego lub rolnego, bez stosowania specjalnych urządzeń technicznych, a także do wypoczynku, uprawiania turystyki, sportów wodnych oraz, na zasadach określonych w przepisach odrębnych, amatorskiego połowu ryb."
+}

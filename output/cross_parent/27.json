@@ -1,0 +1,22 @@
+{
+    "question": "Na czym polega utzrzymywanie brzegu morskiego?",
+    "system_answer": "Utrzymywanie brzegu morskiego polega na działaniach mających na celu zapewnienie odpowiednich warunków do korzystania z wód oraz ochrony infrastruktury i środowiska. Obejmuje to m.in. utrzymywanie zwierciadła wody na poziomie umożliwiającym funkcjonowanie urządzeń wodnych, obiektów mostowych, rurociągów, linii energetycznych i telekomunikacyjnych. Działania te nie powinny uniemożliwiać osiągnięcia celów środowiskowych określonych w odpowiednich przepisach. Utrzymywanie wód obejmuje również wykaszanie roślin z dna i brzegów, usuwanie przeszkód naturalnych i wynikających z działalności człowieka, a także remont lub konserwację budowli regulacyjnych. Zakłady, które przyczyniają się do wzrostu kosztów utrzymania wód, ponoszą część tych kosztów.",
+    "parent_ids": [
+        "d8470adc-ccd8-4240-b642-886c57697b37",
+        "7c33387d-d7d6-4a24-9f08-6b395761366f",
+        "ec026162-009a-49f4-b8d1-cce7259661ca"
+    ],
+    "child_ids": [
+        "2de6db92-633f-4c68-a72e-809b059725d0",
+        "c55ec853-220d-4472-bf13-d64fcf8ce2bf",
+        "46fcf0de-7bc3-4ab0-b635-cecf5bcb2449",
+        "03ce6963-a9ab-49d3-b1e2-a6bc9e7176f7",
+        "11a68f27-4a46-4a8f-b3e0-b2060689f8af",
+        "fa255ebe-4059-4f70-93f8-dfe36e1ac17b",
+        "b0e483f0-1f57-4e8d-80cb-4311661dc44d"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 27,
+    "reference": "Utrzymywanie brzegu morskiego polega na budowie, utrzymywaniu i ochronie umocnień brzegowych oraz utrzymywaniu wydm i zalesień ochronnych w obrębie pasa technicznego"
+}

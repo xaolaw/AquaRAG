@@ -1,0 +1,18 @@
+{
+    "question": "Na ile dni przed rozpoczęciem funkcjonowania miejsca czasami wykorzystanego do kąpieli musi wykonać właściciel?",
+    "system_answer": "Właściciel miejsca okazjonalnie wykorzystywanego do kąpieli musi wykonać zgłoszenie do wójta, burmistrza lub prezydenta miasta na 7 dni przed rozpoczęciem funkcjonowania tego miejsca. Brak opinii w tym terminie uznaje się za wyrażenie opinii pozytywnej.",
+    "parent_ids": [],
+    "child_ids": [
+        "146d6486-7d2c-4e3f-ac29-802c0e576cae",
+        "c7236dca-0e31-485b-b9e9-7e2da6eedeb1",
+        "e984b8d3-ee2e-4eda-832c-d964fb8e0d96",
+        "d18802a2-64c7-4d9d-a58c-e6d49c6dc46c",
+        "83b420d3-3ae2-4a2c-8bdb-8eae7f8fa363",
+        "c63255d1-7ae7-4922-941b-7414c4d75a48",
+        "ee058571-bed9-4f87-a709-cbf1542be00d"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_retriver",
+    "id": 8,
+    "reference": "Wykonuje badanie jakości wody nie wcześniej niż 10 dni przed otwarciem"
+}

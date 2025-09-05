@@ -1,0 +1,25 @@
+{
+    "question": "Kto może obejmować stanowisko Prezesa Wód Polskich?",
+    "system_answer": "Stanowisko Prezesa Wód Polskich może obejmować osoba, która spełnia określone wymagania, takie jak posiadanie wykształcenia wyższego, bycie obywatelem polskim, korzystanie z pełni praw publicznych, brak skazania prawomocnym wyrokiem za umyślne przestępstwo lub umyślne przestępstwo skarbowe, posiadanie co najmniej 6-letniego stażu pracy, w tym co najmniej 3-letniego stażu pracy na stanowisku kierowniczym w jednostkach sektora finansów publicznych, oraz posiadanie wykształcenia i wiedzy z zakresu spraw należących do właściwości Wód Polskich.",
+    "parent_ids": [
+        "b474a3bd-147c-41f1-b6e6-8c39d8e5636a",
+        "d1e67604-10dd-4eab-b415-3ad3fb6f494e",
+        "734e37e9-2ec8-43c1-8be9-4855c2b11e1c"
+    ],
+    "child_ids": [
+        "40cfbd15-8720-4bcf-ae28-96b248d9e0b5",
+        "1e159a69-98db-4345-bf6b-2a01ff6eac33",
+        "e6a3d82e-6ed3-44b1-a7a4-bf1f763352b7",
+        "d32dfb93-4643-4721-9462-bbae3a37ebde",
+        "b0cf1495-9b89-4b98-ab92-87ec0b24d45b",
+        "ae501d27-6336-4154-b3a5-9b86c508166d",
+        "9de3f3d7-09cf-4849-80c5-e6736152bfe7",
+        "13e48b98-f606-46ea-a7e5-df18559ab174",
+        "5f0f0f43-60db-463b-a42c-6e81fd74243c",
+        "8c02c9f5-c758-4f31-87a4-46c0d004ebed"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_parent",
+    "id": 28,
+    "reference": "Może to być osoba, która: posiada wykształcenie wyższe, jest obywatelem polskim, korzysta zpełni praw publicznych, nie była skazana prawomocnym wyrokiem za umyślne przestępstwo lub umyślne przestępstwo skarbowe, posiada co najmniej 6-letni staż pracy, wtym co najmniej 3-letni staż pracy na stanowisku kierowniczym w jednostkach sektora finansów publicznych, posiada wykształcenie iwiedzę zzakresu spraw należących do właściwości Wód Polskich"
+}

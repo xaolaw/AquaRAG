@@ -1,0 +1,25 @@
+{
+    "question": "Kiedy właściciele kąpielisk mogą łączyć kąpieliska?",
+    "system_answer": "Na podstawie dostępnych dokumentów, nie znalazłem bezpośredniej informacji dotyczącej łączenia kąpielisk przez ich właścicieli. Dokumenty skupiają się głównie na ochronie wód, celach środowiskowych oraz procedurach związanych z tworzeniem i zarządzaniem kąpieliskami. Jeśli potrzebujesz szczegółowych informacji na temat łączenia kąpielisk, sugeruję skonsultowanie się z odpowiednimi przepisami prawa wodnego lub zasięgnięcie porady prawnej.",
+    "parent_ids": [
+        "e3f937ea-b942-4918-b266-2dfb9e9dd831",
+        "c637badd-2e26-46bf-9970-d398f99a1db2",
+        "cdd48130-df07-4bf3-afd7-e944a05f6f27"
+    ],
+    "child_ids": [
+        "4b4d0093-2002-44dc-b6f9-4b2745c61fde",
+        "78910370-e19f-4881-a96c-c0568c4795d8",
+        "f34e24de-0b73-4f12-bebb-e29d5bd39007",
+        "074db5e6-6d80-40f1-b4f1-e137ebb03946",
+        "ea384026-d89b-447f-a520-c7ada8af73ea",
+        "15952824-dfbf-4b61-8c63-ff80ce28e051",
+        "f5573773-614d-4486-9483-c3c8ca5cca66",
+        "5a2eb360-74db-4a2c-936e-1dc09f4055bc",
+        "32de7ab8-8137-4d08-acf2-25659d715065",
+        "6858dc32-c086-4838-9690-28b4cb95f444"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_parent",
+    "id": 9,
+    "reference": "Mogą w przypadku gdy: kąpieliska sąsiadujące ze sobą nie dzieli żadna fizyczna odległość; kąpieliska uzyskały zbliżoną klasyfikacjęoceny jakości wody w 4 poprzednichsezonach kąpielowych; profile wody wkąpieliskach wskazują na wspólne czynniki ryzyka lub ich brak"
+}

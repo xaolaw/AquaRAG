@@ -1,0 +1,23 @@
+{
+    "question": "Jaki jest cel środowiskowy dla obszarów chronionych?",
+    "system_answer": "Cel środowiskowy dla obszarów chronionych nie został bezpośrednio wymieniony w dostarczonych fragmentach dokumentu. Jednakże, ogólne cele środowiskowe dla wód, które mogą dotyczyć obszarów chronionych, obejmują ochronę oraz poprawę stanu ekologicznego i chemicznego wód, zapobieganie pogorszeniu ich stanu oraz podejmowanie działań naprawczych. Obszary chronione mogą obejmować jednolite części wód przeznaczone do poboru wody na potrzeby zaopatrzenia ludności w wodę do spożycia oraz do celów rekreacyjnych.",
+    "parent_ids": [
+        "a1d88b12-41d5-4c75-b0df-76b360741806",
+        "d37ebe6a-e67e-4c44-baf3-da64262e5e92",
+        "74265819-f3eb-49ce-a49d-4fdb6f27b24e"
+    ],
+    "child_ids": [
+        "de77bed9-39bd-4d63-acec-a21e6aa54fd5",
+        "6b65d264-4842-46c6-a798-52da37067589",
+        "05fe9ad2-ea95-4f30-b314-9c7180c447d9",
+        "dc1b096d-e73e-4493-9e25-1a3670ad256e",
+        "b8a20849-df2e-451b-8968-8acccc90549a",
+        "1bbe22e7-e07f-425d-b3e0-59fd12bca05b",
+        "6dc77c90-62ac-42d1-83fd-1996632f9f6f",
+        "217dfd24-480d-43fe-a73e-13cfefcef550"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 11,
+    "reference": "Osiągnięcie norm i celów wynikających z przepisów, na podstawie których obszary chronione zostały utworzone, ustanowione lub regulowane, o ile przepisy te nie przewidują odmiennych uregulowań."
+}

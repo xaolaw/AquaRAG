@@ -1,0 +1,18 @@
+{
+    "question": "Co dzieje się, gdy nie można określić funkcji urządzenia wodnego",
+    "system_answer": "Gdy nie można określić funkcji urządzenia wodnego, organ właściwy w sprawach pozwoleń wodnoprawnych może, mając na uwadze, że korzystanie z wód nie może powodować pogorszenia stanu wód i ekosystemów od nich zależnych, marnotrawstwa wody lub energii wody, a także nie może wyrządzać szkód, w drodze decyzji określić na nowo funkcję tego urządzenia oraz nakazać jego odbudowę albo likwidację.",
+    "parent_ids": [],
+    "child_ids": [
+        "ee5c846b-42ec-4160-aea9-f85757744a30",
+        "6d8b992e-30c0-4d0e-9d0d-c746a9558407",
+        "3a2fa8ef-a124-499b-92bf-e860c9aa9069",
+        "c4f9d8c9-4990-44a4-83c4-b39f1b40b6a2",
+        "8db0dabf-ec3a-4762-acc3-681a4fd5dd4b",
+        "2c8f4c11-63c4-458f-875e-daa8a34f9675",
+        "50da7d57-2e01-44ba-ac25-24f12e6fa7ba"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_retriver",
+    "id": 22,
+    "reference": "Jeżeli nie jest możliwe jednoznaczne określenie funkcji urządzenia wodnego, organ właściwy może na nowo ustalić funkcję tego urządzenia i w drodze decyzji nakazać jego odbudowę lub likwidację. W tym postępowaniu również bierze pod uwagę zasady ochrony wód, zapobiegania pogorszeniu stanu ekosystemów, ograniczania marnotrawstwa wody i energii oraz minimalizowania szkód."
+}

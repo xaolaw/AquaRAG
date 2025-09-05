@@ -1,0 +1,25 @@
+{
+    "question": "Na jakie wody dzielą się wody",
+    "system_answer": "Wody dzielą się na:\n\n1. Wody powierzchniowe, które mogą być częścią wód powierzchniowych lub sztucznymi jednolitymi częściami wód powierzchniowych.\n2. Wody podziemne, które obejmują wszystkie wody znajdujące się pod powierzchnią ziemi w strefie nasycenia, w tym wody gruntowe pozostające w bezpośredniej styczności z gruntem lub podglebiem.\n3. Wody opadowe lub roztopowe, które są skutkiem opadów atmosferycznych.\n4. Woda przeznaczona do spożycia przez ludzi, która może być w stanie pierwotnym lub po uzdatnieniu, przeznaczona do picia, przygotowania żywności lub innych celów domowych.",
+    "parent_ids": [],
+    "child_ids": [
+        "1d42559d-28a5-4d1f-bd9a-7cc5a56b0299",
+        "49f062cf-5a35-4ada-ae1a-f3ee2527d501",
+        "377465de-2760-4cd4-a983-b37abcc16276",
+        "846d4c95-42be-4a83-a9da-412a922d603d",
+        "5cc7c056-3741-471e-af4c-5ac60a6582f9",
+        "8b48596d-6bba-4469-8a18-1a2193a59063",
+        "acfc1049-d145-416e-bee0-e753c8305a48",
+        "4ff9df7b-66bb-4fef-8578-40524089749d",
+        "79a7f7ab-751e-48f3-821d-f2397dfbd557",
+        "16adf3f9-7c85-4341-a84f-f3f5b9f1c89e",
+        "f9e0b4e8-a112-498e-a38a-13c1d235848a",
+        "fe53f9a5-49a0-417f-a016-472affd2bedf",
+        "af49f863-5cda-4c08-ac23-dd9ece901fca",
+        "dac09089-0600-4ba4-9f87-77bd403255af"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_retriver",
+    "id": 5,
+    "reference": "Wody dzielą się na wody powierzchniowe i wody podziemne"
+}

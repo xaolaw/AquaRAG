@@ -1,7 +1,8 @@
+import json
 import logging
 import os
 import uuid
-from typing import Annotated, Sequence, TypedDict
+from typing import Annotated, List, Optional, Sequence, TypedDict
 
 import prompts as my_prompts
 import tools as my_tools
@@ -27,6 +28,11 @@ class RagState(TypedDict):
 
     messages: Annotated[Sequence[BaseMessage], add_messages]
     short_conversation_context: str
+    parent_ids: Optional[List[str]]
+    child_ids: Optional[List[str]]
+    user_query: Optional[str]
+    retrival_tool: Optional[str]
+    mode: Optional[str]
 
 
 retrive_tools = [
@@ -47,7 +53,11 @@ def generate_query_context(state: RagState) -> RagState:
         "Zdecyduj czy pytanie odnosi się do inżynieri wodnej, jeśli nie, powiedz: udzielam odpowiedzi tylko dotyczących prawa wodnego"
     )"""
     response = model_chain.invoke({"messages": state["messages"]})
-    return {"messages": state["messages"] + [response]}
+    return {
+        "messages": state["messages"] + [response],
+        "user_query": state["messages"][0].content,
+        "mode": state["mode"],
+    }
 
 
 def generate_user_answer(state: RagState) -> RagState:
@@ -77,7 +87,11 @@ def generate_user_answer(state: RagState) -> RagState:
     )
     # logging.info(prompt)
     response = model.invoke(prompt)
-    return {"messages": [response]}
+    logging.info(msg)
+    state["messages"] = [response]
+    # state["parent_ids"] = msg.content["parent_ids"]
+    # state["child_ids"] = msg.content["child_ids"]
+    return state
 
 
 def save_memory(state: RagState, config: RunnableConfig) -> RagState:
@@ -89,7 +103,18 @@ def save_memory(state: RagState, config: RunnableConfig) -> RagState:
         for item in state["messages"]
         if isinstance(item, (AIMessage, HumanMessage)) and item.content
     )
-
+    print(state)
+    json_to_save = {
+        "question": state["user_query"],
+        "system_answer": state["messages"][-1].content,
+        "parent_ids": state["parent_ids"],
+        "child_ids": state["child_ids"],
+        "retrival_tool": state["retrival_tool"],
+        "mode": state["mode"],
+    }
+    with open("./output/tmp.json", mode="a", encoding="UTF-8") as f:
+        f.write(json.dumps(json_to_save, ensure_ascii=False) + "\n")
+    f.close()
     client = QdrantClient()
     user_id = my_tools.get_user_id(config=config)
 

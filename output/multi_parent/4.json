@@ -1,0 +1,32 @@
+{
+    "question": "Jakie są organy właściwe w sprawach gospodarowania wodami?",
+    "system_answer": "Organem właściwym w sprawach gospodarowania wodami jest minister właściwy do spraw gospodarki wodnej, który jest naczelnym organem administracji rządowej w tej dziedzinie.",
+    "parent_ids": [
+        "6aaab510-740c-487c-a0db-6f15cff43328",
+        "47f9f59d-56b7-48a6-a2c2-13375cb2ce57",
+        "4aed3230-f8a5-45e8-ba60-b896ac7be73a"
+    ],
+    "child_ids": [
+        "4844a7a1-5951-4708-a89d-cb70509f5f9b",
+        "51ee51ee-c718-4133-80a9-cc2eea70dc58",
+        "d5d99fed-659a-4bfa-8048-3724ede85273",
+        "073226ce-f2d6-4a59-99ce-9b48c08bb870",
+        "4c140111-8e38-4f70-b176-4b6963287582",
+        "16d4e962-eee3-46d3-9f3b-57a67afd76ca",
+        "4c767fa7-f379-45f5-90a8-3873b7192fda",
+        "bd6c5697-1638-4be0-ae35-dc9e7e5c51ba",
+        "61fa7192-7e7c-47ef-957f-991d83332672",
+        "a5c0dc0a-1f2b-4a6c-bf7d-9c457bd2cb8c",
+        "ed2d3012-744f-4484-b68f-4f9fbc301a1c",
+        "df1eb6c1-9bb7-4594-a3c1-3f7a57259aba",
+        "f2caa889-d138-46f2-aeef-6c768c49ee60",
+        "470352ed-824a-4ab0-8ebe-76aab102157c",
+        "5d223494-ff57-449f-b00b-a822398d32e0",
+        "62aa6901-a6b4-4ae5-86ac-eb725dbd4d15",
+        "29309078-93c3-43d6-a8d4-6c1ba3b6aa4c"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 4,
+    "reference": "Organami właściwymi wsprawach gospodarowania wodami są: minister właściwy do spraw gospodarki wodnej; minister właściwy do spraw żeglugi śródlądowej; Prezes Wód Polskich; dyrektor regionalnego zarządu gospodarki wodnej Wód Polskich; dyrektor zarządu zlewni Wód Polskich; kierownik nadzoru wodnego Wód Polskich; dyrektor urzędu morskiego; wojewoda; starosta; wójt, burmistrz lub prezydent miasta."
+}

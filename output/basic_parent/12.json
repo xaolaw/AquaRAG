@@ -1,0 +1,27 @@
+{
+    "question": "Kto określa wymagania wobec wód powierzchniowych przeznaczonych do spożycia przez ludzi?",
+    "system_answer": "Wymagania wobec wód powierzchniowych przeznaczonych do spożycia przez ludzi określa minister właściwy do spraw gospodarki wodnej.",
+    "parent_ids": [
+        "3c0475dc-6e3f-448a-9a04-770f12aa05f5",
+        "672009b7-4b0c-488c-8bd8-ad93b003ad3e",
+        "1ef06c9c-8f0c-4574-afc0-4c9e272e3773"
+    ],
+    "child_ids": [
+        "038a2398-5f53-4892-b7d0-66bb304cd10a",
+        "8476aaa8-c0d3-4808-8021-905bdb494949",
+        "6691e12e-2714-420d-aeae-f102fddbb1c9",
+        "2d9dc020-3a97-4b4b-945c-bf902325a41f",
+        "e31199d0-561a-4d0f-b260-a6cd4c133499",
+        "997cd601-d727-49e4-9150-354506599ed8",
+        "1831553d-80b4-495f-afdb-220073a45122",
+        "3432a792-48e2-49e1-8dbd-78b51b2f1796",
+        "b6c29e37-ded9-4b24-9203-14dfbb088810",
+        "c5d3ff9a-93ec-401a-bda8-34a6d1f6af31",
+        "e5f782bf-e1ab-4c9c-be17-205ca6d093ed",
+        "bca217f9-9797-4d54-a821-6be11a88ed58"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_parent",
+    "id": 12,
+    "reference": "Minister właściwy do spraw gospodarki wodnej w porozumieniu z ministrem właściwym do spraw zdrowia."
+}

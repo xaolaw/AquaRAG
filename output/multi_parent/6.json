@@ -1,0 +1,20 @@
+{
+    "question": "Na jakich wodach Rada Ministrów określi granice?",
+    "system_answer": "Rada Ministrów określi granice na wodach śródlądowych, w tym granice obszarów dorzeczy, regionów wodnych oraz zlewni, kierując się podziałem hydrograficznym kraju oraz zróżnicowaniem warunków hydrologicznych i hydrogeologicznych na obszarze dorzecza.",
+    "parent_ids": [
+        "77f379c2-262b-4f25-84e2-183556d7cf23",
+        "461a09d5-c53b-4d6a-9315-7a5aef16eb22",
+        "62b5f8c0-f57b-44c3-ae1c-7b614bae43e2"
+    ],
+    "child_ids": [
+        "3e48e95b-603c-4afb-84be-bfd5ec931585",
+        "9ca5a5ff-4b63-47b2-9a15-330e97fa697c",
+        "6b0b666c-7b84-47b8-ac79-d0bfa70ba67e",
+        "bbb1356b-2be2-4608-b9d2-56b19aaaab13",
+        "9ae3f947-ee39-4c1d-9b1a-bc8107d3ccfc"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 6,
+    "reference": "Rada Ministrów określi, granice między śródlądowymi wodami powierzchniowymi a morskimi wodami wewnętrznymi i wodami morza terytorialnego."
+}

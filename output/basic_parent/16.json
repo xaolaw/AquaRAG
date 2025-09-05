@@ -1,0 +1,25 @@
+{
+    "question": "Jak oznacza się granice terenu ochrony pośredniej?",
+    "system_answer": "Granice terenu ochrony pośredniej są oznaczane za pomocą stałych znaków stojących lub pływających oraz tablic zawierających informacje o ustanowieniu strefy ochronnej i zakazie wstępu osób nieupoważnionych.",
+    "parent_ids": [
+        "6215b0ec-115f-4c13-b5b6-9c0b4eb5ffd3",
+        "068edf4f-bc62-4c65-806b-c939a2b10f32",
+        "96ce8e78-53ad-42ff-8688-ed3cda2a6094"
+    ],
+    "child_ids": [
+        "e655b9dd-7b10-4f65-94e0-ff6a64cbbc8f",
+        "e538ab1b-ed63-4f41-b069-77e233c61728",
+        "f4248c2c-4189-4038-9bbd-877788dd8848",
+        "1db67a82-bd2b-4cbb-b2d6-134864ea7a78",
+        "9ae3f947-ee39-4c1d-9b1a-bc8107d3ccfc",
+        "e3d01b3e-7bd6-4eb2-8022-6274f2d3a997",
+        "92c14559-b346-4c2f-b515-39f6d371c8dc",
+        "2be3dff0-c937-4f52-aea0-d8011be9ddb7",
+        "a8078018-2aed-4d6a-b402-0926d9b2f13d",
+        "58e5d823-1bd8-450e-8941-26f0d9e8e8e8"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_parent",
+    "id": 16,
+    "reference": "Granice terenu ochrony pośredniej oznacza się przez umieszczenie, wpunktach przecięcia się granic ze szlakami komunikacyjnymi oraz winnych charakterystycznych punktach terenu, tablic zawierających informacje o ustanowieniu strefy ochronnej."
+}

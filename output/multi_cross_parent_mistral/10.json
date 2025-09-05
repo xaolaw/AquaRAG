@@ -1,0 +1,25 @@
+{
+    "question": "Jaki minimalny poziom jakości powinny osiągnąć wody powierzchniowe zgodnie z celem środowiskowym?",
+    "system_answer": "Zgodnie z celem środowiskowym, wody powierzchniowe powinny osiągnąć minimalny poziom jakości określony przez środowiskowe normy jakości dla substancji priorytetowych. Normy te są określone w przepisach wydanych na podstawie art. 53 ust. 4 pkt 4 lit. d. Dodatkowo, monitoring i ocena jakości wód powierzchniowych są prowadzone zgodnie z kryteriami i metodami określonymi w odpowiednich rozporządzeniach, które uwzględniają specyfikę poszczególnych typów wód oraz rodzaje substancji szczególnie szkodliwych dla środowiska wodnego.",
+    "parent_ids": [
+        "9deb771e-5199-4a7e-a255-fff426e4917a",
+        "513481e9-f3d0-4628-bd59-7190cf50ae80",
+        "24f780d0-670d-4a5c-b08d-b943f21099b3",
+        "bf344257-4cad-4610-b3c6-84e36cac30d8",
+        "c6e6f1e0-8820-4c05-b081-ec3c3b623fd5",
+        "5a38c3a5-afd7-4f04-a908-ae06c82714df",
+        "d8f7a569-72d1-4e74-931b-817fe07fab2f",
+        "147026c6-53a3-490b-999e-74c3a79b749b",
+        "2f8b62a1-e852-4b77-82b7-f641d1e76317",
+        "fe07fb3c-ac01-46e5-b4b5-cfef4a8f408f",
+        "53e04a38-6022-4dcc-b2c3-3389055618f3",
+        "f8808fbe-2d05-412c-9b8b-63454af74487",
+        "4fc8ca5b-a652-4f9b-8677-6bf4d12825e6",
+        "9752ae95-000b-4604-8000-b770e899dee3"
+    ],
+    "child_ids": [],
+    "retrival_tool": "db",
+    "mode": "multi_cross_parent_mistral",
+    "id": 10,
+    "reference": "Co najmniej dobry stan ekologiczny i dobry stan chemiczny."
+}

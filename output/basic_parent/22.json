@@ -1,0 +1,24 @@
+{
+    "question": "Co dzieje się, gdy nie można określić funkcji urządzenia wodnego",
+    "system_answer": "Na podstawie dostępnych dokumentów, jeśli nie można określić funkcji urządzenia wodnego, nie jest to bezpośrednio opisane w przedstawionych fragmentach. Jednakże, ogólnie w prawie wodnym, jeśli urządzenie wodne zostało wykonane bez wymaganego pozwolenia wodnoprawnego lub zgłoszenia, właściciel tego urządzenia może wystąpić z wnioskiem o jego legalizację. Jeśli legalizacja nie jest możliwa, organ właściwy może nałożyć obowiązek likwidacji urządzenia lub wykonania urządzeń zapobiegających szkodom, jeśli likwidacja jest niemożliwa ze względów technicznych lub ekonomicznych. W przypadku urządzeń, których funkcji nie można określić, mogłoby to wpłynąć na proces legalizacji lub decyzje dotyczące dalszego postępowania z takim urządzeniem.",
+    "parent_ids": [
+        "4dd86a4d-a2b1-47b4-a52a-96222950a5a8",
+        "04368ebf-1fab-4acc-85f7-16a6f2e703f8",
+        "243394bb-c1ab-4583-9db4-a26237c2dc12"
+    ],
+    "child_ids": [
+        "d81f595a-cadd-4f38-99f9-facd1009bd0a",
+        "61f69f45-e4b9-4b55-8c09-55983e10cf07",
+        "84774166-2ced-4937-af61-e5641da82606",
+        "92f8a677-a485-47d3-8bf7-52af7fd51043",
+        "b66b997c-aa0a-48f9-8a9d-9207603d7c6a",
+        "1f98ea8c-3578-47d0-8f36-bd7b9dccd6e4",
+        "38cae74a-a48f-40a7-b29a-e2a9ddd66dc5",
+        "d226c06d-8b22-4f26-b6bf-8e2bd3b3c688",
+        "59103b22-58cc-4b00-846b-4a13e8006197"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_parent",
+    "id": 22,
+    "reference": "Jeżeli nie jest możliwe jednoznaczne określenie funkcji urządzenia wodnego, organ właściwy może na nowo ustalić funkcję tego urządzenia i w drodze decyzji nakazać jego odbudowę lub likwidację. W tym postępowaniu również bierze pod uwagę zasady ochrony wód, zapobiegania pogorszeniu stanu ekosystemów, ograniczania marnotrawstwa wody i energii oraz minimalizowania szkód."
+}

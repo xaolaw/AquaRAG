@@ -1,0 +1,19 @@
+{
+    "question": "Kto ponosi koszty wykonania oraz kto odpowiada za utrzymanie dróg, urządzeń do przepędzania zwierząt i przejazdów przez wały przeciwpowodziowe?",
+    "system_answer": "Koszty wykonania dróg, urządzeń do przepędzania zwierząt oraz przejazdów przez wały przeciwpowodziowe ponosi inwestor budujący wał. Natomiast za utrzymanie tych elementów odpowiada ten, na którym ciąży obowiązek utrzymania drogi, urządzenia lub przejazdu.",
+    "parent_ids": [],
+    "child_ids": [
+        "b79ae8f6-e465-4dcc-aa82-430d81725c44",
+        "46a16a49-3790-4168-b52c-e2d340d83ff9",
+        "18dcb34d-825b-4133-b216-6c5e93e2f3d7",
+        "f701b229-c8dc-488d-ae1a-665bcdb324d3",
+        "797d9599-db1e-4365-b096-6f1b1e34efd3",
+        "c5d6331d-9c89-4f2f-a69e-da3a47b52b4a",
+        "9dff91fc-fee8-4407-9f29-ee8ef3ae1d10",
+        "45a2b8db-3d64-404e-b3b7-6beb1abde305"
+    ],
+    "retrival_tool": "db",
+    "mode": "basic_retriver",
+    "id": 19,
+    "reference": "Koszty wykonania ponosi inwestor budujący wał, natomiast utrzymanie drogi, urządzeń lub przejazdu spoczywa na podmiocie, na którym ciąży obowiązek ich utrzymania."
+}

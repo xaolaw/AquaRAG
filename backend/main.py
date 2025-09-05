@@ -45,18 +45,19 @@ with open("rag.png", "wb") as f:
 
 config = {"configurable": {"user_id": "1", "thread_id": "1"}}
 
-while True:
-    user_input = input("Ty (senpai): ")
+if __name__ == "__main__":
+    while True:
+        user_input = input("Ty (senpai): ")
 
-    if user_input.lower() in ["exit", "quit"]:
-        print("Pa-Pa~! Nie zapomnij wrócić... b-baka 😳💔")
-        break
+        if user_input.lower() in ["exit", "quit"]:
+            print("Pa-Pa~! Nie zapomnij wrócić... b-baka 😳💔")
+            break
 
-    input_data = {"messages": user_input}
+        input_data = {"messages": user_input, "mode": "multi_parent"}
 
-    for chunk in agent.stream(input_data, config=config):
-        for node, update in chunk.items():
-            print("Update from node", node)
-            if len(update["messages"]) > 0:
-                update["messages"][-1].pretty_print()
-            print("\n\n")
+        for chunk in agent.stream(input_data, config=config):
+            for node, update in chunk.items():
+                print("Update from node", node)
+                if len(update["messages"]) > 0:
+                    update["messages"][-1].pretty_print()
+                print("\n\n")

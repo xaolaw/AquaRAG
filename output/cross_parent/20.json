@@ -1,0 +1,22 @@
+{
+    "question": "Co powinien zawierać plan przeciwdziałania skutkom suszy?",
+    "system_answer": "Plan przeciwdziałania skutkom suszy powinien być przygotowany przez Wody Polskie w uzgodnieniu z odpowiednimi ministrami oraz wojewodami, uwzględniając podział kraju na obszary dorzeczy. Projekt planu musi być przekazany ministrowi właściwemu do spraw gospodarki wodnej, który zapewnia aktywny udział wszystkich zainteresowanych w jego przygotowywaniu oraz aktualizacji. Dokumenty związane z planem powinny być podane do publicznej wiadomości, a zainteresowani mają możliwość zgłaszania uwag do ustaleń zawartych w tych dokumentach. Minister przyjmuje i aktualizuje plan przeciwdziałania skutkom suszy w drodze rozporządzenia, kierując się koniecznością przeciwdziałania skutkom suszy.",
+    "parent_ids": [
+        "55ee7243-4f6e-4621-ae35-5d5ad347de22",
+        "5eff1490-0f3a-4d08-b109-c2c89ab172d6",
+        "30c50142-672a-4b8a-8d17-6fac4f71fe73"
+    ],
+    "child_ids": [
+        "92bd1c94-a1c5-434a-82d6-c811e58d0294",
+        "7683440b-1f7f-45f9-9465-89e6fc59ee82",
+        "5f7bd090-24a1-47a5-b6ea-20ad27b319dd",
+        "d9764aee-1304-42ce-83db-a2b8427400a9",
+        "41604303-9252-4d1e-bdac-8573b3270dfe",
+        "3e11325f-a8ad-475e-8ddf-a176ed43e399",
+        "3278cc59-1466-49e5-af2d-968e98f89343"
+    ],
+    "retrival_tool": "db",
+    "mode": "cross_parent",
+    "id": 20,
+    "reference": "Plan przeciwdziałania skutkom suszy powinien zawierać analizę możliwości powiększenia dyspozycyjnych zasobów wodnych, propozycje budowy lub przebudowy urządzeń wodnych, propozycje niezbędnych zmian w korzystaniu z zasobów wodnych oraz zmian naturalnej i sztucznej retencji, a także działania służące przeciwdziałaniu skutkom suszy"
+}

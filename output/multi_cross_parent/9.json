@@ -1,0 +1,19 @@
+{
+    "question": "Kiedy właściciele kąpielisk mogą łączyć kąpieliska?",
+    "system_answer": "Właściciele kąpielisk mogą łączyć kąpieliska, gdy spełnione są następujące warunki:\n\n1. Kąpieliska sąsiadujące ze sobą nie dzieli żadna fizyczna odległość.\n2. Kąpieliska uzyskały zbliżoną klasyfikację oceny jakości wody w 4 poprzednich sezonach kąpielowych.\n3. Profile wody w kąpieliskach wskazują na wspólne czynniki ryzyka lub ich brak.\n\nŁączenie kąpielisk wymaga uzasadnienia i stosuje się do niego odpowiednie przepisy.",
+    "parent_ids": [
+        "ca0c08ac-ce36-4be5-952a-63b798e3d07b",
+        "c637badd-2e26-46bf-9970-d398f99a1db2",
+        "bbeb0154-9bdb-40f0-ae9b-d48461329e64"
+    ],
+    "child_ids": [
+        "6858dc32-c086-4838-9690-28b4cb95f444",
+        "57dbd925-6b67-4b7e-981c-18420fd417a8",
+        "f5573773-614d-4486-9483-c3c8ca5cca66",
+        "e6631358-4ef4-48d2-94ec-03a6f02a36aa",
+        "23962fa1-f4c5-40b2-a160-43ba9e36238b"
+    ],
+    "retrival_tool": "db",
+    "id": 9,
+    "reference": "Mogą w przypadku gdy: kąpieliska sąsiadujące ze sobą nie dzieli żadna fizyczna odległość; kąpieliska uzyskały zbliżoną klasyfikacjęoceny jakości wody w 4 poprzednichsezonach kąpielowych; profile wody wkąpieliskach wskazują na wspólne czynniki ryzyka lub ich brak"
+}

@@ -1,0 +1,21 @@
+{
+    "question": "Jakie urządzenia zalicza się do melioracji wodnych?",
+    "system_answer": "Urządzeniami melioracji wodnych są:\n\n1. Rowy wraz z budowlami związanymi z nimi funkcjonalnie,\n2. Drenowania,\n3. Rurociągi,\n4. Stacje pomp służące wyłącznie do celów rolniczych,\n5. Ziemne stawy rybne,\n6. Groble na obszarach nawadnianych,\n7. Systemy nawodnień grawitacyjnych,\n8. Systemy nawodnień ciśnieniowych.\n\nTe urządzenia służą celom, o których mowa w art. 195, czyli regulacji stosunków wodnych w celu polepszenia zdolności produkcyjnej gleby i ułatwienia jej uprawy.",
+    "parent_ids": [
+        "67de5f09-fac4-4ef6-a4a7-b9f1654e7d65",
+        "66eeac51-9b8d-4a03-859f-4c62411b2140",
+        "652ac8c0-6fb8-48c8-9c45-30981f145465"
+    ],
+    "child_ids": [
+        "e157b6fc-c4db-4292-a9db-a8f727e96be2",
+        "c21bad5c-8d4d-4ae0-a6a3-95a23a7984ed",
+        "6297c383-d8c4-4e4a-b856-cff8e0cf6e0e",
+        "84774166-2ced-4937-af61-e5641da82606",
+        "a9182347-2d4f-43ed-a2c7-f3fb5051eaf8",
+        "7a04dd9b-4501-40bb-95b7-c6a1266ef21a",
+        "592ffc97-3a2a-484a-8570-783e344a508e"
+    ],
+    "retrival_tool": "db",
+    "id": 24,
+    "reference": "Urządzeniami melioracji wodnych są: rowy wraz z budowlami funkcjonalnie z nimi związanymi, drenaże, rurociągi, stacje pomp służące wyłącznie do celów rolniczych, ziemne stawy rybne, groble na obszarach nawadnianych, systemy nawodnień grawitacyjnych oraz systemy nawodnień ciśnieniowych. Wszystkie te urządzenia mają na celu regulację stosunków wodnych w gospodarce rolnej, poprawę użytkowania gruntów oraz wsparcie produkcji rolniczej poprzez efektywne zarządzanie wodą."
+}

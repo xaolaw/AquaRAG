@@ -1,0 +1,20 @@
+{
+    "question": "Kto określa wymagania wobec wód powierzchniowych przeznaczonych do spożycia przez ludzi?",
+    "system_answer": "Wymagania wobec wód powierzchniowych przeznaczonych do spożycia przez ludzi określa minister właściwy do spraw gospodarki wodnej w porozumieniu z ministrem właściwym do spraw zdrowia, w drodze rozporządzenia.",
+    "parent_ids": [
+        "f8808fbe-2d05-412c-9b8b-63454af74487",
+        "c238f0b7-3521-4a0b-8e0e-ddb9130ef3af",
+        "5a38c3a5-afd7-4f04-a908-ae06c82714df"
+    ],
+    "child_ids": [
+        "1caee19c-da07-485c-abc6-a7786af8f340",
+        "c5d3ff9a-93ec-401a-bda8-34a6d1f6af31",
+        "4df5d72f-c3a4-4e55-b130-c3dff3462a5e",
+        "7ac8b9a2-d27c-4fbb-9bf6-247a1a486353",
+        "e5f782bf-e1ab-4c9c-be17-205ca6d093ed",
+        "b6c29e37-ded9-4b24-9203-14dfbb088810"
+    ],
+    "retrival_tool": "db",
+    "id": 12,
+    "reference": "Minister właściwy do spraw gospodarki wodnej w porozumieniu z ministrem właściwym do spraw zdrowia."
+}

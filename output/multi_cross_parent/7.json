@@ -1,0 +1,21 @@
+{
+    "question": "Czemu służy powszechne korzystanie z wód?",
+    "system_answer": "Powszechne korzystanie z wód służy zapewnieniu gospodarstwom domowym, podmiotom publicznym oraz podmiotom prowadzącym działalność gospodarczą możliwości korzystania z wód w zakresie wykraczającym poza zakres powszechnego korzystania z wód, zwykłego korzystania z wód oraz szczególnego korzystania z wód. Obejmuje to m.in. pobór wód podziemnych lub powierzchniowych, piętrzenie, magazynowanie, uzdatnianie i dystrybucję wód, odbiór i oczyszczanie ścieków, a także korzystanie z wód do celów energetyki oraz odprowadzanie wód opadowych lub roztopowych.",
+    "parent_ids": [
+        "658290f2-a74d-431f-8e98-ec2784f1e70c",
+        "532bf21b-cb1f-4aa5-a9d4-c8ed9bd81478",
+        "24f780d0-670d-4a5c-b08d-b943f21099b3"
+    ],
+    "child_ids": [
+        "c5c91190-318d-4261-8cef-ee5ce64844e5",
+        "7ac8b9a2-d27c-4fbb-9bf6-247a1a486353",
+        "ef5b4b37-4cfb-45b9-899f-db53f819959e",
+        "178dc425-3d30-4670-9020-55b388c427a7",
+        "bca217f9-9797-4d54-a821-6be11a88ed58",
+        "273cb993-03b8-4aac-a697-42c3117839b6",
+        "8476aaa8-c0d3-4808-8021-905bdb494949"
+    ],
+    "retrival_tool": "db",
+    "id": 7,
+    "reference": "Powszechne korzystanie z wód służy do zaspokajania potrzeb osobistych, gospodarstwa domowego lub rolnego, bez stosowania specjalnych urządzeń technicznych, a także do wypoczynku, uprawiania turystyki, sportów wodnych oraz, na zasadach określonych w przepisach odrębnych, amatorskiego połowu ryb."
+}
