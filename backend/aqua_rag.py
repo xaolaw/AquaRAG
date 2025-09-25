@@ -32,7 +32,6 @@ class RagState(TypedDict):
     child_ids: Optional[List[str]]
     user_query: Optional[str]
     retrival_tool: Optional[str]
-    mode: Optional[str]
 
 
 retrive_tools = [
