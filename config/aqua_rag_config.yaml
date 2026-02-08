@@ -2,8 +2,20 @@ rag_config:
   database:
     url: "http://localhost:6333" #Url of database, cloud or local
     type: "qdrant"
-    main_collection: "child_prawo_wodne"
-    indexing: "parent" #available parent or basic
+    distnace: "cosine"
+    vector_size: 4096
+    
+    
+    indexing: 
+      strategy: "parent"
+      recreate_collection: true
+      
+      parent: 
+        parent_collection: "parent_docstore"
+        child_collection: "child_prawo_wodne"
+
+      basic:
+        collection: "prawo_wodne_2"
   
   models:
     embedding:

@@ -113,6 +113,7 @@ def save_memory(state: RagState, config: RunnableConfig) -> RagState:
     }
     with open("./output/tmp.json", mode="a", encoding="UTF-8") as f:
         f.write(json.dumps(json_to_save, ensure_ascii=False) + "\n")
+
     f.close()
     client = QdrantClient()
     user_id = my_tools.get_user_id(config=config)

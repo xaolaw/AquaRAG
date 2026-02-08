@@ -18,9 +18,10 @@ from langchain_openai import ChatOpenAI
 from langgraph.types import Command
 from qdrant_client import QdrantClient, models
 from qdrant_client.models import FieldCondition, Filter, MatchValue
-from reranker import PolishCrossEncoder
 from vector_db.basic_embedd import create_retriver
 from vector_db.parent_embedd import create_parent_retriever
+
+from backend.factories.reranker_factory import PolishCrossEncoder
 
 load_dotenv()
 collection_name = os.environ["COLLECTION_NAME"]

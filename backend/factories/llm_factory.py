@@ -21,6 +21,30 @@ class AquaRagLLMFactory:
 
         return model
 
+    def create_responder_model(self) -> BaseChatLoader:
+        provider: str = self.cfg_retriever["provider"]
+        name: str = self.cfg_retriever["name"]
+        temperature: float = self.cfg_retriever["temperature"]
+
+        try:
+            model = self._create_model(provider, name, temperature)
+        except Exception:
+            raise ValueError("There was a problem while creating responder model")
+
+        return model
+
+    def create_multi_query_model(self) -> BaseChatLoader:
+        provider: str = self.cfg_retriever["provider"]
+        name: str = self.cfg_retriever["name"]
+        temperature: float = self.cfg_retriever["temperature"]
+
+        try:
+            model = self._create_model(provider, name, temperature)
+        except Exception:
+            raise ValueError("There was a problem while creating multi-query model")
+
+        return model
+
     def _create_model(
         self, provider: str, name: str, temperature: int
     ) -> BaseChatLoader:
@@ -44,6 +68,16 @@ class AquaRagLLMFactory:
             except Exception as e:
                 raise ValueError(
                     f"There was a problem while creating Mistral llm model {name}: {e}"
+                )
+
+        elif provider.lower() == "nvidia":
+            from langchain_nvidia_ai_endpoints import ChatNVIDIA
+
+            try:
+                model = ChatNVIDIA(model=name, temperature=temperature)
+            except Exception as e:
+                raise ValueError(
+                    f"There was a problem while creating Nvidia llm model {name}: {e}"
                 )
 
         else:
