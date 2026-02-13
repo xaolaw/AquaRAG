@@ -47,7 +47,7 @@ config = {"configurable": {"user_id": "1", "thread_id": "1"}}
 
 if __name__ == "__main__":
     while True:
-        user_input = input("Ty (senpai): ")
+        user_input = input("Ty: ")
 
         if user_input.lower() in ["exit", "quit"]:
             print("Pa-Pa~! Nie zapomnij wrócić... b-baka 😳💔")

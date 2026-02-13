@@ -3,11 +3,9 @@ import re
 from typing import List
 
 from dotenv import load_dotenv
-from langchain.retrievers import ParentDocumentRetriever
-from langchain.storage import LocalFileStore
-from langchain.storage._lc_store import create_kv_docstore
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_core.documents import Document
+from langchain_core.vectorstores.base import VectorStoreRetriever
 from langchain_nvidia_ai_endpoints import NVIDIAEmbeddings
 from langchain_qdrant import QdrantVectorStore
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -20,8 +18,6 @@ collection_name = os.environ["COLLECTION_NAME"]
 """
 This file is responsible for loading a pdf file from hugginface, transforming it to embeded version and inserting as new collection to qdrant database
 """
-
-# [m for m in NVIDIAEmbeddings.get_available_models() if "embed" in m.id]
 
 
 def ReadPdf(path_to_pdf: str) -> List[Document]:
@@ -105,7 +101,7 @@ def EmbedDocument(file_path: str):
     return retriever
 
 
-def create_retriver():
+def create_retriver() -> VectorStoreRetriever:
     """Creates parent retriver"""
 
     client = QdrantClient()

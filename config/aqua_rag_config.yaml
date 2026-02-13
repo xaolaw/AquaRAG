@@ -1,0 +1,51 @@
+rag_config:
+  database:
+    url: "http://localhost:6333" #Url of database, cloud or local
+    type: "qdrant"
+    distnace: "cosine"
+    vector_size: 4096
+    
+    
+    indexing: 
+      strategy: "parent"
+      recreate_collection: true
+      
+      parent: 
+        parent_collection: "parent_docstore"
+        child_collection: "child_prawo_wodne"
+
+      basic:
+        collection: "prawo_wodne_2"
+  
+  models:
+    embedding:
+      provider: "nvidia"
+      name: "nvidia/nv-embed-v1"
+    retriever:
+      provider: "mistral"
+      name: "open-mistral-nemo"
+      temperature: 0
+    responder:
+      provider: "openai"
+      name: "gpt-4o"
+      temperature: 0
+    multi-query: 
+      provider: "openai"
+      name: "gpt-4o"
+      temperature: 0
+    re-ranker:
+      provider: "huggingface"
+      name: "radlab/polish-cross-encoder"
+
+  modules:
+    multi-query: true
+    re-ranking: true
+    logging: true
+
+  retrieval:
+    top_k: 5
+    re_rank_top: 5
+    mult_query_questions: 5
+
+  additional:
+    save_conversation: true
